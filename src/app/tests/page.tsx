@@ -1,112 +1,83 @@
 // src/app/tests/page.tsx
-// Tests
+// tests
 
 export default function Tests() {
   return (
     <main className="main-content">
       <div className="container">
-        <h1>Tests de Altas Capacidades</h1>
+        <h1>Tests y Evaluación de Altas Capacidades</h1>
         
         <section className="tests__section">
-          <h2>¿Sos ACI? Tests y Evaluaciones</h2>
-          <p >
-            No busques un test online que te dé "la respuesta". Buscá un proceso que te dé claridad.
-          </p>
-          <p>
-            Los tests de altas capacidades intelectuales (ACI) no son un fin, sino una herramienta. Pueden ayudarte a entender cómo funciona tu mente, pero no definen quién sos. En adultos, la detección suele ser más compleja que en niños, porque tu historia personal, tus emociones y tus mecanismos de adaptación influyen en cómo se expresan tus capacidades.
-          </p>
+          <h2>1. Tu sospecha es válida</h2>
+          <p>Si sospechás que podrías tener Altas Capacidades, esa sospecha ya es una señal válida. No porque cualquier duda confirme el diagnóstico, sino porque muy pocas personas se hacen esta pregunta sin motivo.</p>
+          <p>Podés sospechar que sos ACI y no querer comprobarlo. Está bien. Pero si en algún momento querés decir “soy ACI” con fundamentos, la única manera legítima de afirmarlo es a través de una evaluación profesional con experiencia en adultos.</p>
         </section>
 
         <section className="tests__section">
-          <h2>Tests Online: Limitaciones</h2>
-          <p >
-            <i>Un test online no puede evaluarte de verdad.</i>
-          </p>
-          <p>
-            Hay cuestionarios y tests de autoinforme en internet que prometen decirte si tenés "altas capacidades". Pero no son fiables. La mayoría no están validados científicamente, y muchos están diseñados para dar resultados positivos y captar tu atención (o tu dinero).
-          </p>
+          <h2>2. No confíes en los tests online</h2>
+          <p>Los tests gratuitos pueden entretener, pero no son confiables ni diagnósticos. Muchos están diseñados para darte autoestima, no información útil.</p>
         </section>
 
         <section className="tests__section">
-          <h2>Tests Psicológicos Validados</h2>
-          <p >
-            <i>La evaluación real es un proceso, no un número.</i>
-          </p>
-          <p>
-            Los tests serios de ACI no se hacen online ni en una sola sesión. Son parte de un proceso de evaluación psicológica que incluye entrevistas, historia personal y pruebas estandarizadas administradas por profesionales capacitados. Algunos de los instrumentos más reconocidos son:
-          </p>
+          <h2>3. La verdadera evaluación es un proceso</h2>
+          <p>Una evaluación profesional no se limita a un test de CI. Incluye entrevistas clínicas, historia de vida, pruebas psicométricas y observación del estilo cognitivo y emocional. Es una herramienta para entender cómo funciona tu mente, no un número para etiquetarte.</p>
         </section>
 
         <section className="tests__section">
-          <h2>¿Y si no quiero un test?</h2>
-          <p >
-            <i>No necesitás un test para conocerte.</i>
-          </p>
-          <p>
-            Si no estás seguro de querer una evaluación formal, o no tenés acceso a un profesional especializado, hay otras formas de explorar tu perfil cognitivo y emocional. Reflexionar sobre tu historia, tus patrones de pensamiento y tus necesidades puede ser igual de valioso. Un espacio terapéutico con un psicólogo que entienda de ACI puede ayudarte a trabajar en eso sin necesidad de un diagnóstico.
-          </p>
+          <h2>4. El profesional adecuado importa</h2>
+          <p>No alcanza con un psicólogo generalista. La evaluación de ACI en adultos requiere experiencia específica, sobre todo si hay sospecha de doble excepcionalidad (ACI + TDAH, TEA u otros perfiles atípicos). Un buen diagnóstico puede dar sentido a muchos años de confusión.</p>
         </section>
 
         <section className="tests__section">
-          <h2>Sobre las evaluaciones de ACI</h2>
-          <p>
-            La evaluación de las Altas Capacidades Intelectuales en adultos requiere un enfoque integral y 
-            profesional. Aquí encontrarás información sobre los diferentes tipos de evaluaciones disponibles 
-            y cómo pueden ayudarte a comprender mejor tus capacidades.
-          </p>
+          <h2>5. El objetivo es entenderte, no validarte</h2>
+          <p>No necesitás una etiqueta para existir. Pero si querés dejar de dudar, entender tu recorrido o tomar decisiones más alineadas con cómo sos, una evaluación puede ser el primer paso para hacerlo con claridad y sin autoengaño.</p>
         </section>
 
         <section className="tests__section">
-          <h2>Tipos de Evaluación</h2>
-          <p>
-            Las evaluaciones profesionales pueden incluir:
-          </p>
+          <h2>¿Qué excluye ACI?</h2>
+          <p>No todo pensamiento brillante o sensible proviene de una mente con Altas Capacidades. Estas señales, por sí solas, suelen indicar otro perfil:</p>
           <ul className="tests__list">
-            <li>Evaluación psicométrica</li>
-            <li>Evaluación de la creatividad</li>
-            <li>Evaluación de la inteligencia emocional</li>
-            <li>Evaluación de las capacidades específicas</li>
-            <li>Evaluación del desarrollo personal</li>
+            <li><strong>CI menor a 115–120.</strong> No es lo único que importa, pero sí un umbral útil.</li>
+            <li><strong>Ausencia de pensamiento abstracto espontáneo.</strong></li>
+            <li><strong>Procesamiento lineal y rígido.</strong></li>
+            <li><strong>Rechazo al aprendizaje complejo o ambiguo.</strong></li>
+            <li><strong>Principios sin fundamento intelectual real.</strong></li>
+            <li><strong>Falta de asincronía entre razonamiento, emoción y vínculo social.</strong></li>
           </ul>
         </section>
 
         <section className="tests__section">
-          <h2>¿Cuándo considerar una evaluación?</h2>
-          <p>
-            Puede ser útil considerar una evaluación profesional cuando:
-          </p>
-          <ul className="tests__list">
-            <li>Sientes que tu forma de pensar o procesar la información es diferente</li>
-            <li>Experimentas intensidad emocional o sensibilidad aumentada</li>
-            <li>Tienes intereses profundos y diversos</li>
-            <li>Buscas comprender mejor tus capacidades y necesidades</li>
-            <li>Necesitas apoyo para el desarrollo personal o profesional</li>
-          </ul>
+          <h2>Sobre los tests de CI</h2>
+          <p>Si rendiste un test y te dio un resultado promedio, pero muchos rasgos ACI te resuenan, preguntarte si el test fue justo es válido. Pero ojo: no siempre es que el test “falló”. A veces es el deseo de encajar en la etiqueta lo que distorsiona la lectura.</p>
+          <p>Los tests modernos (como WAIS-IV o WISC) evalúan mucho más que lógica o matemática. Miden razonamiento verbal, espacial, memoria de trabajo, velocidad de procesamiento y más. Están diseñados para detectar potencial incluso en personas sin entrenamiento académico.</p>
         </section>
 
         <section className="tests__section">
-          <h2>Proceso de Evaluación</h2>
-          <p>
-            Un proceso de evaluación completo generalmente incluye:
-          </p>
-          <ul className="tests__list">
-            <li>Entrevista inicial</li>
-            <li>Evaluación psicométrica</li>
-            <li>Evaluación de la personalidad</li>
-            <li>Evaluación de intereses y motivaciones</li>
-            <li>Informe detallado y recomendaciones</li>
-          </ul>
+          <h2>¿Prepararse para el test? Sí.</h2>
+          <p>Prepararte no es hacer trampa. Es como entrenar para una maratón: no cambia tu cuerpo, pero permite que lo muestres en su mejor versión. Si sos ACI, rendir sin preparación puede hacerte parecer alguien promedio. Rendir con preparación te acerca más a tu verdadero perfil.</p>
         </section>
 
         <section className="tests__section">
-          <h2>Importante</h2>
-          <div >
-            <p>
-              La evaluación de altas capacidades intelectuales debe ser realizada por profesionales 
-              cualificados y con experiencia en el área. Te recomendamos consultar con un especialista 
-              para obtener una evaluación precisa y personalizada.
-            </p>
-          </div>
+          <h2>Un experimento imaginario</h2>
+          <p>Imaginá tres personas que nunca jugaron al básquet. Una podría tener más talento, pero si solo les das una pelota el primer día, no vas a verlo. Medís ignorancia, no capacidad.</p>
+          <p>Lo mismo con los tests. Para revelar lo que hay, hace falta práctica, contexto y condiciones justas.</p>
+        </section>
+
+        <section className="tests__section">
+          <h2>¿Y si no tenés ACI, pero igual sos brillante?</h2>
+          <p>Hay personas que piensan bien, trabajan con profundidad, resuelven problemas difíciles, tienen vidas ricas y conversaciones complejas… y no tienen ACI. No porque “les falte algo”, sino porque su manera de pensar, aunque destacada, <strong>no se sale de lo esperable para su entorno y formación</strong>.</p>
+          <p>Tienen foco, disciplina, inteligencia práctica. Tal vez hablan varios idiomas, lideran proyectos, o tienen un pensamiento estratégico envidiable. Suelen ser reconocidos y valorados por eso. Pero cuando se aburren o se sienten vacíos, pueden empezar a preguntarse: “¿y si soy un genio no descubierto?”</p>
+          <p>La respuesta puede ser más simple: <strong>sos una persona capaz, sensible y pensante. Pero tu estructura cognitiva no es inusualmente distinta.</strong> Y eso está bien. No necesitás ser ACI para tener una vida rica. Ni para sentir cosas profundas. Ni para atravesar crisis.</p>
+          <p>Si sentís que este perfil te representa, quizás estés más cerca del <strong><a href="/arquetipos">arquetipo C</a></strong> —personas sin ACI que han logrado mucho igual—. Aun así, es útil conocer qué señales suelen excluir un perfil de alta capacidad:</p>
+          <ul className="tests__list">
+            <li><strong>CI menor a 115–120.</strong> No es lo único que importa, pero sí un umbral orientativo.</li>
+            <li><strong>Ausencia de pensamiento abstracto espontáneo.</strong></li>
+            <li><strong>Procesamiento lineal, secuencial y rígido.</strong></li>
+            <li><strong>Rechazo al aprendizaje complejo, ambiguo o inacabado.</strong></li>
+            <li><strong>Principios propios sin base argumentativa sólida.</strong></li>
+            <li><strong>Sin asincronía entre razonamiento, emoción y vínculo social.</strong></li>
+          </ul>
+          <p>Estas características no invalidan a nadie. Simplemente indican otra forma de pensar. Una forma igualmente valiosa, solo que distinta.</p>
         </section>
       </div>
     </main>
