@@ -1,10 +1,15 @@
+// src/app/page.tsx
+// Home
+
 export default function Home() {
   return (
     <main className="main-content">
       <div className="container">
-        <section className="home__section">
+
+        
+        
           <h1>Altas Capacidades Intelectuales (ACI) en Adultos</h1>
-        </section>
+        
         
         <section className="home__section">
           <h2>¿Esto te suena?</h2>
@@ -18,9 +23,9 @@ export default function Home() {
             Seguí leyendo. No para autodiagnosticarte, sino para pensar mejor tu rareza.
           </p>
           <blockquote className="home__quote">
-            "Sí, es cierto que a veces los niños inusualmente inteligentes y sensibles pueden parecer tontos. Pero los niños tontos también pueden parecer tontos. Es algo que tal vez deberías tener en cuenta."
+            "Sí, es cierto que a veces las personas inusualmente inteligentes y perceptivas pueden parecer tontas. Pero las personas tontas también pueden parecer tontas. Es algo que tal vez deberíamos considerar."
             <br/>
-            - Douglas Adams, parafraseado de <i>The Long Dark Tea-Time of the Soul</i>
+            - Douglas Adams, parafraseado del libro <i>The Long Dark Tea-Time of the Soul</i>
           </blockquote>
         </section>
 
