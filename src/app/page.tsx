@@ -64,6 +64,13 @@ export default function Home() {
         </section>
 
         <section className="home__section">
+          <h2>ACI ≠ Éxito social ni familiar</h2>
+          <p>Tener una mente brillante no garantiza relaciones sanas, vínculos duraderos ni sentido de pertenencia. De hecho, muchas personas ACI atraviesan enormes dificultades en el plano afectivo: les cuesta conectar, confiar, adaptarse a la lógica emocional de su entorno o incluso sentirse comprendidas.</p>
+          <p>La asincronía entre su desarrollo cognitivo y su madurez emocional puede generar desajustes profundos. A veces tienen reacciones intensas, expectativas altísimas o un sentido de justicia tan agudo que lastima más que ayuda. Esto no es falta de empatía: es una arquitectura distinta, que necesita ser comprendida y acompañada.</p>
+          <p>Ser ACI no es una ventaja universal. Es una diferencia. Y como toda diferencia, puede aislar si no se la integra. Nadie construye vínculos profundos solo con razonamiento. También hay que aprender a estar, a fallar, a escuchar, a sostener lo que no se entiende.</p>
+        </section>
+
+        <section className="home__section">
           <h2>Diferencias con TDAH / TEA / personalidad intensa</h2>
           <h3>ACI</h3>
           <ul className="home__list">

@@ -1,3 +1,6 @@
+// src/app/tests/page.tsx
+// Tests
+
 export default function Tests() {
   return (
     <main className="main-content">
