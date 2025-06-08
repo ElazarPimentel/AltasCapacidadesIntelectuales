@@ -14,20 +14,23 @@ export default function Header() {
   return (
     <header className="header">
       <div className="container">
-        <div className="header__inner">
-          <Link href="/" className="header__logo">
-            Altas Capacidades
-          </Link>
-          <button 
-            className="header__toggle"
-            onClick={toggleMenu}
-            aria-expanded={isMenuOpen}
-            aria-label="Toggle navigation menu"
-          >
-            <span></span>
-            <span></span>
-            <span></span>
-          </button>
+        <div className="header__wrapper">
+          <div className="header__inner">
+            <Link href="/" className="header__logo">
+              Altas Capacidades
+            </Link>
+            <button 
+              className="header__toggle"
+              onClick={toggleMenu}
+              aria-expanded={isMenuOpen}
+              aria-label="Toggle navigation menu"
+            >
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <ThemeToggle />
+          </div>
           <nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
             <Link 
               href="/" 
@@ -66,7 +69,6 @@ export default function Header() {
               Profesionales
             </Link>
           </nav>
-          <ThemeToggle />
         </div>
       </div>
     </header>
