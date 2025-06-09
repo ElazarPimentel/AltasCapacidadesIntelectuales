@@ -42,9 +42,9 @@ export default function Profesionales() {
             <li><strong><a href="https://www.latentoac.com" target="_blank">Latento ACI</a></strong><br />Centro privado en CABA con evaluaciones cognitivas para todas las edades.</li>
             <li><strong><a href="http://www.creaidea.com.ar" target="_blank">CREAIDEA</a></strong><br />Asociación enfocada en inclusión educativa y redes profesionales.</li>
             <li><strong><a href="http://www.fetc.com.ar" target="_blank">Fundación FETC</a></strong><br />Institución especializada en detección y desarrollo de ACI.</li>
-            <li><strong>Universidad Nacional de Córdoba (UNC)</strong><br />Detección gratuita vía su servicio de Neuropsicología.</li>
-            <li><strong>Ministerio de Educación de Jujuy – Programa SAE</strong><br />Detección gratuita para estudiantes, con derivación y orientación.</li>
-            <li><strong>Mensa Argentina</strong><br />Comunidad de personas con CI elevado. Ofrecen tests de admisión, no evaluaciones clínicas.</li>
+            <li><strong><a href="https://www.psyche.unc.edu.ar/neuropsicologia/" target="_blank">Universidad Nacional de Córdoba (UNC)</a></strong><br />Detección gratuita vía su servicio de Neuropsicología.</li>
+            <li><strong><a href="https://educacion.jujuy.gob.ar/programa-sae/" target="_blank">Ministerio de Educación de Jujuy – Programa SAE</a></strong><br />Detección gratuita para estudiantes, con derivación y orientación.</li>
+            <li><strong><a href="http://www.mensa.org.ar/" target="_blank">Mensa Argentina</a></strong><br />Comunidad de personas con CI elevado. Ofrecen tests de admisión, no evaluaciones clínicas.</li>
           </ul>
           <blockquote><em>Estos enlaces llevan a sitios externos. El sitio ACI no garantiza la calidad de sus servicios.</em></blockquote>
         </section>
