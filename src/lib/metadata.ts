@@ -27,6 +27,9 @@ export function generateMetadata({
     description,
     keywords: keywords.join(', '),
     authors: [{ name: 'Sitio ACI' }],
+    verification: {
+      google: 'mFnY3h12fbLVhwRiqh2raQJe3VJXER_y5jU8k1tJFgg',
+    },
     robots: {
       index: true,
       follow: true,
