@@ -32,6 +32,7 @@ module.exports = {
     await config.transform(config, '/historia'),
     await config.transform(config, '/tests'),
     await config.transform(config, '/legislacion'),
+    await config.transform(config, '/acerca'),
     await config.transform(config, '/profesionales'),
   ],
 }; 
