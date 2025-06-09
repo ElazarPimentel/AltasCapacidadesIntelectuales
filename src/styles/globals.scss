@@ -675,3 +675,15 @@ a {
     }
   }
 }
+
+h2 {
+  a {
+    font-size: 0.9rem;
+    opacity: 0.3;
+    margin-left: 0.5rem;
+    text-decoration: none;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

@@ -19,7 +19,7 @@ export default function Arquetipos() {
         </section>
 
         <section className="tests__section">
-          <h2>a) Persona ACI con baja integración personal</h2>
+          <h2 id="arquetipo-a">a) Persona ACI con baja integración personal&nbsp;<a href="#arquetipo-a">🔗</a></h2>
           <p >
             <i>Alta capacidad sin acompañamiento emocional ni social.</i>
           </p>
