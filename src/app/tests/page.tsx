@@ -12,7 +12,7 @@ export default function Tests() {
         <section className="tests__section">
           <h2 id="tu-sospecha-es-valida">Tu sospecha es válida&nbsp;<a href="#tu-sospecha-es-valida">🔗</a></h2>
           <p>Si sospechás que podrías tener Altas Capacidades, esa sospecha ya es una señal válida. No porque cualquier duda confirme el diagnóstico, sino porque muy pocas personas se hacen esta pregunta sin motivo.</p>
-          <p>Podés sospechar que sos ACI y no querer comprobarlo. Está bien. Pero si en algún momento querés decir "soy ACI" con fundamentos, la única manera legítima de afirmarlo es a través de una evaluación profesional con experiencia en adultos.</p>
+          <p>Podés sospechar que sos ACI y no querer comprobarlo. Está bien. Pero si en algún momento querés decir "soy ACI" con fundamentos, la única manera legítima de afirmarlo es a través de una evaluación psicodiagnóstica integral con experiencia en adultos.<sup>1</sup></p>
         </section>
 
         <section className="tests__section">
@@ -22,7 +22,7 @@ export default function Tests() {
 
         <section className="tests__section">
           <h2 id="la-verdadera-evaluacion-es-un-proceso">La verdadera evaluación es un proceso&nbsp;<a href="#la-verdadera-evaluacion-es-un-proceso">🔗</a></h2>
-          <p>Una evaluación profesional no se limita a un test de CI. Incluye entrevistas clínicas, historia de vida, pruebas psicométricas y observación del estilo cognitivo y emocional. Es una herramienta para entender cómo funciona tu mente, no un número para etiquetarte.</p>
+          <p>Una evaluación psicodiagnóstica integral no se limita a un test de CI. Incluye entrevistas clínicas, historia de vida, pruebas psicométricas y observación del estilo cognitivo y emocional. Es una herramienta para entender cómo funciona tu mente, no un número para etiquetarte.</p>
         </section>
 
         <section className="tests__section">
@@ -128,6 +128,10 @@ export default function Tests() {
           <h2 id="y-si-no-puedo-hacer-una-evaluacion-profesional">¿Y si no puedo hacer una evaluación profesional?&nbsp;<a href="#y-si-no-puedo-hacer-una-evaluacion-profesional">🔗</a></h2>
           <p>Muchas personas no pueden acceder a un diagnóstico por razones económicas, geográficas o personales. Eso no invalida tu sospecha ni tu búsqueda. Podés empezar por lecturas, comunidades online, o incluso un registro personal de patrones mentales, intereses y emociones. A veces, el simple acto de observarte con honestidad puede abrir caminos inesperados.</p>
         </section>
+
+        <footer>
+          <p><sup>1</sup> Evaluación psicodiagnóstica integral: un proceso completo que incluye entrevistas clínicas, historia de vida, pruebas psicométricas y observación del estilo cognitivo y emocional, con el objetivo de entender cómo funciona la mente de una persona, no un número para etiquetarla.</p>
+        </footer>
       </div>
     </main>
   );
