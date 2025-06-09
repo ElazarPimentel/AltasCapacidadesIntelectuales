@@ -1,6 +1,8 @@
 // src/app/tests/page.tsx
 // tests
 
+"use client";
+
 export default function Tests() {
   return (
     <main className="main-content">
@@ -57,7 +59,7 @@ export default function Tests() {
           <p>Hay personas que piensan bien, trabajan con profundidad, resuelven problemas difíciles, tienen vidas ricas y conversaciones complejas… y no tienen ACI. No porque "les falte algo", sino porque su manera de pensar, aunque destacada, <strong>no se sale de lo esperable para su entorno y formación</strong>.</p>
           <p>Tienen foco, disciplina, inteligencia práctica. Tal vez hablan varios idiomas, lideran proyectos, o tienen un pensamiento estratégico envidiable. Suelen ser reconocidos y valorados por eso. Pero cuando se aburren o se sienten vacíos, pueden empezar a preguntarse: "¿y si soy un genio no descubierto?"</p>
           <p>La respuesta puede ser más simple: <strong>sos una persona capaz, sensible y pensante. Pero tu estructura cognitiva no es inusualmente distinta.</strong> Y eso está bien. No necesitás ser ACI para tener una vida rica. Ni para sentir cosas profundas. Ni para atravesar crisis.</p>
-          <p>Si te identificás con esto, explorá el <a href="/arquetipos">arquetipo C</a>, donde hablamos de personas sin ACI que igual logran cosas complejas, relevantes y profundamente humanas.</p>
+          <p>Si te identificás con esto, explorá el <a href="/arquetipos#c-persona-no-aci-con-alto-desempeno" target="_blank">arquetipo-c</a>, donde hablamos de personas sin ACI que igual logran cosas complejas, relevantes y profundamente humanas.</p>
           <ul className="tests__list">
             <li><strong>CI menor a 115–120.</strong> No es lo único que importa, pero sí un umbral orientativo.</li>
             <li><strong>Ausencia de pensamiento abstracto espontáneo.</strong></li>
@@ -74,33 +76,52 @@ export default function Tests() {
           <p>Mientras decidís si consultar a un profesional, podés aprovechar para chatear con una AI (LLM) y explorar conceptos, patrones de conducta, fenómenos cognitivos, o simplemente poner en palabras lo que te pasa.</p>
           <p>Algunas opciones para probar:</p>
           <ul className="tests__list">
-            <li><a href="http://www.chatgpt.com">www.chatgpt.com</a></li>
-            <li><a href="http://gemini.google.com">gemini.google.com</a></li>
-            <li><a href="http://www.grok.com">www.grok.com</a></li>
-            <li><a href="http://www.claude.ai">www.claude.ai</a></li>
+            <li><a href="http://www.chatgpt.com" target="_blank">www.chatgpt.com</a></li>
+            <li><a href="http://gemini.google.com" target="_blank">gemini.google.com</a></li>
+            <li><a href="http://www.grok.com" target="_blank">www.grok.com</a></li>
+            <li><a href="http://www.claude.ai" target="_blank">www.claude.ai</a></li>
           </ul>
           <p>Podés copiar y pegar este prompt —o escribir el tuyo, claro— para iniciar la charla:</p>
-          <p><strong>Prompt para LLM (modo explorador de perfil ACI real vs imaginado):</strong></p>
-          <blockquote>
-            <p>Quiero que me hagas preguntas para ayudarte a estimar si podría tener Altas Capacidades Intelectuales (ACI), o no.</p>
-            <p>Tu tarea no es diagnosticar ni validar. Es explorar con preguntas bien pensadas para detectar si hay patrones de funcionamiento mental, emocional o social compatibles con ACI.</p>
-            <p>No des definiciones. No expliques nada a menos que yo lo pida.</p>
-            <p>Empezá con una sola pregunta. Después, adaptá la siguiente según mi respuesta.</p>
-            <p>Tus preguntas deben explorar:</p>
-            <ul>
-              <li>Capacidad abstracta real (no solo vocabulario elegante)</li>
-              <li>Curiosidad genuina vs autoafirmación intelectual</li>
-              <li>Manejo de la complejidad, la ambigüedad y el error</li>
-              <li>Coherencia entre lo que digo que soy y lo que he demostrado en mi vida</li>
-              <li>Ejemplos concretos que respalden mis autopercepciones</li>
-            </ul>
-            <p>Si la respuesta es vaga, superficial o grandilocuente, pedí ejemplos. Si hay contradicciones, señalalas con tacto pero sin suavizar.</p>
-            <p>Al final, ofrecé dos opciones realistas:</p>
-            <ul>
-              <li>"Hay elementos que podrían justificar una evaluación profesional, si te interesa explorar más allá de la intuición."</li>
-              <li>"Podés ser una persona reflexiva, intensa o sensible sin que eso implique necesariamente ACI. Igual vale la pena conocerte mejor."</li>
-            </ul>
-          </blockquote>
+          <div className="prompt-block">
+            <button 
+              onClick={() => {
+                const blockquote = document.querySelector('.prompt-block blockquote');
+                if (blockquote instanceof HTMLElement) {
+                  const text = blockquote.innerText;
+                  navigator.clipboard.writeText(text);
+                  const btn = document.querySelector('.prompt-block button');
+                  if (btn instanceof HTMLButtonElement) {
+                    btn.innerText = 'Copiado';
+                    setTimeout(() => {
+                      btn.innerText = 'Copiar';
+                    }, 2000);
+                  }
+                }
+              }}
+            >
+              Copiar
+            </button>
+            <blockquote>
+              <p>Quiero que me hagas preguntas para ayudarte a estimar si podría tener Altas Capacidades Intelectuales (ACI), o no.</p>
+              <p>Tu tarea no es diagnosticar ni validar. Es explorar con preguntas bien pensadas para detectar si hay patrones de funcionamiento mental, emocional o social compatibles con ACI.</p>
+              <p>No des definiciones. No expliques nada a menos que yo lo pida.</p>
+              <p>Empezá con una sola pregunta. Después, adaptá la siguiente según mi respuesta.</p>
+              <p>Tus preguntas deben explorar:</p>
+              <ul>
+                <li>Capacidad abstracta real (no solo vocabulario elegante)</li>
+                <li>Curiosidad genuina vs autoafirmación intelectual</li>
+                <li>Manejo de la complejidad, la ambigüedad y el error</li>
+                <li>Coherencia entre lo que digo que soy y lo que he demostrado en mi vida</li>
+                <li>Ejemplos concretos que respalden mis autopercepciones</li>
+              </ul>
+              <p>Si la respuesta es vaga, superficial o grandilocuente, pedí ejemplos. Si hay contradicciones, señalalas con tacto pero sin suavizar.</p>
+              <p>Al final, ofrecé dos opciones realistas:</p>
+              <ul>
+                <li>"Hay elementos que podrían justificar una evaluación profesional, si te interesa explorar más allá de la intuición."</li>
+                <li>"Podés ser una persona reflexiva, intensa o sensible sin que eso implique necesariamente ACI. Igual vale la pena conocerte mejor."</li>
+              </ul>
+            </blockquote>
+          </div>
         </section>
 
         <section className="tests__section">
