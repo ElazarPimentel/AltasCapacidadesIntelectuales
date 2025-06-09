@@ -1,6 +1,8 @@
 // src/app/page.tsx
 // Home
 
+import Link from 'next/link';
+
 export default function Home() {
   return (
     <main className="main-content">
@@ -24,10 +26,10 @@ export default function Home() {
             Las ACI no son un número en un test de CI. Son una forma de procesar el mundo: rápida, profunda, a veces abrumadora. Implican aprender sin repetir, captar patrones en lo desconocido y manejar ideas complejas con facilidad. Pero también traen asincronía: tu mente puede ir más rápido que tus emociones o vínculos, y eso no siempre es sencillo.
           </p>
           <p>
-            Algunas personas con ACI también presentan TDAH o TEA, lo que complejiza su experiencia (<a href="/tests#diferencias-con-tdah-tea">ver más en Tests</a>).
+            Algunas personas con ACI también presentan TDAH o TEA, lo que complejiza su experiencia (<Link href="/tests#diferencias-con-tdah-tea">ver más en Tests</Link>).
           </p>
           <p>
-            No se trata de ser "mejor" ni destacar en todo. Muchos adultos con ACI pasaron desapercibidos en la escuela, confundidos con vagos o distraídos. Otros se camuflaron para encajar, ocultando una intensidad sin nombre. Si esto resuena, explorá <a href="/arquetipos">cómo otros han vivido esta diferencia</a>.
+            No se trata de ser "mejor" ni destacar en todo. Muchos adultos con ACI pasaron desapercibidos en la escuela, confundidos con vagos o distraídos. Otros se camuflaron para encajar, ocultando una intensidad sin nombre. Si esto resuena, explorá <Link href="/arquetipos">cómo otros han vivido esta diferencia</Link>.
           </p>
         </section>
 
@@ -51,7 +53,7 @@ export default function Home() {
             <li>Lo rutinario te aburre y buscás desafíos complejos sin darte cuenta.</li>
           </ul>
           <p>
-            Si esto te resulta familiar, una <a href="/tests#la-verdadera-evaluacion-es-un-proceso">evaluación psicodiagnóstica integral</a> puede aclarar tu perfil cognitivo y emocional. No se trata de validarte, sino de conocerte sin autoengaño.
+            Si esto te resulta familiar, una <Link href="/tests#la-verdadera-evaluacion-es-un-proceso">evaluación psicodiagnóstica integral</Link> puede aclarar tu perfil cognitivo y emocional. No se trata de validarte, sino de conocerte sin autoengaño.
           </p>
         </section>
 
@@ -66,14 +68,14 @@ export default function Home() {
             <li><strong>Dificultades sociales</strong> por una intensidad que otros no comprenden.</li>
           </ul>
           <p>
-            Esto no es un defecto. Es parte de la neurodivergencia. Con el <a href="/profesionales">acompañamiento adecuado</a>, podés integrar estas diferencias.
+            Esto no es un defecto. Es parte de la neurodivergencia. Con el <Link href="/profesionales">acompañamiento adecuado</Link>, podés integrar estas diferencias.
           </p>
         </section>
 
         <section className="content-section">
           <h2 id="y-si-no-soy-aci">¿Y si no soy ACI?&nbsp;<a href="#y-si-no-soy-aci">🔗</a></h2>
           <p>
-            Sentirse diferente es humano. Podés ser creativo o sensible por otras razones, como <a href="/arquetipos#b-persona-no-aci-con-vida-dificil">experiencias vitales descritas en Arquetipos</a>. La clave es entender cómo funciona tu mente, no encajar en una etiqueta. Explorá <a href="/arquetipos#c-persona-no-aci-con-alto-desempeno">otras formas de vivir tu singularidad</a>.
+            Sentirse diferente es humano. Podés ser creativo o sensible por otras razones, como <Link href="/arquetipos#b-persona-no-aci-con-vida-dificil">experiencias vitales descritas en Arquetipos</Link>. La clave es entender cómo funciona tu mente, no encajar en una etiqueta. Explorá <Link href="/arquetipos#c-persona-no-aci-con-alto-desempeno">otras formas de vivir tu singularidad</Link>.
           </p>
         </section>
 
@@ -89,7 +91,7 @@ export default function Home() {
             La respuesta puede ser más simple: sos una persona capaz, sensible y pensante. Pero tu estructura cognitiva no es inusualmente distinta. Y eso está bien. No necesitás ser ACI para tener una vida rica. Ni para sentir cosas profundas. Ni para atravesar crisis.
           </p>
           <p>
-            Si te identificás con esto, explorá el <a href="/arquetipos#c-persona-no-aci-con-alto-desempeno">arquetipo-c</a>, donde hablamos de personas sin ACI que igual logran cosas complejas, relevantes y profundamente humanas.
+            Si te identificás con esto, explorá el <Link href="/arquetipos#c-persona-no-aci-con-alto-desempeno">arquetipo-c</Link>, donde hablamos de personas sin ACI que igual logran cosas complejas, relevantes y profundamente humanas.
           </p>
           <ul className="content-list">
             <li>CI menor a 115–120. No es lo único que importa, pero sí un umbral orientativo.</li>
@@ -113,7 +115,7 @@ export default function Home() {
             <li><strong>"Las ACI se detectan siempre en la infancia."</strong> No. Muchísimas personas no fueron identificadas de niñas.</li>
           </ul>
           <p>
-            Conocé más sobre <a href="/historia">cómo se entendieron (o ignoraron) las ACI a lo largo del tiempo</a>.
+            Conocé más sobre <Link href="/historia">cómo se entendieron (o ignoraron) las ACI a lo largo del tiempo</Link>.
           </p>
         </section>
 
@@ -122,7 +124,7 @@ export default function Home() {
           <p>No tenés que hacer nada. Pero si querés, podés:</p>
           <ol className="content-list">
             <li>Reflexionar sobre tu historia: ¿te sentiste limitado por un entorno que no te entendía?</li>
-            <li>Buscar un <a href="/profesionales">profesional especializado</a> para una evaluación que te dé claridad.</li>
+            <li>Buscar un <Link href="/profesionales">profesional especializado</Link> para una evaluación que te dé claridad.</li>
             <li>Explorar actividades como lógica, sistemas o proyectos creativos.</li>
           </ol>
           <p>

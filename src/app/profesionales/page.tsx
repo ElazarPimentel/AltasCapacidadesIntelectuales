@@ -1,6 +1,8 @@
 // src/app/profesionales/page.tsx
 // profesionales
 
+import Link from 'next/link';
+
 export default function Profesionales() {
   return (
     <main className="main-content">
@@ -22,7 +24,7 @@ export default function Profesionales() {
             Un profesional no especializado puede minimizar lo que sentís o confundirlo con otro cuadro. Uno formado en ACI sabe detectar patrones, validar tu experiencia sin exagerarla y ayudarte a ponerle palabras a lo que quizás viviste en silencio.
           </p>
           <p>
-            <a href="/arquetipos#introduccion">¿Cómo se vive esa diferencia? Mirá los arquetipos</a>
+            <Link href="/arquetipos#introduccion">¿Cómo se vive esa diferencia? Mirá los arquetipos</Link>
           </p>
         </section>
 
@@ -57,7 +59,7 @@ export default function Profesionales() {
             Este recorrido no busca definirte. Busca afinar tu brújula.
           </p>
           <p>
-            <a href="/tests#la-verdadera-evaluacion-es-un-proceso">Conocé el proceso completo en Tests</a>
+            <Link href="/tests#la-verdadera-evaluacion-es-un-proceso">Conocé el proceso completo en Tests</Link>
           </p>
         </section>
 
@@ -72,7 +74,7 @@ export default function Profesionales() {
             <li><strong>Lic. María López</strong> – Psicopedagoga, Mendoza. Orientación en trayectorias educativas y ACI.</li>
           </ul>
           <p>
-            Para más opciones, revisá <a href="/tests#el-profesional-adecuado-importa">Tests</a> o contactá asociaciones locales.
+            Para más opciones, revisá <Link href="/tests#el-profesional-adecuado-importa">Tests</Link> o contactá asociaciones locales.
           </p>
         </section>
 
@@ -84,7 +86,7 @@ export default function Profesionales() {
           <ul className="content-list">
             <li>Buscar comunidades online donde se compartan experiencias reales.</li>
             <li>Leer libros o artículos de calidad sobre ACI y neurodivergencia.</li>
-            <li>Usar una IA para poner en palabras lo que sentís (<a href="/tests#charlar-con-una-ia">ver prompt en Tests</a>).</li>
+            <li>Usar una IA para poner en palabras lo que sentís (<Link href="/tests#charlar-con-una-ia">ver prompt en Tests</Link>).</li>
           </ul>
           <p>
             No reemplazan una evaluación profesional, pero pueden ayudarte a empezar.
@@ -97,9 +99,9 @@ export default function Profesionales() {
             Un diagnóstico no es una etiqueta: es una llave. El profesional adecuado puede ayudarte a entender tu mente sin distorsionarla, y acompañarte a integrarla en tu vida.
           </p>
           <p>
-            <a href="/historia#aci-en-argentina">¿Querés entender cómo llegamos hasta acá? Mirá Historia</a>
+            <Link href="/historia#aci-en-argentina">¿Querés entender cómo llegamos hasta acá? Mirá Historia</Link>
             <br/>
-            <a href="/legislacion#marco-nacional">¿Querés saber qué derechos tenés? Leé Legislación</a>
+            <Link href="/legislacion#marco-nacional">¿Querés saber qué derechos tenés? Leé Legislación</Link>
           </p>
         </section>
       </div>
