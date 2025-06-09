@@ -102,7 +102,7 @@ Establecer un marco editorial claro, coherente y emocionalmente honesto. El siti
 ### Aplicación Técnica
 
 * El contenido debe ser usable, legible y estructurado para Next.js y React 19.
-* Deben respetarse los estilos definidos en `globals.scss` (`.home__section`, `.tests__section`, etc.).
+* Deben respetarse los estilos definidos en `globals.scss` (`.home__section`, `.content-section`, etc.).
 * Toda sección debe poder ser renderizada por el componente `LayoutWrapper` sin romper diseño.
 * Toda sección con links externos debe abrir en `_blank`.
 
