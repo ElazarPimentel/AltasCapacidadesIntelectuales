@@ -382,6 +382,9 @@ a {
     padding-top: var(--spacing-lg);
     border-top: 1px solid var(--color-border);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   &__copyright {

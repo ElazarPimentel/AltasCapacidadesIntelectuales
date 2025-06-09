@@ -21,14 +21,14 @@ export default function HistoriaPage() {
         </section>
 
         <section className="tests__section">
-          <h2>Historia Argentina de las Altas Capacidades Intelectuales</h2>
+          <h2 id="historia-argentina-de-las-altas-capacidades-intelectuales">Historia Argentina de las Altas Capacidades Intelectuales&nbsp;<a href="#historia-argentina-de-las-altas-capacidades-intelectuales">🔗</a></h2>
           <p>En Argentina, la historia de las ACI ha sido una mezcla de invisibilidad institucional y lucha individual. Durante años, niñas y niños con perfiles inusuales de aprendizaje fueron clasificados como desinteresados, desafiantes o inadaptados. No existían programas sistemáticos de detección ni formación docente especializada, lo que llevó a una enorme cantidad de casos perdidos en el aula y patologizados en el consultorio.</p>
           <p>Aunque algunas provincias comenzaron a desarrollar iniciativas aisladas, hasta el día de hoy <strong>no existe una política nacional del Estado argentino</strong> que garantice derechos ni protocolos de acción específicos para personas con ACI. Dado que el sistema educativo argentino está descentralizado, <strong>cada provincia debe definir su política educativa</strong>. Esto significa que <strong>gobernadores, legisladores provinciales y ministros de educación locales</strong> son quienes deben impulsar leyes y medidas para esta población. De lo contrario, la situación queda librada al azar del domicilio.</p>
           <p>La falta de acción estructural ha generado consecuencias profundas: estudiantes que abandonan la escuela por aburrimiento, adultos que desconocen su perfil cognitivo, familias que se enfrentan a diagnósticos erróneos o son culpadas por "malcriar" a niños que simplemente piensan diferente. El Estado sigue sin mirar de frente esta realidad, mientras miles de personas crecen creyendo que el problema es suyo.</p>
         </section>
 
         <section className="tests__section">
-          <h2>La historia de Benjamín</h2>
+          <h2 id="la-historia-de-benjamin">La historia de Benjamín&nbsp;<a href="#la-historia-de-benjamin">🔗</a></h2>
           <p>Benjamín Equiza tenía ocho años, leía fluidamente, escribía con claridad y resolvía cálculos complejos. Aun así, la Dirección General de Escuelas de la Provincia de Buenos Aires le ordenó repetir de año. No importaba su desempeño: no encajaba en la grilla de edades. El sistema no supo qué hacer con su talento, así que eligió negarlo.</p>
           <p>Ante esta injusticia, su familia impulsó un proyecto de ley que hoy lleva su nombre: la <strong>Ley Benjamín</strong>. Esta propuesta busca garantizar la detección temprana y el abordaje integral de las ACI en todo el sistema educativo bonaerense, desde jardín hasta secundaria, tanto en escuelas públicas como privadas. Es el primer intento legislativo serio de reconocer esta diferencia como parte legítima de la diversidad humana.</p>
           <p>La historia de Benjamín puso en evidencia que la alta capacidad no es solo un tema académico, sino una cuestión de derechos. Que aprender más rápido no debería ser un castigo. Y que la educación no puede seguir pensada solo para el promedio, ignorando a quienes —sin pedirlo— nacieron con otra arquitectura mental.</p>

@@ -8,7 +8,7 @@ export default function Arquetipos() {
         <h1>Arquetipos ACI y No ACI</h1>
         
         <section className="tests__section">
-          <h2>Introducción a los Arquetipos</h2>
+          <h2 id="introduccion-a-los-arquetipos">Introducción a los Arquetipos&nbsp;<a href="#introduccion-a-los-arquetipos">🔗</a></h2>
           <p >
             Porque no se trata solo de si sos ACI o no. Se trata de cómo viviste con eso… o sin eso.
           </p>
@@ -34,7 +34,7 @@ export default function Arquetipos() {
         </section>
 
         <section className="tests__section">
-          <h2>b) Persona no ACI con vida difícil</h2>
+          <h2 id="b-persona-no-aci-con-vida-dificil">b) Persona no ACI con vida difícil&nbsp;<a href="#b-persona-no-aci-con-vida-dificil">🔗</a></h2>
           <p >
             <i>La lucha es real, pero no siempre tiene que ver con la inteligencia.</i>
           </p>
@@ -49,7 +49,7 @@ export default function Arquetipos() {
         </section>
 
         <section className="tests__section">
-          <h2>c) Persona no ACI con alto desempeño</h2>
+          <h2 id="c-persona-no-aci-con-alto-desempeno">c) Persona no ACI con alto desempeño&nbsp;<a href="#c-persona-no-aci-con-alto-desempeno">🔗</a></h2>
           <p >
             <i>Capacidad bien orientada, esfuerzo sostenido, sentido práctico.</i>
           </p>
@@ -64,7 +64,7 @@ export default function Arquetipos() {
         </section>
 
         <section className="tests__section">
-          <h2>d) Persona ACI adaptada y funcional</h2>
+          <h2 id="d-persona-aci-adaptada-y-funcional">d) Persona ACI adaptada y funcional&nbsp;<a href="#d-persona-aci-adaptada-y-funcional">🔗</a></h2>
           <p >
             <i>Alta capacidad reconocida, elaborada y puesta en juego de forma constructiva.</i>
           </p>
