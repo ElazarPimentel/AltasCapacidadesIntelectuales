@@ -19,7 +19,7 @@ export default function Legislacion() {
             En Argentina no existe una ley nacional integral para identificar ni acompañar a personas con ACI. La Ley de Educación Nacional 26.206 (2006) garantiza el derecho a una educación inclusiva, pero no menciona explícitamente a las ACI. Eso deja la responsabilidad en manos de cada provincia y genera una geografía de desigualdades.
           </p>
           <p>
-            La falta de políticas claras invisibilizó a miles de personas con ACI, muchas de las cuales enfrentaron barreras educativas y sociales (<a href="/historia">ver más en Historia</a>). Algunas aún lo hacen.
+            La falta de políticas claras invisibilizó a miles de personas con ACI, muchas de las cuales enfrentaron barreras educativas y sociales (<a href="/historia#aci-en-argentina">ver más en Historia</a>). Algunas aún lo hacen.
           </p>
         </section>
 
@@ -34,7 +34,7 @@ export default function Legislacion() {
             <li><strong>Enfoque inclusivo</strong>: Reconocer la diversidad cognitiva como derecho, no como excepción.</li>
           </ul>
           <p>
-            El proyecto nació después de que Benjamín, con 8 años, fuera obligado a repetir un grado por no ajustarse a los criterios administrativos, a pesar de su capacidad avanzada (<a href="/historia#el-caso-benjamin-equiza">ver caso en Historia</a>).
+            El proyecto nació después de que Benjamín, con 8 años, fuera obligado a repetir un grado por no ajustarse a los criterios administrativos, a pesar de su capacidad avanzada (<a href="/historia#el-caso-benjamin">ver caso en Historia</a>).
           </p>
         </section>
 
@@ -52,7 +52,7 @@ export default function Legislacion() {
             Estas iniciativas muestran voluntad, pero siguen siendo parciales, inestables y sin coordinación nacional.
           </p>
           <p>
-            <a href="/arquetipos">Explorá cómo estas brechas impactan en adultos</a>
+            <a href="/arquetipos#introduccion">Explorá cómo estas brechas impactan en adultos</a>
           </p>
         </section>
 
@@ -62,7 +62,7 @@ export default function Legislacion() {
             Hoy no existe legislación para detectar ni acompañar adultos con ACI. No hay políticas públicas, laborales ni sanitarias pensadas para perfiles con funcionamiento cognitivo inusualmente potente.
           </p>
           <p>
-            Todo queda en manos de tu iniciativa personal y del acompañamiento que consigas. <a href="/arquetipos">Explorá Arquetipos para ubicar tu recorrido</a>
+            Todo queda en manos de tu iniciativa personal y del acompañamiento que consigas. <a href="/arquetipos#introduccion">Explorá Arquetipos para ubicar tu recorrido</a>
           </p>
         </section>
 
@@ -72,7 +72,7 @@ export default function Legislacion() {
             Aunque el sistema no te vea, podés hacer visible tu necesidad. Algunas opciones:
           </p>
           <ol className="content-list">
-            <li>Solicitar una <a href="/profesionales">evaluación especializada</a> fuera del sistema educativo.</li>
+            <li>Solicitar una <a href="/profesionales#que-esperar">evaluación especializada</a> fuera del sistema educativo.</li>
             <li>Presentar ese informe en la escuela o ámbito laboral como sustento técnico.</li>
             <li>Pedir una respuesta formal por escrito a la institución.</li>
             <li>Buscar acompañamiento legal o mediación pedagógica si es necesario.</li>
@@ -101,10 +101,9 @@ export default function Legislacion() {
             Hasta que eso cambie, conocerte, formarte y vincularte con quienes sí entienden la diferencia es una forma de ejercer tu derecho.
           </p>
           <p>
-            <a href="/tests">Explorá los Tests si querés empezar por entender tu mente</a>
+            <a href="/tests#tu-sospecha-es-legitima">Explorá los Tests si querés empezar por entender tu mente</a>
           </p>
         </section>
-
       </div>
     </main>
   );

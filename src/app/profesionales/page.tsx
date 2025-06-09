@@ -22,7 +22,7 @@ export default function Profesionales() {
             Un profesional no especializado puede minimizar lo que sentís o confundirlo con otro cuadro. Uno formado en ACI sabe detectar patrones, validar tu experiencia sin exagerarla y ayudarte a ponerle palabras a lo que quizás viviste en silencio.
           </p>
           <p>
-            <a href="/arquetipos">¿Cómo se vive esa diferencia? Mirá los arquetipos</a>
+            <a href="/arquetipos#introduccion">¿Cómo se vive esa diferencia? Mirá los arquetipos</a>
           </p>
         </section>
 
@@ -84,7 +84,7 @@ export default function Profesionales() {
           <ul className="content-list">
             <li>Buscar comunidades online donde se compartan experiencias reales.</li>
             <li>Leer libros o artículos de calidad sobre ACI y neurodivergencia.</li>
-            <li>Usar una IA para poner en palabras lo que sentís (<a href="/tests#charlar-con-una-ia-mientras-decidis">ver prompt en Tests</a>).</li>
+            <li>Usar una IA para poner en palabras lo que sentís (<a href="/tests#charlar-con-una-ia">ver prompt en Tests</a>).</li>
           </ul>
           <p>
             No reemplazan una evaluación profesional, pero pueden ayudarte a empezar.
@@ -97,12 +97,11 @@ export default function Profesionales() {
             Un diagnóstico no es una etiqueta: es una llave. El profesional adecuado puede ayudarte a entender tu mente sin distorsionarla, y acompañarte a integrarla en tu vida.
           </p>
           <p>
-            <a href="/historia">¿Querés entender cómo llegamos hasta acá? Mirá Historia</a>
+            <a href="/historia#aci-en-argentina">¿Querés entender cómo llegamos hasta acá? Mirá Historia</a>
             <br/>
-            <a href="/legislacion">¿Querés saber qué derechos tenés? Leé Legislación</a>
+            <a href="/legislacion#marco-nacional">¿Querés saber qué derechos tenés? Leé Legislación</a>
           </p>
         </section>
-
       </div>
     </main>
   );

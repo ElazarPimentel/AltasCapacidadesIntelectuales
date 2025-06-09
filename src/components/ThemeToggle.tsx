@@ -8,18 +8,18 @@ export default function ThemeToggle() {
     const savedTheme = localStorage.getItem('theme');
     if (savedTheme) {
       setIsDarkMode(savedTheme === 'dark');
-      document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+      document.documentElement.classList.toggle('light', savedTheme === 'light');
     } else {
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       setIsDarkMode(prefersDark);
-      document.documentElement.classList.toggle('dark', prefersDark);
+      document.documentElement.classList.toggle('light', !prefersDark);
     }
   }, []);
 
   const toggleDarkMode = () => {
-    const newTheme = !isDarkMode ? 'dark' : 'light';
+    const newTheme = isDarkMode ? 'light' : 'dark';
     setIsDarkMode(!isDarkMode);
-    document.documentElement.classList.toggle('dark', !isDarkMode);
+    document.documentElement.classList.toggle('light', newTheme === 'light');
     localStorage.setItem('theme', newTheme);
   };
 

@@ -16,7 +16,7 @@ export default function Arquetipos() {
         <section className="content-section">
           <h2 id="introduccion">Introducción&nbsp;<a href="#introduccion">🔗</a></h2>
           <p>
-            Estos arquetipos combinan tipo de mente (ACI o no) con el modo en que la vida te moldeó. No son etiquetas. No buscan definirte, sino ofrecerte palabras para algo que tal vez nunca pudiste nombrar. Si sentís que no encajás, que tu camino fue más difícil de lo esperable, empezá por acá. Y si querés saber si podrías tener ACI, explorá la sección de <a href="/tests">Tests</a>.
+            Estos arquetipos combinan tipo de mente (ACI o no) con el modo en que la vida te moldeó. No son etiquetas. No buscan definirte, sino ofrecerte palabras para algo que tal vez nunca pudiste nombrar. Si sentís que no encajás, que tu camino fue más difícil de lo esperable, empezá por acá. Y si querés saber si podrías tener ACI, explorá la sección de <a href="/tests#tu-sospecha-es-legitima">Tests</a>.
           </p>
         </section>
 
@@ -33,7 +33,7 @@ export default function Arquetipos() {
             <li><strong>Riesgo:</strong> Aislarse, vivir adentro de su cabeza, resignarse al desencaje.</li>
           </ul>
           <p>
-            <a href="/profesionales">Buscá acompañamiento adecuado si esto te suena</a>
+            <a href="/profesionales#que-buscar">Buscá acompañamiento adecuado si esto te suena</a>
           </p>
         </section>
 
@@ -50,7 +50,7 @@ export default function Arquetipos() {
             <li><strong>Riesgo:</strong> Autoengañarse con una explicación que distrae en lugar de aclarar.</li>
           </ul>
           <p>
-            <a href="/tests#y-si-no-tenes-aci-pero-igual-sos-brillante">¿Querés explorar esa diferencia? Empezá por los Tests</a>
+            <a href="/tests#y-si-no-tenes-aci-pero-igual-sos-brillante">¿Querés explorar esa diferencia? Empezá por Tests</a>
           </p>
         </section>
 
@@ -84,7 +84,7 @@ export default function Arquetipos() {
             <li><strong>Riesgo:</strong> Agotarse por sostener entornos que no la comprenden.</li>
           </ul>
           <p>
-            <a href="/profesionales">Querés trabajar hacia esto? Empezá por encontrar el profesional adecuado</a>
+            <a href="/profesionales#que-buscar">Querés trabajar hacia esto? Empezá por encontrar el profesional adecuado</a>
           </p>
         </section>
 
@@ -94,13 +94,12 @@ export default function Arquetipos() {
             Estos arquetipos no son definiciones. Son herramientas. Sirven si abren puertas. No sirven si las cierran.
           </p>
           <p>
-            Si sospechás que tu mente funciona distinto, una <a href="/tests">evaluación profesional</a> puede ser el próximo paso.
+            Si sospechás que tu mente funciona distinto, una <a href="/tests#la-verdadera-evaluacion-es-un-proceso">evaluación profesional</a> puede ser el próximo paso.
           </p>
           <p>
-            Si querés contexto sobre cómo estas diferencias fueron ignoradas, malentendidas o anuladas, leé la <a href="/historia">Historia</a>.
+            Si querés contexto sobre cómo estas diferencias fueron ignoradas, malentendidas o anuladas, leé la <a href="/historia#de-platon-al-test-de-ci">Historia</a>.
           </p>
         </section>
-
       </div>
     </main>
   );

@@ -19,12 +19,12 @@ export default function Home() {
         </section>
 
         <section className="content-section">
-          <h2>¿Qué son las Altas Capacidades Intelectuales?</h2>
+          <h2 id="que-son-las-altas-capacidades-intelectuales">¿Qué son las Altas Capacidades Intelectuales?&nbsp;<a href="#que-son-las-altas-capacidades-intelectuales">🔗</a></h2>
           <p>
             Las ACI no son un número en un test de CI. Son una forma de procesar el mundo: rápida, profunda, a veces abrumadora. Implican aprender sin repetir, captar patrones en lo desconocido y manejar ideas complejas con facilidad. Pero también traen asincronía: tu mente puede ir más rápido que tus emociones o vínculos, y eso no siempre es sencillo.
           </p>
           <p>
-            Algunas personas con ACI también presentan TDAH o TEA, lo que complejiza su experiencia (<a href="/tests">ver más en Tests</a>).
+            Algunas personas con ACI también presentan TDAH o TEA, lo que complejiza su experiencia (<a href="/tests#diferencias-con-tdah-tea">ver más en Tests</a>).
           </p>
           <p>
             No se trata de ser "mejor" ni destacar en todo. Muchos adultos con ACI pasaron desapercibidos en la escuela, confundidos con vagos o distraídos. Otros se camuflaron para encajar, ocultando una intensidad sin nombre. Si esto resuena, explorá <a href="/arquetipos">cómo otros han vivido esta diferencia</a>.
@@ -32,7 +32,7 @@ export default function Home() {
         </section>
 
         <section className="content-section">
-          <h2>La definición formal de ACI</h2>
+          <h2 id="la-definicion-formal-de-aci">La definición formal de ACI&nbsp;<a href="#la-definicion-formal-de-aci">🔗</a></h2>
           <p>
             Las Altas Capacidades Intelectuales se definen por una aptitud sobresaliente para razonar y aprender, o un desempeño documentado en el 10% superior en uno o más dominios, lo que refleja un potencial significativo a desarrollar más allá de un alto CI. No se trata solo de habilidades académicas, sino de una forma de aprender y procesar información fundamentalmente diferente y avanzada, como lo explica el <a href="https://nagc.org/page/what-is-giftedness" target="_blank" rel="noopener noreferrer">National Association for Gifted Children (NAGC)</a>.
           </p>
@@ -42,7 +42,7 @@ export default function Home() {
         </section>
 
         <section className="content-section">
-          <h2>¿Cómo sé si podría tener ACI?</h2>
+          <h2 id="como-se-si-podria-tener-aci">¿Cómo sé si podría tener ACI?&nbsp;<a href="#como-se-si-podria-tener-aci">🔗</a></h2>
           <p>No podés autodiagnosticarte, pero hay señales que orientan:</p>
           <ul className="content-list">
             <li>Aprendés conceptos nuevos sin esfuerzo, especialmente si te atrapan.</li>
@@ -51,12 +51,12 @@ export default function Home() {
             <li>Lo rutinario te aburre y buscás desafíos complejos sin darte cuenta.</li>
           </ul>
           <p>
-            Si esto te resulta familiar, una <a href="/tests">evaluación psicodiagnóstica integral</a> puede aclarar tu perfil cognitivo y emocional. No se trata de validarte, sino de conocerte sin autoengaño.
+            Si esto te resulta familiar, una <a href="/tests#la-verdadera-evaluacion-es-un-proceso">evaluación psicodiagnóstica integral</a> puede aclarar tu perfil cognitivo y emocional. No se trata de validarte, sino de conocerte sin autoengaño.
           </p>
         </section>
 
         <section className="content-section">
-          <h2>ACI no es sinónimo de éxito</h2>
+          <h2 id="aci-no-es-sinonimo-de-exito">ACI no es sinónimo de éxito&nbsp;<a href="#aci-no-es-sinonimo-de-exito">🔗</a></h2>
           <p>
             Tener ACI no garantiza buenas notas, un trabajo soñado ni relaciones perfectas. La asincronía entre tu mente y tu entorno puede generar frustración, aislamiento o malentendidos. Muchos adultos con ACI enfrentan:
           </p>
@@ -71,16 +71,16 @@ export default function Home() {
         </section>
 
         <section className="content-section">
-          <h2>¿Y si no soy ACI?</h2>
+          <h2 id="y-si-no-soy-aci">¿Y si no soy ACI?&nbsp;<a href="#y-si-no-soy-aci">🔗</a></h2>
           <p>
             Sentirse diferente es humano. Podés ser creativo o sensible por otras razones, como <a href="/arquetipos#b-persona-no-aci-con-vida-dificil">experiencias vitales descritas en Arquetipos</a>. La clave es entender cómo funciona tu mente, no encajar en una etiqueta. Explorá <a href="/arquetipos#c-persona-no-aci-con-alto-desempeno">otras formas de vivir tu singularidad</a>.
           </p>
         </section>
 
         <section className="content-section">
-          <h2>¿Y si no tenés ACI, pero igual sos brillante?</h2>
+          <h2 id="y-si-no-tienes-aci-pero-igual-sos-brillante">¿Y si no tenés ACI, pero igual sos brillante?&nbsp;<a href="#y-si-no-tienes-aci-pero-igual-sos-brillante">🔗</a></h2>
           <p>
-            Hay personas que piensan bien, trabajan con profundidad, resuelven problemas difíciles, tienen vidas ricas y conversaciones complejas… y no tienen ACI. No porque "les falte algo", sino porque su manera de pensar, aunque destacada, no se sale de lo esperable para su entorno y formación.
+            Hay personas que reflexionan con claridad, abordan su trabajo con gran profundidad, resuelven problemas difíciles, tienen vidas ricas y conversaciones complejas… y no tienen ACI. No porque "les falte algo", sino porque su manera de pensar, aunque destacada, no se sale de lo esperable para su entorno y formación.
           </p>
           <p>
             Tienen foco, disciplina, inteligencia práctica. Tal vez hablan varios idiomas, lideran proyectos, o tienen un pensamiento estratégico envidiable. Suelen ser reconocidos y valorados por eso. Pero cuando se aburren o se sienten vacíos, pueden empezar a preguntarse: "¿y si soy un genio no descubierto?"
@@ -105,7 +105,7 @@ export default function Home() {
         </section>
 
         <section className="content-section">
-          <h2>Mitos que hay que romper</h2>
+          <h2 id="mitos-que-hay-que-romper">Mitos que hay que romper&nbsp;<a href="#mitos-que-hay-que-romper">🔗</a></h2>
           <ul className="content-list">
             <li><strong>"Si no fui un niño prodigio, no soy ACI."</strong> Falso. Muchos ACI no destacaron en la infancia.</li>
             <li><strong>"Ser ACI significa tener éxito."</strong> No. La alta capacidad no asegura logros, y el éxito no implica ACI.</li>
@@ -118,7 +118,7 @@ export default function Home() {
         </section>
 
         <section className="content-section">
-          <h2>¿Qué hacer si sospechás que sos ACI?</h2>
+          <h2 id="que-hacer-si-sospechas-que-sos-aci">¿Qué hacer si sospechás que sos ACI?&nbsp;<a href="#que-hacer-si-sospechas-que-sos-aci">🔗</a></h2>
           <p>No tenés que hacer nada. Pero si querés, podés:</p>
           <ol className="content-list">
             <li>Reflexionar sobre tu historia: ¿te sentiste limitado por un entorno que no te entendía?</li>
@@ -131,7 +131,7 @@ export default function Home() {
         </section>
 
         <section className="content-section">
-          <h2>Nota</h2>
+          <h2 id="nota">Nota&nbsp;<a href="#nota">🔗</a></h2>
           <p>
             Este sitio está pensado para adultos en búsqueda de autoconocimiento. Si buscás respuestas, estás en el lugar correcto. Seguí leyendo, pero no para encontrar certezas, sino para pensar con más claridad tu propia complejidad.
           </p>
