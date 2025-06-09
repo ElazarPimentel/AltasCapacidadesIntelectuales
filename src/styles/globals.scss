@@ -677,11 +677,14 @@ a {
 }
 
 h2 {
+  scroll-margin-top: 12rem;
+
   a {
     font-size: 0.9rem;
     opacity: 0.3;
-    margin-left: 0.5rem;
+    margin-left: 0.2rem;
     text-decoration: none;
+
     &:hover {
       opacity: 1;
     }
