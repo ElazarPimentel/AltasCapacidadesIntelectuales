@@ -42,7 +42,7 @@ export default function Tests() {
         </section>
 
         <section className="tests__section">
-          <h2 id="prepararse-para-el-test-si">¿Prepararse para el test? Sí.&nbsp;<a href="#prepararse-para-el-test-si">��</a></h2>
+          <h2 id="prepararse-para-el-test-si">¿Prepararse para el test? Sí.&nbsp;<a href="#prepararse-para-el-test-si">🔗</a></h2>
           <p>Prepararte no es hacer trampa. Es como entrenar para una maratón: no cambia tu cuerpo, pero permite que lo muestres en su mejor versión. Si sos ACI, rendir sin preparación puede hacerte parecer alguien promedio. Rendir con preparación te acerca más a tu verdadero perfil.</p>
         </section>
 
@@ -67,6 +67,40 @@ export default function Tests() {
             <li><strong>Sin asincronía entre razonamiento, emoción y vínculo social.</strong></li>
           </ul>
           <p>Estas características no invalidan a nadie. Simplemente indican otra forma de pensar. Una forma igualmente valiosa, solo que distinta.</p>
+        </section>
+
+        <section className="tests__section">
+          <h2 id="charla-con-ai-mientras-esperas">Charla con una AI (LLM) mientras esperás la cita con un profesional&nbsp;<a href="#charla-con-ai-mientras-esperas">🔗</a></h2>
+          <p>Mientras decidís si consultar a un profesional, podés aprovechar para chatear con una AI (LLM) y explorar conceptos, patrones de conducta, fenómenos cognitivos, o simplemente poner en palabras lo que te pasa.</p>
+          <p>Algunas opciones para probar:</p>
+          <ul className="tests__list">
+            <li><a href="http://www.chatgpt.com">www.chatgpt.com</a></li>
+            <li><a href="http://gemini.google.com">gemini.google.com</a></li>
+            <li><a href="http://www.grok.com">www.grok.com</a></li>
+            <li><a href="http://www.claude.ai">www.claude.ai</a></li>
+          </ul>
+          <p>Podés copiar y pegar este prompt —o escribir el tuyo, claro— para iniciar la charla:</p>
+          <p><strong>Prompt para LLM (modo explorador de perfil ACI real vs imaginado):</strong></p>
+          <blockquote>
+            <p>Quiero que me hagas preguntas para ayudarte a estimar si podría tener Altas Capacidades Intelectuales (ACI), o no.</p>
+            <p>Tu tarea no es diagnosticar ni validar. Es explorar con preguntas bien pensadas para detectar si hay patrones de funcionamiento mental, emocional o social compatibles con ACI.</p>
+            <p>No des definiciones. No expliques nada a menos que yo lo pida.</p>
+            <p>Empezá con una sola pregunta. Después, adaptá la siguiente según mi respuesta.</p>
+            <p>Tus preguntas deben explorar:</p>
+            <ul>
+              <li>Capacidad abstracta real (no solo vocabulario elegante)</li>
+              <li>Curiosidad genuina vs autoafirmación intelectual</li>
+              <li>Manejo de la complejidad, la ambigüedad y el error</li>
+              <li>Coherencia entre lo que digo que soy y lo que he demostrado en mi vida</li>
+              <li>Ejemplos concretos que respalden mis autopercepciones</li>
+            </ul>
+            <p>Si la respuesta es vaga, superficial o grandilocuente, pedí ejemplos. Si hay contradicciones, señalalas con tacto pero sin suavizar.</p>
+            <p>Al final, ofrecé dos opciones realistas:</p>
+            <ul>
+              <li>"Hay elementos que podrían justificar una evaluación profesional, si te interesa explorar más allá de la intuición."</li>
+              <li>"Podés ser una persona reflexiva, intensa o sensible sin que eso implique necesariamente ACI. Igual vale la pena conocerte mejor."</li>
+            </ul>
+          </blockquote>
         </section>
 
         <section className="tests__section">
