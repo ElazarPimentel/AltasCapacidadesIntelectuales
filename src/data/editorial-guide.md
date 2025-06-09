@@ -22,19 +22,19 @@ Establecer un marco editorial claro, coherente y emocionalmente honesto. El siti
 
 #### ACI
 
-* ✅ “Es ACI” / “Tiene un perfil ACI”
-* ❌ “Tiene ACI” (implica condición médica)
-* ✅ “Funcionamiento cognitivo inusualmente potente”
-* ✅ “Alta capacidad”
-* ❌ “Superdotado” (salvo en citas o contexto histórico)
+* ✅ "Es ACI" / "Tiene un perfil ACI"
+* ❌ "Tiene ACI" (implica condición médica)
+* ✅ "Funcionamiento cognitivo inusualmente potente"
+* ✅ "Alta capacidad"
+* ❌ "Superdotado" (salvo en citas o contexto histórico)
 
 #### Evaluación
 
-* ✅ “Evaluación psicodiagnóstica integral”
-* ✅ “Evaluación especializada”
-* ❌ “Diagnóstico” sin aclaración
+* ✅ "Evaluación psicodiagnóstica integral"
+* ✅ "Evaluación especializada"
+* ❌ "Diagnóstico" sin aclaración
 
-> *Nota: “Diagnóstico” no implica una enfermedad. Remite a una evaluación integral —cognitiva, emocional y funcional— realizada por profesionales especializados.*
+> *Nota: "Diagnóstico" no implica una enfermedad. Remite a una evaluación integral —cognitiva, emocional y funcional— realizada por profesionales especializados.*
 
 #### Doble Excepcionalidad
 
@@ -42,9 +42,9 @@ Establecer un marco editorial claro, coherente y emocionalmente honesto. El siti
 
 #### Arquetipos
 
-* ✅ Usar “arquetipos experienciales” como marco orientativo, no como tipología rígida.
+* ✅ Usar "arquetipos experienciales" como marco orientativo, no como tipología rígida.
 * ✅ Dejar claro que no son categorías clínicas ni científicas.
-* ❌ Usar términos con carga negativa (“fracaso”, “inadaptado”, etc.)
+* ❌ Usar términos con carga negativa ("fracaso", "inadaptado", etc.)
 
 ---
 
@@ -85,7 +85,7 @@ Establecer un marco editorial claro, coherente y emocionalmente honesto. El siti
 * ✅ Incluir hipótesis alternativas sin deslegitimar al lector.
 * ✅ Aclarar que no todos los problemas vitales provienen de ser ACI.
 * ✅ Recordar que muchas personas brillantes no son ACI —y eso también está bien.
-* ❌ Nunca sugerir que “ser ACI” otorga más valor.
+* ❌ Nunca sugerir que "ser ACI" otorga más valor.
 
 ---
 
@@ -102,13 +102,26 @@ Establecer un marco editorial claro, coherente y emocionalmente honesto. El siti
 ### Aplicación Técnica
 
 * El contenido debe ser usable, legible y estructurado para Next.js y React 19.
-* Deben respetarse los estilos definidos en `globals.scss` (`.home__section`, `.content-section`, etc.).
+* Deben respetarse los estilos unificados definidos en `globals.scss`:
+  * `.content-section` - Para todas las secciones de contenido
+  * `.content-list` - Para listas dentro de secciones
+  * `.content-quote` - Para citas y blockquotes
 * Toda sección debe poder ser renderizada por el componente `LayoutWrapper` sin romper diseño.
 * Toda sección con links externos debe abrir en `_blank`.
+* Se prohíbe el uso de estilos inline - todo estilo visual debe estar en `globals.scss`.
+
+---
+
+### Estructura de Componentes
+
+* `Header` - Muestra "Altas Capacidades" a la izquierda y toggle a la derecha
+* `ThemeToggle` - Botón para alternar modo oscuro/claro
+* Navegación - Links con Home a la izquierda y Profesionales a la derecha
+* Se usa kebab-case como convención de nomenclatura CSS (ejemplo: `header-nav`, `theme-toggle`)
 
 ---
 
 ### Firma y Aplicación
 
 * Esta guía aplica a **todo el contenido del sitio**: textos, títulos, prompts, formularios, base de datos pública y metadatos.
-* Fecha de más reciente actualización: 2025-06-09 01:10.
+* Fecha de más reciente actualización: 2024-06-15 14:30.

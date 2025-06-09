@@ -5,22 +5,11 @@ export default function Home() {
   return (
     <main className="main-content">
       <div className="container">
-
-        
-        
-          <h1>Altas Capacidades Intelectuales (ACI) en Adultos</h1>
-        
+        <h1>Altas Capacidades Intelectuales (ACI) en Adultos</h1>
         
         <section className="content-section">
-          <h2>¿Esto te suena?</h2>
           <p>
-            ¿Te pasa que aprendés solo con mirar? ¿Que sentís que pensás demasiado, incluso cuando no querés? ¿Que te aburrís rápido de todo lo que no implique desafío?
-          </p>
-          <p>
-            Tal vez no seas solo curioso. Tal vez no seas "difícil". Tal vez seas ACI... y no lo sabías.
-          </p>
-          <p>
-            Seguí leyendo. No para autodiagnosticarte, sino para pensar mejor tu rareza.
+            Si sentís que tu mente va a otra velocidad, conectás ideas en formas que otros no ven, o el mundo parece ir más lento, esta página es para pensarte. No para decirte quién sos, sino para darte palabras que ordenen lo que quizás sospechás.
           </p>
           <blockquote className="content-quote">
             "Sí, es cierto que a veces las personas inusualmente inteligentes y perceptivas pueden parecer tontas. Pero las personas tontas también pueden parecer tontas. Es algo que tal vez deberíamos considerar."
@@ -30,137 +19,122 @@ export default function Home() {
         </section>
 
         <section className="content-section">
-          <h2>¿Qué es ACI en adultos?</h2>
-          <ul className="content-list">
-            <li>Es una configuración mental inusualmente potente.</li>
-            <li>Aprendés rápido, conectás ideas, detectás patrones incluso en temas nuevos.</li>
-            <li>Generalmente se manifiesta con razonamiento abstracto veloz y aprendizaje autónomo.</li>
-            <li>No es ser "el mejor", ni tener talentos espectaculares.</li>
-          </ul>
-        </section>
-
-        <section className="content-section">
-          <h2>¿Podría ser mi caso?</h2>
-          <ul className="content-list">
-            <li>¿Aprendés sin repetir?</li>
-            <li>¿Te aburrís con lo simple?</li>
-            <li>¿Conectás ideas entre áreas sin esfuerzo?</li>
-            <li>¿Sentís que tu mente corre en otra frecuencia?</li>
-            <li>Si te digo "todos los gatos son negros. Vi un gato, ¿de qué color es el gato que vi?" si te vino a la mente "negro", es un indicador de ACI. Si te vino a la mente cualquier otra cosa, no.</li>
-          </ul>
+          <h2>¿Qué son las Altas Capacidades Intelectuales?</h2>
           <p>
-            <strong>No es un diagnóstico</strong>, pero si esto te resuena, vale la pena explorar.
+            Las ACI no son un número en un test de CI. Son una forma de procesar el mundo: rápida, profunda, a veces abrumadora. Implican aprender sin repetir, captar patrones en lo desconocido y manejar ideas complejas con facilidad. Pero también traen asincronía: tu mente puede ir más rápido que tus emociones o vínculos, y eso no siempre es sencillo.
+          </p>
+          <p>
+            Algunas personas con ACI también presentan TDAH o TEA, lo que complejiza su experiencia (<a href="/tests">ver más en Tests</a>).
+          </p>
+          <p>
+            No se trata de ser "mejor" ni destacar en todo. Muchos adultos con ACI pasaron desapercibidos en la escuela, confundidos con vagos o distraídos. Otros se camuflaron para encajar, ocultando una intensidad sin nombre. Si esto resuena, explorá <a href="/arquetipos">cómo otros han vivido esta diferencia</a>.
           </p>
         </section>
 
         <section className="content-section">
-          <h2>ACI ≠ Éxito académico</h2>
-          <ul className="content-list">
-            <li>Muchos ACI no se destacaron en la escuela.</li>
-            <li>Fueron confundidos con vagos, TDAH, desinteresados.</li>
-            <li>La asincronía entre mente y entorno lo complica todo.</li>
-          </ul>
-          <p>(Los vagos también parecen vagos, no solo los ACI)</p>
+          <h2>La definición formal de ACI</h2>
+          <p>
+            Las Altas Capacidades Intelectuales se definen por una aptitud sobresaliente para razonar y aprender, o un desempeño documentado en el 10% superior en uno o más dominios, lo que refleja un potencial significativo a desarrollar más allá de un alto CI. No se trata solo de habilidades académicas, sino de una forma de aprender y procesar información fundamentalmente diferente y avanzada, como lo explica el <a href="https://nagc.org/page/what-is-giftedness" target="_blank" rel="noopener noreferrer">National Association for Gifted Children (NAGC)</a>.
+          </p>
+          <p>
+            Las características comunes incluyen una inteligencia que permite el rápido procesamiento de información, la abstracción y la resolución de problemas complejos; creatividad con pensamiento flexible y soluciones originales; y rasgos de personalidad como perfeccionismo, autoexigencia, sensibilidad emocional y un fuerte sentido de la justicia.
+          </p>
         </section>
 
         <section className="content-section">
-          <h2>ACI ≠ Éxito social ni familiar</h2>
-          <p>Tener una mente brillante no garantiza relaciones sanas, vínculos duraderos ni sentido de pertenencia. De hecho, muchas personas ACI atraviesan enormes dificultades en el plano afectivo: les cuesta conectar, confiar, adaptarse a la lógica emocional de su entorno o incluso sentirse comprendidas.</p>
-          <p>La asincronía entre su desarrollo cognitivo y su madurez emocional puede generar desajustes profundos. A veces tienen reacciones intensas, expectativas altísimas o un sentido de justicia tan agudo que lastima más que ayuda. Esto no es falta de empatía: es una arquitectura distinta, que necesita ser comprendida y acompañada.</p>
-          <p>Ser ACI no es una ventaja universal. Es una diferencia. Y como toda diferencia, puede aislar si no se la integra. Nadie construye vínculos profundos solo con razonamiento. También hay que aprender a estar, a fallar, a escuchar, a sostener lo que no se entiende.</p>
+          <h2>¿Cómo sé si podría tener ACI?</h2>
+          <p>No podés autodiagnosticarte, pero hay señales que orientan:</p>
+          <ul className="content-list">
+            <li>Aprendés conceptos nuevos sin esfuerzo, especialmente si te atrapan.</li>
+            <li>Tu mente salta entre ideas, uniendo disciplinas que parecen lejanas.</li>
+            <li>Vivís emociones con una intensidad que te desborda, para bien o para mal.</li>
+            <li>Lo rutinario te aburre y buscás desafíos complejos sin darte cuenta.</li>
+          </ul>
+          <p>
+            Si esto te resulta familiar, una <a href="/tests">evaluación psicodiagnóstica integral</a> puede aclarar tu perfil cognitivo y emocional. No se trata de validarte, sino de conocerte sin autoengaño.
+          </p>
         </section>
 
         <section className="content-section">
-          <h2>Diferencias con TDAH / TEA / personalidad intensa</h2>
-          <h3>ACI</h3>
+          <h2>ACI no es sinónimo de éxito</h2>
+          <p>
+            Tener ACI no garantiza buenas notas, un trabajo soñado ni relaciones perfectas. La asincronía entre tu mente y tu entorno puede generar frustración, aislamiento o malentendidos. Muchos adultos con ACI enfrentan:
+          </p>
           <ul className="content-list">
-            <li>Aprendizaje profundo y veloz.</li>
-            <li>Conexión de ideas entre disciplinas.</li>
-            <li>Abstracción espontánea incluso en lo no entrenado.</li>
+            <li><strong>Baja autoestima</strong> por sentirse "rotos" o fuera de lugar.</li>
+            <li><strong>Insatisfacción laboral</strong> en roles que no desafían su mente.</li>
+            <li><strong>Dificultades sociales</strong> por una intensidad que otros no comprenden.</li>
           </ul>
-          <h3>TDAH</h3>
-          <ul className="content-list">
-            <li>Impulsividad, dificultad para sostener atención.</li>
-            <li>Saltos por distracción, no por conexión.</li>
-          </ul>
-          <h3>TEA</h3>
-          <ul className="content-list">
-            <li>Intereses específicos, rutinas.</li>
-            <li>Dificultades sociales persistentes.</li>
-          </ul>
-          <h3>Intensidad emocional</h3>
-          <ul className="content-list">
-            <li>Creatividad, sensibilidad, pero sin procesamiento cognitivo inusual.</li>
-          </ul>
-          <p><i>Nota: Podés ser ACI y tener TDAH o TEA. Eso se llama doble excepcionalidad.</i></p>
-          <p>(También podés ser impulsivo, no esforzarte en prestar atención, y sentir que no encajás sin ser ACI.)</p>
+          <p>
+            Esto no es un defecto. Es parte de la neurodivergencia. Con el <a href="/profesionales">acompañamiento adecuado</a>, podés integrar estas diferencias.
+          </p>
         </section>
 
         <section className="content-section">
-          <h2>¿Y si no sos ACI?</h2>
-          <p>Está perfecto. Sentirse diferente es humano, no exclusivo de una condición.</p>
+          <h2>¿Y si no soy ACI?</h2>
+          <p>
+            Sentirse diferente es humano. Podés ser creativo o sensible por otras razones, como <a href="/arquetipos#b-persona-no-aci-con-vida-dificil">experiencias vitales descritas en Arquetipos</a>. La clave es entender cómo funciona tu mente, no encajar en una etiqueta. Explorá <a href="/arquetipos#c-persona-no-aci-con-alto-desempeno">otras formas de vivir tu singularidad</a>.
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2>¿Y si no tenés ACI, pero igual sos brillante?</h2>
+          <p>
+            Hay personas que piensan bien, trabajan con profundidad, resuelven problemas difíciles, tienen vidas ricas y conversaciones complejas… y no tienen ACI. No porque "les falte algo", sino porque su manera de pensar, aunque destacada, no se sale de lo esperable para su entorno y formación.
+          </p>
+          <p>
+            Tienen foco, disciplina, inteligencia práctica. Tal vez hablan varios idiomas, lideran proyectos, o tienen un pensamiento estratégico envidiable. Suelen ser reconocidos y valorados por eso. Pero cuando se aburren o se sienten vacíos, pueden empezar a preguntarse: "¿y si soy un genio no descubierto?"
+          </p>
+          <p>
+            La respuesta puede ser más simple: sos una persona capaz, sensible y pensante. Pero tu estructura cognitiva no es inusualmente distinta. Y eso está bien. No necesitás ser ACI para tener una vida rica. Ni para sentir cosas profundas. Ni para atravesar crisis.
+          </p>
+          <p>
+            Si te identificás con esto, explorá el <a href="/arquetipos#c-persona-no-aci-con-alto-desempeno">arquetipo-c</a>, donde hablamos de personas sin ACI que igual logran cosas complejas, relevantes y profundamente humanas.
+          </p>
           <ul className="content-list">
-            <li>Podés tener intereses raros, ser creativo o sensible... y no ser ACI.</li>
-            <li>Podés aburrirte o sentirte complejo... y no ser ACI.</li>
+            <li>CI menor a 115–120. No es lo único que importa, pero sí un umbral orientativo.</li>
+            <li>Ausencia de pensamiento abstracto espontáneo.</li>
+            <li>Procesamiento lineal, secuencial y rígido.</li>
+            <li>Rechazo al aprendizaje complejo, ambiguo o inacabado.</li>
+            <li>Principios propios sin base argumentativa sólida.</li>
+            <li>Sin asincronía entre razonamiento, emoción y vínculo social.</li>
           </ul>
-          <p>Muchas personas valiosas no tienen una arquitectura cognitiva inusual. Y eso también está bien.</p>
+          <p>
+            Estas características no invalidan a nadie. Simplemente indican otra forma de pensar. Una forma igualmente valiosa, solo que distinta.
+          </p>
         </section>
 
         <section className="content-section">
-          <h2>¿Quién NO es ACI?</h2>
+          <h2>Mitos que hay que romper</h2>
           <ul className="content-list">
-            <li>Quien simula una pose de incomprendido o desinterés.</li>
-            <li>Quien brilla en una disciplina sin pensamiento abstracto generalizado.</li>
-            <li>Quien siente mucho, pero no razona fuera de lo que razona el promedio de la gente.</li>
+            <li><strong>"Si no fui un niño prodigio, no soy ACI."</strong> Falso. Muchos ACI no destacaron en la infancia.</li>
+            <li><strong>"Ser ACI significa tener éxito."</strong> No. La alta capacidad no asegura logros, y el éxito no implica ACI.</li>
+            <li><strong>"Solo los genios son ACI."</strong> Las ACI son diversas: incluyen talentos específicos, no solo superdotación global.</li>
+            <li><strong>"Las ACI se detectan siempre en la infancia."</strong> No. Muchísimas personas no fueron identificadas de niñas.</li>
           </ul>
+          <p>
+            Conocé más sobre <a href="/historia">cómo se entendieron (o ignoraron) las ACI a lo largo del tiempo</a>.
+          </p>
         </section>
 
         <section className="content-section">
-          <h2>Entonces, ¿qué sí define a un ACI?</h2>
-          <blockquote className="content-quote">
-            Una forma de procesar información compleja, espontánea, rápida y profunda. Aun sin entrenamiento. Aun en dominios nuevos. Y de manera consistente.
-          </blockquote>
-          <p>No es lo que sabés. Es cómo entendés.</p>
-        </section>
-
-        <section className="content-section">
-          <h2>Mitos y verdades sobre ACI</h2>
-          <ul className="content-list">
-            <li>ACI no te garantiza éxito, carisma ni productividad.</li>
-            <li>Muchos ACI pasan desapercibidos.</li>
-            <li>Muchos exitosos no son ACI.</li>
-            <li>No necesitás haber sido niño prodigio.</li>
-            <li>No todo te va a resultar fácil: la sobreexigencia, la ansiedad o la fatiga social también son parte del combo.</li>
-          </ul>
-        </section>
-
-        <section className="content-section">
-          <h2>¿Qué hacer si sos ACI?</h2>
-          <p>No es obligatorio hacer algo, pero podrías:</p>
+          <h2>¿Qué hacer si sospechás que sos ACI?</h2>
+          <p>No tenés que hacer nada. Pero si querés, podés:</p>
           <ol className="content-list">
-            <li>Revisar si tomaste decisiones creyendo que "no dabas la talla".</li>
-            <li>Reencuadrar frustraciones pasadas: quizás no era falta de voluntad, sino falta de estímulo.</li>
-            <li>Explorar caminos que habías descartado sin probar.</li>
+            <li>Reflexionar sobre tu historia: ¿te sentiste limitado por un entorno que no te entendía?</li>
+            <li>Buscar un <a href="/profesionales">profesional especializado</a> para una evaluación que te dé claridad.</li>
+            <li>Explorar actividades como lógica, sistemas o proyectos creativos.</li>
           </ol>
-          <blockquote className="content-quote">
-            Tener ACI es como tener una voz hermosa. No te obliga a cantar, pero tal vez quieras hacerlo.
-          </blockquote>
+          <p>
+            Ser ACI es como tener un instrumento único: no te obliga a tocarlo, pero saber que lo tenés puede cambiar cómo ves tu vida.
+          </p>
         </section>
 
         <section className="content-section">
-          <h2>¿Qué tiene sentido probar?</h2>
-          <p>Actividades con <strong>complejidad + autonomía</strong>:</p>
-          <ul className="content-list">
-            <li>Filosofía, lógica, programación, estrategias.</li>
-            <li>Lenguajes, matemática, teoría, sistemas.</li>
-            <li>Modelos mentales, ajedrez, estructuras abstractas.</li>
-          </ul>
-          <p>No para demostrar nada. Para ver si ahora, sabiendo esto, algo te empieza a cerrar.</p>
-        </section>
-
-        <section className="content-section">
-          <h2>Este sitio no es para niños, padres ni docentes</h2>
-          <p>No hay secciones para profesionales ni comunidad. Sólo vos, la sospecha, y el permiso para pensar distinto.</p>
+          <h2>Nota</h2>
+          <p>
+            Este sitio está pensado para adultos en búsqueda de autoconocimiento. Si buscás respuestas, estás en el lugar correcto. Seguí leyendo, pero no para encontrar certezas, sino para pensar con más claridad tu propia complejidad.
+          </p>
         </section>
       </div>
     </main>
