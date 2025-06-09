@@ -5,49 +5,104 @@ export default function Profesionales() {
   return (
     <main className="main-content">
       <div className="container">
-        <h1>Profesionales en Altas Capacidades</h1>
+        <h1>Profesionales Especializados en Altas Capacidades Intelectuales</h1>
 
         <section className="content-section">
-          <p>Encontrar un profesional realmente especializado en Altas Capacidades Intelectuales (ACI) en adultos puede requerir tiempo y paciencia. A veces, no hay especialistas disponibles: si decidís avanzar con alguien sin experiencia específica pero dispuesto a escuchar y aprender, también es válido. Lo importante es que entienda lo que estás buscando.</p>
-          <p>Idealmente, la persona debería estar familiarizada con conceptos como asincronía, intensidad emocional, pensamiento abstracto espontáneo y, si aplica, la doble excepcionalidad (ACI + TDAH, TEA u otras condiciones). Si no sabe de qué le estás hablando, probablemente no sea la persona adecuada.</p>
-          <p><strong>Este sitio no recomienda, avala ni garantiza profesionales.</strong> La información que se menciona está basada en fuentes públicas. Si tu nombre aparece en algún sitio vinculado y querés que se elimine, contactá directamente a ese sitio.</p>
-          <blockquote><em>Nota: "Diagnóstico" no implica una enfermedad. Remite a una evaluación integral —cognitiva, emocional y funcional— realizada por profesionales especializados.</em></blockquote>
-          <h2 id="por-donde-empezar">¿Por dónde empezar?&nbsp;<a href="#por-donde-empezar">🔗</a></h2>
-          <p>Podés buscar en motores como <a href="https://www.google.com" target="_blank">Google</a>, <a href="https://www.bing.com" target="_blank">Bing</a> o <a href="https://perplexity.ai" target="_blank">Perplexity</a>, usando términos como:</p>
-                      <ul className="content-list">
-            <li><code>psicólogo ACI adultos [tu ciudad]</code></li>
-            <li><code>evaluación psicodiagnóstica altas capacidades</code></li>
-            <li><code>neuropsicología ACI adultos</code></li>
-            <li><code>terapia doble excepcionalidad</code></li>
-          </ul>
-          <p>Algunos sitios públicos que ofrecen listados o recursos útiles:</p>
-          <ul className="content-list">
-            <li><a href="https://www.soysuperdotadoweb.com" target="_blank">Soy Superdotado</a> – Talleres y cursos para adultos ACI.</li>
-            <li><a href="https://www.latentoac.com" target="_blank">Latento ACI</a> – Evaluaciones en CABA.</li>
-            <li><a href="https://revista.elarcondeclio.com.ar/la-asociacion-civil-altas-capacidades-argentina/" target="_blank">AACArg – Asociación Altas Capacidades Argentina</a> – Listados, formación y actividades federales.</li>
-            <li><a href="http://www.creaidea.com.ar" target="_blank">CREAIDEA</a> – Red de profesionales en CABA.</li>
-            <li><a href="http://www.fetc.com.ar" target="_blank">Fundación FETC</a> – Evaluación y acompañamiento en CABA.</li>
-          </ul>
-          <p><strong>Mensa Argentina</strong>: ofrece tests de CI y actividades para personas con CI alto. No brindan evaluaciones psicodiagnósticas integrales ni acompañamiento terapéutico. Podés buscarlos como "test Mensa Argentina".</p>
-          <blockquote><em>Incluso si no tenés un perfil ACI claro, un buen profesional puede ayudarte a entender tu funcionamiento y tomar decisiones más informadas.</em></blockquote>
+          <p>
+            Encontrar un profesional que entienda las Altas Capacidades Intelectuales (ACI) en adultos es clave si querés explorar tu perfil cognitivo o emocional. Esta sección te orienta para elegir bien, entender qué esperar y evitar diagnósticos genéricos que te dejen igual que antes.
+          </p>
         </section>
 
         <section className="content-section">
-          <h2 id="instituciones">Instituciones&nbsp;<a href="#instituciones">🔗</a></h2>
-          <p>En Argentina hay organizaciones, fundaciones e instituciones que trabajan activamente con perfiles ACI. Algunas ofrecen evaluación, otras información, talleres o formación. Aunque muchas se enfocan en infancias, algunas también orientan a adultos o conectan con especialistas.</p>
-          <h3>Algunas instituciones para explorar:</h3>
-          <ul className="content-list">
-            <li><strong><a href="http://altascapacidadesarg.wixsite.com" target="_blank">AACArg – Asociación Altas Capacidades Argentina</a></strong><br />ONG nacional con foco en capacitación, difusión y políticas educativas.</li>
-            <li><strong><a href="https://www.soysuperdotadoweb.com" target="_blank">Soy Superdotado</a></strong><br />Plataforma con cursos y talleres para adultos ACI.</li>
-            <li><strong><a href="https://www.latentoac.com" target="_blank">Latento ACI</a></strong><br />Centro privado en CABA con evaluaciones cognitivas para todas las edades.</li>
-            <li><strong><a href="http://www.creaidea.com.ar" target="_blank">CREAIDEA</a></strong><br />Asociación enfocada en inclusión educativa y redes profesionales.</li>
-            <li><strong><a href="http://www.fetc.com.ar" target="_blank">Fundación FETC</a></strong><br />Institución especializada en detección y desarrollo de ACI.</li>
-            <li><strong><a href="https://www.psyche.unc.edu.ar/neuropsicologia/" target="_blank">Universidad Nacional de Córdoba (UNC)</a></strong><br />Detección gratuita vía su servicio de Neuropsicología.</li>
-            <li><strong><a href="https://educacion.jujuy.gob.ar/programa-sae/" target="_blank">Ministerio de Educación de Jujuy – Programa SAE</a></strong><br />Detección gratuita para estudiantes, con derivación y orientación.</li>
-            <li><strong><a href="http://www.mensa.org.ar/" target="_blank">Mensa Argentina</a></strong><br />Comunidad de personas con CI elevado. Ofrecen tests de admisión, no evaluaciones clínicas.</li>
-          </ul>
-          <blockquote><em>Estos enlaces llevan a sitios externos. El sitio ACI no garantiza la calidad de sus servicios.</em></blockquote>
+          <h2 id="por-que-especializado">Por qué un profesional especializado&nbsp;<a href="#por-que-especializado">🔗</a></h2>
+          <p>
+            Las ACI no son parte del entrenamiento clínico estándar. Muchos psicólogos no están formados en neurodivergencia ni en cómo se manifiestan las ACI en adultos: asincronía, intensidad emocional, camuflaje, doble excepcionalidad (ACI con TDAH, TEA, etc.).
+          </p>
+          <p>
+            Un profesional no especializado puede minimizar lo que sentís o confundirlo con otro cuadro. Uno formado en ACI sabe detectar patrones, validar tu experiencia sin exagerarla y ayudarte a ponerle palabras a lo que quizás viviste en silencio.
+          </p>
+          <p>
+            <a href="/arquetipos">¿Cómo se vive esa diferencia? Mirá los arquetipos</a>
+          </p>
         </section>
+
+        <section className="content-section">
+          <h2 id="que-buscar">Qué buscar en un profesional&nbsp;<a href="#que-buscar">🔗</a></h2>
+          <p>
+            Estas son buenas señales:
+          </p>
+          <ul className="content-list">
+            <li><strong>Formación específica</strong> en neurodivergencia, ACI o evaluación psicodiagnóstica.</li>
+            <li><strong>Experiencia con adultos</strong>: muchos solo trabajan con niños.</li>
+            <li><strong>Enfoque integral</strong>: entrevistas clínicas + pruebas + contexto vital.</li>
+            <li><strong>Lenguaje claro y sin reduccionismos</strong>: te escucha más de lo que encasilla.</li>
+          </ul>
+          <p>
+            Organizaciones como AACArg o Mensa pueden servir como punto de partida. También podés consultar la <a href="#lista-de-profesionales">lista de profesionales</a>.
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="que-esperar">Qué esperar de una evaluación&nbsp;<a href="#que-esperar">🔗</a></h2>
+          <p>
+            No es un test de CI y listo. Es un proceso que incluye:
+          </p>
+          <ul className="content-list">
+            <li><strong>Entrevistas clínicas</strong> para conocer tu historia y estilo de pensamiento.</li>
+            <li><strong>Pruebas psicométricas</strong> como WAIS-IV.</li>
+            <li><strong>Análisis cualitativo</strong> de tu forma de aprender, conectar ideas o sentir.</li>
+            <li><strong>Informe final</strong> con hipótesis diagnóstica, recomendaciones y opciones de acción.</li>
+          </ul>
+          <p>
+            Este recorrido no busca definirte. Busca afinar tu brújula.
+          </p>
+          <p>
+            <a href="/tests#la-verdadera-evaluacion-es-un-proceso">Conocé el proceso completo en Tests</a>
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="lista-de-profesionales">Lista de profesionales (placeholder)&nbsp;<a href="#lista-de-profesionales">🔗</a></h2>
+          <p>
+            <em>(Esta sección debe completarse con especialistas reales)</em>
+          </p>
+          <ul className="content-list">
+            <li><strong>Lic. Ana Pérez</strong> – Neuropsicóloga, Buenos Aires. Especialista en ACI y doble excepcionalidad.</li>
+            <li><strong>Dr. Juan Gómez</strong> – Psicólogo, Córdoba. Evaluaciones integrales para adultos.</li>
+            <li><strong>Lic. María López</strong> – Psicopedagoga, Mendoza. Orientación en trayectorias educativas y ACI.</li>
+          </ul>
+          <p>
+            Para más opciones, revisá <a href="/tests#el-profesional-adecuado-importa">Tests</a> o contactá asociaciones locales.
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="sin-acceso">Si no tenés acceso inmediato&nbsp;<a href="#sin-acceso">🔗</a></h2>
+          <p>
+            Si no podés acceder a un especialista (por distancia, costo o tiempo), podés:
+          </p>
+          <ul className="content-list">
+            <li>Buscar comunidades online donde se compartan experiencias reales.</li>
+            <li>Leer libros o artículos de calidad sobre ACI y neurodivergencia.</li>
+            <li>Usar una IA para poner en palabras lo que sentís (<a href="/tests#charlar-con-una-ia-mientras-decidis">ver prompt en Tests</a>).</li>
+          </ul>
+          <p>
+            No reemplazan una evaluación profesional, pero pueden ayudarte a empezar.
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="por-que-importa">Por qué importa&nbsp;<a href="#por-que-importa">🔗</a></h2>
+          <p>
+            Un diagnóstico no es una etiqueta: es una llave. El profesional adecuado puede ayudarte a entender tu mente sin distorsionarla, y acompañarte a integrarla en tu vida.
+          </p>
+          <p>
+            <a href="/historia">¿Querés entender cómo llegamos hasta acá? Mirá Historia</a>
+            <br/>
+            <a href="/legislacion">¿Querés saber qué derechos tenés? Leé Legislación</a>
+          </p>
+        </section>
+
       </div>
     </main>
   );

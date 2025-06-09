@@ -1,5 +1,5 @@
 // src/app/tests/page.tsx
-// tests
+// Tests
 
 "use client";
 
@@ -7,81 +7,99 @@ export default function Tests() {
   return (
     <main className="main-content">
       <div className="container">
-        <h1>Tests y Evaluación de Altas Capacidades</h1>
-        
+        <h1>Tests y Evaluación de Altas Capacidades Intelectuales</h1>
+
         <section className="content-section">
-          <h2 id="tu-sospecha-es-valida">Tu sospecha es válida&nbsp;<a href="#tu-sospecha-es-valida">🔗</a></h2>
-          <p>Si sospechás que podrías tener Altas Capacidades, esa sospecha ya es una señal válida. No porque cualquier duda confirme el diagnóstico, sino porque muy pocas personas se hacen esta pregunta sin motivo.</p>
-          <p>Podés sospechar que sos ACI y no querer comprobarlo. Está bien. Pero si en algún momento querés decir "soy ACI" con fundamentos, la única manera legítima de afirmarlo es a través de una evaluación psicodiagnóstica integral con experiencia en adultos.<sup>1</sup></p>
+          <p>
+            Sospechar que podrías tener un perfil ACI es un primer paso válido. Esta sección explica cómo confirmar esa intuición de forma rigurosa, por qué los tests online no sirven y qué esperar de una evaluación profesional. No se trata de ponerte una etiqueta: se trata de entender cómo funciona tu mente.
+          </p>
         </section>
 
         <section className="content-section">
-          <h2 id="no-confies-en-los-tests-online">No confíes en los tests online&nbsp;<a href="#no-confies-en-los-tests-online">🔗</a></h2>
-          <p>Los tests gratuitos pueden entretener, pero no son confiables ni diagnósticos. Muchos están diseñados para darte autoestima, no información útil.</p>
+          <h2 id="tu-sospecha-es-legitima">Tu sospecha es legítima&nbsp;<a href="#tu-sospecha-es-legitima">🔗</a></h2>
+          <p>
+            Si te preguntás si podrías tener Altas Capacidades Intelectuales, esa duda ya merece atención. No porque sea una certeza, sino porque pocas personas se lo plantean sin un motivo. Puede que quieras confirmarlo o que prefieras dejarlo como hipótesis. Ambas opciones son válidas. Pero si buscás claridad, solo una <a href="/profesionales">evaluación profesional</a> te dará respuestas sólidas.
+          </p>
+          <p>
+            <a href="/arquetipos">¿Cómo viviste esa diferencia? Mirá los arquetipos</a>
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="los-tests-online-no-son-confiables">Los tests online no son confiables&nbsp;<a href="#los-tests-online-no-son-confiables">🔗</a></h2>
+          <p>
+            Los tests gratuitos en internet pueden ser divertidos, pero no son diagnósticos. Muchos están diseñados para halagar, no para medir. Confiar en ellos es como usar un termómetro roto para chequear fiebre. Si querés saber más sobre las ACI, evitá los atajos y explorá una <a href="#la-verdadera-evaluacion-es-un-proceso">evaluación psicodiagnóstica integral</a>.
+          </p>
+          <p>
+            <a href="/historia">Conocé por qué importa tener contexto en Historia</a>
+          </p>
         </section>
 
         <section className="content-section">
           <h2 id="la-verdadera-evaluacion-es-un-proceso">La verdadera evaluación es un proceso&nbsp;<a href="#la-verdadera-evaluacion-es-un-proceso">🔗</a></h2>
-          <p>Una evaluación psicodiagnóstica integral no se limita a un test de CI. Incluye entrevistas clínicas, historia de vida, pruebas psicométricas y observación del estilo cognitivo y emocional. Es una herramienta para entender cómo funciona tu mente, no un número para etiquetarte.</p>
+          <p>
+            Una evaluación para ACI no es solo un test de CI. Es un proceso integral que combina entrevistas clínicas, análisis de tu historia de vida, pruebas psicométricas (como WAIS-IV) y observación de tu estilo cognitivo y emocional. Busca entender cómo pensás, no solo qué tan "rápido" lo hacés. Este enfoque detecta patrones como razonamiento abstracto, creatividad o asincronía, incluso si no tuviste formación académica.
+          </p>
+          <p>
+            <a href="/profesionales">Buscá un profesional especializado para esto</a>
+          </p>
         </section>
 
         <section className="content-section">
           <h2 id="el-profesional-adecuado-importa">El profesional adecuado importa&nbsp;<a href="#el-profesional-adecuado-importa">🔗</a></h2>
-          <p>No alcanza con un psicólogo generalista. La evaluación de ACI en adultos requiere experiencia específica, sobre todo si hay sospecha de doble excepcionalidad (ACI + TDAH, TEA u otros perfiles atípicos). Un buen diagnóstico puede dar sentido a muchos años de confusión.</p>
-          <p>Si querés empezar a buscar, podés consultar asociaciones como AACArg o Mensa Argentina, o revisar nuestra <a href="/profesionales">sección de profesionales</a> con especialistas que trabajan con adultos.</p>
+          <p>
+            No cualquier psicólogo está preparado para evaluar ACI en adultos. Necesitás alguien con experiencia en neurodivergencia y, si aplica, en doble excepcionalidad (ACI junto a TDAH, TEA u otros perfiles). Un buen diagnóstico puede explicar años de confusión. Asociaciones como AACArg o Mensa Argentina, o nuestra sección de <a href="/profesionales">Profesionales</a>, son un buen punto de partida.
+          </p>
+          <p>
+            <a href="/arquetipos#c-persona-no-aci-con-alto-desempeno">Ver diferencias comunes en perfiles no ACI</a>
+          </p>
         </section>
 
         <section className="content-section">
-          <h2 id="el-objetivo-es-entenderte-no-validarte">El objetivo es entenderte, no validarte&nbsp;<a href="#el-objetivo-es-entenderte-no-validarte">🔗</a></h2>
-          <p>No necesitás una etiqueta para existir. Pero si querés dejar de dudar, entender tu recorrido o tomar decisiones más alineadas con cómo sos, una evaluación puede ser el primer paso para hacerlo con claridad y sin autoengaño.</p>
+          <h2 id="el-objetivo-es-entenderte">El objetivo es entenderte&nbsp;<a href="#el-objetivo-es-entenderte">🔗</a></h2>
+          <p>
+            Una evaluación no busca validarte ni darte un título. Es una herramienta para conocerte sin autoengaño, para alinear tus decisiones con cómo funciona tu mente. No necesitás una etiqueta para ser valioso, pero entender tu perfil puede cambiar cómo navegás tu vida.
+          </p>
+          <p>
+            <a href="/historia">Conocé más sobre la historia de las ACI</a>
+          </p>
         </section>
 
         <section className="content-section">
           <h2 id="sobre-los-tests-de-ci">Sobre los tests de CI&nbsp;<a href="#sobre-los-tests-de-ci">🔗</a></h2>
-          <p>Si rendiste un test y te dio un resultado promedio, pero muchos rasgos ACI te resuenan, preguntarte si el test fue justo es válido. Pero ojo: no siempre es que el test "falló". A veces es el deseo de encajar en la etiqueta lo que distorsiona la lectura.</p>
-          <p>Los tests modernos (como WAIS-IV o WISC) evalúan mucho más que lógica, matemática, ciencias, etc. Miden razonamiento verbal, espacial, memoria de trabajo, velocidad de procesamiento y más. Están diseñados para detectar potencial incluso en personas sin entrenamiento académico.</p>
-          <p>Estas pruebas pueden incluir tareas como identificar patrones en secuencias visuales, completar series lógicas, memorizar listas de palabras bajo presión de tiempo, o resolver problemas verbales con información ambigua.Juestamente las cosas que hacen a un ACI.</p>
+          <p>
+            Los tests modernos, como WAIS-IV, miden más que lógica o matemáticas. Evalúan razonamiento verbal, espacial, memoria de trabajo y velocidad de procesamiento. Si rendiste uno y el resultado fue promedio, pero las señales de ACI te resuenan, vale preguntarse si el contexto fue justo. Prepararte para un test no es trampa: es como entrenar para mostrar tu mejor versión.
+          </p>
+          <p>
+            <a href="/#sobre-los-tests-de-ci">Más sobre preparación, contexto y sesgos en Home</a>
+          </p>
         </section>
 
         <section className="content-section">
-          <h2 id="prepararse-para-el-test-si">¿Prepararse para el test? Sí.&nbsp;<a href="#prepararse-para-el-test-si">🔗</a></h2>
-          <p>Prepararte no es hacer trampa. Es como entrenar para una maratón: no cambia tu cuerpo, pero permite que lo muestres en su mejor versión. Si sos ACI, rendir sin preparación puede hacerte parecer alguien promedio. Rendir con preparación te acerca más a tu verdadero perfil.</p>
-        </section>
-
-        <section className="content-section">
-          <h2 id="un-experimento-imaginario">Un experimento imaginario&nbsp;<a href="#un-experimento-imaginario">🔗</a></h2>
-          <p>Imaginá tres personas que nunca jugaron al básquet. Una podría tener más talento, pero si solo les das una pelota el primer día, no vas a verlo. Medís ignorancia, no capacidad.</p>
-          <p>Lo mismo con los tests. Para revelar lo que hay, hace falta práctica, contexto y condiciones justas.</p>
+          <h2 id="un-experimento-mental">Un experimento mental&nbsp;<a href="#un-experimento-mental">🔗</a></h2>
+          <p>
+            Imaginá tres personas que nunca jugaron al básquet. Si las ponés a tirar al aro sin práctica, no vas a ver su talento: vas a medir su inexperiencia. Lo mismo pasa con los tests de ACI. Un buen diagnóstico crea las condiciones para que tu mente se muestre como es.
+          </p>
+          <p>
+            <a href="/#como-se-si-podria-tener-aci">¿Te identificás con esto? Leé más en la sección Home</a>
+          </p>
         </section>
 
         <section className="content-section">
           <h2 id="y-si-no-tenes-aci-pero-igual-sos-brillante">¿Y si no tenés ACI, pero igual sos brillante?&nbsp;<a href="#y-si-no-tenes-aci-pero-igual-sos-brillante">🔗</a></h2>
-          <p>Hay personas que piensan bien, trabajan con profundidad, resuelven problemas difíciles, tienen vidas ricas y conversaciones complejas… y no tienen ACI. No porque "les falte algo", sino porque su manera de pensar, aunque destacada, <strong>no se sale de lo esperable para su entorno y formación</strong>.</p>
-          <p>Tienen foco, disciplina, inteligencia práctica. Tal vez hablan varios idiomas, lideran proyectos, o tienen un pensamiento estratégico envidiable. Suelen ser reconocidos y valorados por eso. Pero cuando se aburren o se sienten vacíos, pueden empezar a preguntarse: "¿y si soy un genio no descubierto?"</p>
-          <p>La respuesta puede ser más simple: <strong>sos una persona capaz, sensible y pensante. Pero tu estructura cognitiva no es inusualmente distinta.</strong> Y eso está bien. No necesitás ser ACI para tener una vida rica. Ni para sentir cosas profundas. Ni para atravesar crisis.</p>
-          <p>Si te identificás con esto, explorá el <a href="/arquetipos#c-persona-no-aci-con-alto-desempeno" target="_blank">arquetipo-c</a>, donde hablamos de personas sin ACI que igual logran cosas complejas, relevantes y profundamente humanas.</p>
-          <ul className="content-list">
-            <li><strong>CI menor a 115–120.</strong> No es lo único que importa, pero sí un umbral orientativo.</li>
-            <li><strong>Ausencia de pensamiento abstracto espontáneo.</strong></li>
-            <li><strong>Procesamiento lineal, secuencial y rígido.</strong></li>
-            <li><strong>Rechazo al aprendizaje complejo, ambiguo o inacabado.</strong></li>
-            <li><strong>Principios propios sin base argumentativa sólida.</strong></li>
-            <li><strong>Sin asincronía entre razonamiento, emoción y vínculo social.</strong></li>
-          </ul>
-          <p>Estas características no invalidan a nadie. Simplemente indican otra forma de pensar. Una forma igualmente valiosa, solo que distinta.</p>
+          <p>
+            No todas las mentes brillantes tienen ACI. Podés pensar con profundidad, liderar proyectos o tener intereses complejos sin un perfil neurodivergente. Estas personas suelen destacar por disciplina, inteligencia práctica o creatividad, pero su procesamiento no es inusualmente abstracto o veloz. Y está perfecto: no necesitás ser ACI para vivir una vida rica.
+          </p>
+          <p>
+            <a href="/arquetipos#c-persona-no-aci-con-alto-desempeno">Ver más en Arquetipos</a>
+          </p>
         </section>
 
         <section className="content-section">
-          <h2 id="charla-con-ai-mientras-esperas">Charla con una AI (LLM) mientras esperás la cita con un profesional&nbsp;<a href="#charla-con-ai-mientras-esperas">🔗</a></h2>
-          <p>Mientras decidís si consultar a un profesional, podés aprovechar para chatear con una AI (LLM) y explorar conceptos, patrones de conducta, fenómenos cognitivos, o simplemente poner en palabras lo que te pasa.</p>
-          <p>Algunas opciones para probar:</p>
-          <ul className="content-list">
-            <li><a href="http://www.chatgpt.com" target="_blank">www.chatgpt.com</a></li>
-            <li><a href="http://gemini.google.com" target="_blank">gemini.google.com</a></li>
-            <li><a href="http://www.grok.com" target="_blank">www.grok.com</a></li>
-            <li><a href="http://www.claude.ai" target="_blank">www.claude.ai</a></li>
-          </ul>
-          <p>Podés copiar y pegar este prompt —o escribir el tuyo, claro— para iniciar la charla:</p>
+          <h2 id="charlar-con-una-ia">Charlar con una IA mientras decidís&nbsp;<a href="#charlar-con-una-ia">🔗</a></h2>
+          <p>
+            Mientras pensás si buscar un profesional, podés usar una IA (LLM) para explorar patrones cognitivos o poner en palabras lo que sentís. Sitios como <a href="http://www.grok.com" target="_blank" rel="noopener noreferrer">grok.com</a> o <a href="http://www.chatgpt.com" target="_blank" rel="noopener noreferrer">chatgpt.com</a> son útiles. Probá este prompt:
+          </p>
           <div className="prompt-block">
             <button 
               onClick={() => {
@@ -103,35 +121,45 @@ export default function Tests() {
             </button>
             <blockquote>
               <p>Quiero que me hagas preguntas para ayudarte a estimar si podría tener Altas Capacidades Intelectuales (ACI), o no.</p>
+
               <p>Tu tarea no es diagnosticar ni validar. Es explorar con preguntas bien pensadas para detectar si hay patrones de funcionamiento mental, emocional o social compatibles con ACI.</p>
+
               <p>No des definiciones. No expliques nada a menos que yo lo pida.</p>
+
               <p>Empezá con una sola pregunta. Después, adaptá la siguiente según mi respuesta.</p>
+
               <p>Tus preguntas deben explorar:</p>
+
               <ul>
-                <li>Capacidad abstracta real (no solo vocabulario elegante)</li>
-                <li>Curiosidad genuina vs autoafirmación intelectual</li>
-                <li>Manejo de la complejidad, la ambigüedad y el error</li>
-                <li>Coherencia entre lo que digo que soy y lo que he demostrado en mi vida</li>
-                <li>Ejemplos concretos que respalden mis autopercepciones</li>
+                  <li>Capacidad abstracta real (no solo vocabulario elegante)</li>
+                  <li>Curiosidad genuina vs autoafirmación intelectual</li>
+                  <li>Manejo de la complejidad, la ambigüedad y el error</li>
+                  <li>Coherencia entre lo que digo que soy y lo que he demostrado en mi vida</li>
+                  <li>Ejemplos concretos que respalden mis autopercepciones</li>
               </ul>
+
               <p>Si la respuesta es vaga, superficial o grandilocuente, pedí ejemplos. Si hay contradicciones, señalalas con tacto pero sin suavizar.</p>
+
               <p>Al final, ofrecé dos opciones realistas:</p>
+
               <ul>
-                <li>"Hay elementos que podrían justificar una evaluación profesional, si te interesa explorar más allá de la intuición."</li>
-                <li>"Podés ser una persona reflexiva, intensa o sensible sin que eso implique necesariamente ACI. Igual vale la pena conocerte mejor."</li>
+                  <li>"Hay elementos que podrían justificar una evaluación profesional, si te interesa explorar más allá de la intuición."</li>
+                  <li>"Podés ser una persona reflexiva, intensa o sensible sin que eso implique necesariamente ACI. Igual vale la pena conocerte mejor."</li>
               </ul>
             </blockquote>
           </div>
         </section>
 
         <section className="content-section">
-          <h2 id="y-si-no-puedo-hacer-una-evaluacion-profesional">¿Y si no puedo hacer una evaluación profesional?&nbsp;<a href="#y-si-no-puedo-hacer-una-evaluacion-profesional">🔗</a></h2>
-          <p>Muchas personas no pueden acceder a un diagnóstico por razones económicas, geográficas o personales. Eso no invalida tu sospecha ni tu búsqueda. Podés empezar por lecturas, comunidades online, o incluso un registro personal de patrones mentales, intereses y emociones. A veces, el simple acto de observarte con honestidad puede abrir caminos inesperados.</p>
+          <h2 id="si-no-podes-acceder">Si no podés acceder a una evaluación&nbsp;<a href="#si-no-podes-acceder">🔗</a></h2>
+          <p>
+            No todos tienen recursos económicos o geográficos para un diagnóstico profesional. Eso no invalida tu búsqueda. Podés empezar por lecturas, comunidades online o un registro personal de tus patrones mentales. Observarte con honestidad es un primer paso poderoso.
+          </p>
+          <p>
+            <strong>Nota</strong>: Una evaluación psicodiagnóstica integral incluye entrevistas, pruebas y análisis clínico para entender tu mente, no solo un número. <a href="/profesionales">Ver más en Profesionales</a>
+          </p>
         </section>
 
-        <footer>
-          <p><sup>1</sup> Evaluación psicodiagnóstica integral: un proceso completo que incluye entrevistas clínicas, historia de vida, pruebas psicométricas y observación del estilo cognitivo y emocional, con el objetivo de entender cómo funciona la mente de una persona, no un número para etiquetarla.</p>
-        </footer>
       </div>
     </main>
   );
