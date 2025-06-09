@@ -14,11 +14,12 @@ export default function Header() {
   return (
     <header className="header">
       <div className="container">
-        <div className="header__wrapper">
-          <div className="header__inner">
-            <Link href="/" className="header__logo">
-              Altas Capacidades
-            </Link>
+        <div className="header__top">
+          <Link href="/" className="header__logo">
+            Altas Capacidades
+          </Link>
+          <div className="header__controls">
+            <ThemeToggle />
             <button 
               className="header__toggle"
               onClick={toggleMenu}
@@ -29,47 +30,46 @@ export default function Header() {
               <span></span>
               <span></span>
             </button>
-            <ThemeToggle />
           </div>
-          <nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
-            <Link 
-              href="/" 
-              className={`nav-link ${pathname === '/' ? 'active' : ''}`}
-            >
-              Home
-            </Link>
-            <Link 
-              href="/arquetipos" 
-              className={`nav-link ${pathname === '/arquetipos' ? 'active' : ''}`}
-            >
-              Arquetipos
-            </Link>
-            <Link 
-              href="/historia" 
-              className={`nav-link ${pathname === '/historia' ? 'active' : ''}`}
-            >
-              Historia
-            </Link>
-            <Link 
-              href="/tests" 
-              className={`nav-link ${pathname === '/tests' ? 'active' : ''}`}
-            >
-              Tests
-            </Link>
-            <Link 
-              href="/legislacion" 
-              className={`nav-link ${pathname === '/legislacion' ? 'active' : ''}`}
-            >
-              Legislación
-            </Link>
-            <Link 
-              href="/profesionales" 
-              className={`nav-link ${pathname === '/profesionales' ? 'active' : ''}`}
-            >
-              Profesionales
-            </Link>
-          </nav>
         </div>
+        <nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`}>
+          <Link 
+            href="/" 
+            className={`nav-link ${pathname === '/' ? 'active' : ''}`}
+          >
+            Home
+          </Link>
+          <Link 
+            href="/arquetipos" 
+            className={`nav-link ${pathname === '/arquetipos' ? 'active' : ''}`}
+          >
+            Arquetipos
+          </Link>
+          <Link 
+            href="/historia" 
+            className={`nav-link ${pathname === '/historia' ? 'active' : ''}`}
+          >
+            Historia
+          </Link>
+          <Link 
+            href="/tests" 
+            className={`nav-link ${pathname === '/tests' ? 'active' : ''}`}
+          >
+            Tests
+          </Link>
+          <Link 
+            href="/legislacion" 
+            className={`nav-link ${pathname === '/legislacion' ? 'active' : ''}`}
+          >
+            Legislación
+          </Link>
+          <Link 
+            href="/profesionales" 
+            className={`nav-link ${pathname === '/profesionales' ? 'active' : ''}`}
+          >
+            Profesionales
+          </Link>
+        </nav>
       </div>
     </header>
   );

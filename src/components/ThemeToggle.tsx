@@ -25,7 +25,7 @@ export default function ThemeToggle() {
 
   return (
     <button
-      className="nav__theme-toggle"
+      className="theme-toggle"
       onClick={toggleDarkMode}
       aria-label="Alternar modo oscuro"
     >
