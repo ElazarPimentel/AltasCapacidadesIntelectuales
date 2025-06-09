@@ -390,58 +390,17 @@ a {
 }
 
 // Footer
-.footer {
+footer {
   background-color: var(--color-surface);
   padding: var(--spacing-xl) 0;
   margin-top: auto;
   border-top: 1px solid var(--color-border);
+  text-align: center;
   
-  &__content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: var(--spacing-xl);
-    margin-bottom: var(--spacing-xl);
-  }
-  
-  &__section {
-    h3 {
-      margin-bottom: var(--spacing-md);
-      color: var(--color-primary);
-    }
-  }
-  
-  &__list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  &__link {
-    display: block;
-    padding: var(--spacing-xs) 0;
-    color: var(--color-text);
-    
-    &:hover {
-      color: var(--color-primary);
-    }
-  }
-  
-  &__text {
-    color: var(--color-text-muted);
-  }
-  
-  &__bottom {
-    padding-top: var(--spacing-lg);
-    border-top: 1px solid var(--color-border);
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  &__copyright {
+  p {
     color: var(--color-text-muted);
     font-size: 0.9rem;
+    margin-bottom: var(--spacing-xs);
   }
 }
 
