@@ -28,7 +28,7 @@ export default function Legislacion() {
         <section className="content-section">
           <h2 id="ley-benjamin">La Ley Benjamín: un paso provincial clave&nbsp;<a href="#ley-benjamin">🔗</a></h2>
           <p>
-            En la provincia de Buenos Aires, el caso de Benjamín Equiza dio origen a un proyecto legislativo clave. La <i>Ley Benjamín</i> (en trámite al 2025) busca garantizar detección temprana y acompañamiento integral de estudiantes con ACI, desde nivel inicial hasta la secundaria. Sus pilares son:
+            En la provincia de Buenos Aires, el caso de Benjamín Equiza dio origen a un proyecto legislativo clave. Se llama <i>Ley Benjamín</i> (en trámite al 2025) busca garantizar detección temprana y acompañamiento integral de estudiantes con ACI, desde nivel inicial hasta la secundaria. Sus pilares son:
           </p>
           <ul className="content-list">
             <li><strong>Detección sistemática</strong>: Capacitación docente para reconocer señales de ACI.</li>
