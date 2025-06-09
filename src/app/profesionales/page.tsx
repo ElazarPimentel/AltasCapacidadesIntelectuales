@@ -2,6 +2,15 @@
 // profesionales
 
 import Link from 'next/link';
+import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
+
+export const metadata = generatePageMetadata({
+  title: 'Profesionales Especializados en Altas Capacidades',
+  description: 'Directorio de profesionales especializados en evaluación y acompañamiento de Altas Capacidades Intelectuales en Argentina. Guía para encontrar el profesional adecuado.',
+  path: '/profesionales',
+  keywords: ['profesionales ACI', 'psicólogos altas capacidades', 'evaluación ACI', 'directorio profesionales', 'Argentina'],
+  type: 'article',
+});
 
 export default function Profesionales() {
   return (

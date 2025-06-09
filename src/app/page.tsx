@@ -2,6 +2,14 @@
 // Home
 
 import Link from 'next/link';
+import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
+
+export const metadata = generatePageMetadata({
+  title: 'Altas Capacidades Intelectuales en Adultos',
+  description: 'Descubrí si podrías tener Altas Capacidades Intelectuales. Información especializada sobre ACI en adultos, evaluación, contexto histórico y recursos en Argentina.',
+  path: '/',
+  keywords: ['altas capacidades intelectuales', 'ACI', 'superdotación', 'adultos', 'Argentina', 'evaluación', 'test', 'neurodivergencia'],
+});
 
 export default function Home() {
   return (

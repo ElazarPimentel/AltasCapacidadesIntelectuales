@@ -1,6 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.scss";
 import LayoutWrapper from "@/components/LayoutWrapper";
+import { defaultMetadata } from "@/lib/metadata";
+import JsonLd, { websiteStructuredData, organizationStructuredData } from "@/components/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,6 +16,8 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
+export const metadata = defaultMetadata;
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -21,6 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <head>
+        <JsonLd data={websiteStructuredData} />
+        <JsonLd data={organizationStructuredData} />
+      </head>
       <body>
         <LayoutWrapper>
           {children}

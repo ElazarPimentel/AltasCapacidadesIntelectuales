@@ -2,6 +2,15 @@
 // Legislación
 
 import Link from 'next/link';
+import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
+
+export const metadata = generatePageMetadata({
+  title: 'Legislación sobre Altas Capacidades en Argentina',
+  description: 'Marco legal argentino sobre Altas Capacidades Intelectuales. Conocé la Ley Benjamín y los derechos de personas con ACI en el sistema educativo.',
+  path: '/legislacion',
+  keywords: ['legislación ACI', 'Ley Benjamín', 'derechos ACI', 'educación Argentina', 'marco legal altas capacidades'],
+  type: 'article',
+});
 
 export default function Legislacion() {
   return (

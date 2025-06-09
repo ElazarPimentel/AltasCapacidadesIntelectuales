@@ -4,12 +4,16 @@
 // Metadata moved to separate file for Fast Refresh compatibility
 // import { Metadata } from "next";
 
-// export const metadata: Metadata = {
-//   title: "Historia de las Altas Capacidades Intelectuales - ACI en Adultos",
-//   description: "Explora la historia universal y argentina de las Altas Capacidades Intelectuales, y conoce el caso de Benjamín Equiza y la lucha por el reconocimiento de derechos.",
-// };
-
 import Link from 'next/link';
+import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
+
+export const metadata = generatePageMetadata({
+  title: 'Historia de las Altas Capacidades Intelectuales',
+  description: 'Historia universal y argentina de las Altas Capacidades Intelectuales. Conocé el caso de Benjamín Equiza y la evolución del reconocimiento de las ACI.',
+  path: '/historia',
+  keywords: ['historia ACI', 'Benjamín Equiza', 'Ley Benjamín', 'historia altas capacidades', 'Argentina', 'reconocimiento'],
+  type: 'article',
+});
 
 export default function Historia() {
   return (

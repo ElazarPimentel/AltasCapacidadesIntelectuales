@@ -2,6 +2,15 @@
 // Arquetipos
 
 import Link from 'next/link';
+import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
+
+export const metadata = generatePageMetadata({
+  title: 'Arquetipos de Experiencias con Altas Capacidades',
+  description: 'Explorá diferentes arquetipos experienciales relacionados con las Altas Capacidades Intelectuales. Entendé cómo otros han vivido su diferencia cognitiva.',
+  path: '/arquetipos',
+  keywords: ['arquetipos', 'ACI', 'experiencias', 'perfiles cognitivos', 'neurodivergencia', 'altas capacidades'],
+  type: 'article',
+});
 
 export default function Arquetipos() {
   return (

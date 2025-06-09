@@ -1,0 +1,17 @@
+# *
+User-agent: *
+Allow: /
+
+# PerplexityBot
+User-agent: PerplexityBot
+Allow: /
+
+# GPTBot
+User-agent: GPTBot
+Allow: /
+
+# Host
+Host: https://altas-capacidades-intelectuales.vercel.app
+
+# Sitemaps
+Sitemap: https://altas-capacidades-intelectuales.vercel.app/sitemap.xml
