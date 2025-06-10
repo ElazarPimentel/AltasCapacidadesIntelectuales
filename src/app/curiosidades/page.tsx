@@ -1,13 +1,7 @@
-import { Metadata } from 'next'
 import { References } from '@/components/References'
+import { curiosidadesMetadata } from '@/lib/utils'
 
-export const metadata: Metadata = {
-  title: 'Curiosidades que estimulan tu mente | Altas Capacidades Intelectuales',
-  description: 'Descubre recursos, juegos y datos interesantes para mentes curiosas. Una colección de estímulos intelectuales para personas con altas capacidades.',
-  alternates: {
-    canonical: 'https://altascapacidades.info/curiosidades'
-  }
-}
+export const metadata = curiosidadesMetadata
 
 export default function CuriosidadesPage() {
   return (
@@ -90,7 +84,22 @@ export default function CuriosidadesPage() {
             <li>1 hora ≈ 1.08 mil millones de km</li>
             <li>1 día ≈ 25.9 mil millones de km</li>
           </ul>
-          <p>La ISS está a 408 km (1.4 segundos luz). El Sol: a 8.3 minutos luz. Neptuno: 4 horas luz. Voyager 1: más de 22 años luz.</p>
+          <p>La ISS está a 408 km (1.4 segundos luz). El Sol: a 8.3 minutos luz. Neptuno: 4 horas luz. Voyager 1: más de 22 años luz. Para más detalles sobre distancias planetarias, consulta la sección "Datos Planetarios" a continuación.</p>
+        </section>
+
+        <section className="content-section">
+          <h2>Datos Planetarios</h2>
+          <p>Distancias promedio al Sol y diámetros ecuatoriales de los planetas.</p>
+          <ul className="content-list">
+            <li><strong>Mercurio</strong>: 58M km (0.39 AU, ~3.2 min luz), Diámetro: 4,879 km</li>
+            <li><strong>Venus</strong>: 108M km (0.72 AU, ~6 min luz), Diámetro: 12,104 km</li>
+            <li><strong>Tierra</strong>: 150M km (1 AU, ~8.3 min luz), Diámetro: 12,742 km</li>
+            <li><strong>Marte</strong>: 228M km (1.52 AU, ~12.7 min luz), Diámetro: 6,792 km</li>
+            <li><strong>Júpiter</strong>: 778M km (5.20 AU, ~43.2 min luz), Diámetro: 139,820 km</li>
+            <li><strong>Saturno</strong>: 1,429M km (9.58 AU, ~79.3 min luz), Diámetro: 116,460 km</li>
+            <li><strong>Urano</strong>: 2,871M km (19.18 AU, ~159.6 min luz), Diámetro: 50,724 km</li>
+            <li><strong>Neptuno</strong>: 4,498M km (30.07 AU, ~4 hr luz), Diámetro: 49,244 km</li>
+          </ul>
         </section>
 
         <References>
