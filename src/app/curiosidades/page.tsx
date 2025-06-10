@@ -1,4 +1,3 @@
-import { References } from '@/components/References'
 import { curiosidadesMetadata } from '@/lib/utils'
 
 export const metadata = curiosidadesMetadata
@@ -221,11 +220,14 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <References>
-          <p id="ref-1">[1] Galileo Galilei. (1638). Diálogos sobre dos nuevas ciencias. Leiden: Elsevier.</p>
-          <p id="ref-2"><a href="https://www.oxfordreference.com/view/10.1093/oi/authority.20110803095458976" target="_blank" rel="noopener noreferrer">Berlin, I. (1953) - The Hedgehog and the Fox</a></p>
-          <p id="ref-3"><a href="https://www.maa.org/sites/default/files/pdf/devlin/LockhartsLament.pdf" target="_blank" rel="noopener noreferrer">Lockhart, P. (2002) - A Mathematician's Lament</a></p>
-        </References>
+        <section className="content-section">
+          <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
+          <ul className="content-list">
+            <li id="ref-1">[1] <a href="https://www.jstor.org/stable/galileo1638" target="_blank" rel="noopener noreferrer">Galileo Galilei. (1638). Diálogos sobre dos nuevas ciencias. Leiden: Elsevier.</a></li>
+            <li id="ref-2">[2] <a href="https://www.oxfordreference.com/view/10.1093/oi/authority.20110803095458976" target="_blank" rel="noopener noreferrer">Berlin, I. (1953) - The Hedgehog and the Fox</a></li>
+            <li id="ref-3">[3] <a href="https://www.maa.org/sites/default/files/pdf/devlin/LockhartsLament.pdf" target="_blank" rel="noopener noreferrer">Lockhart, P. (2002) - A Mathematician's Lament</a></li>
+          </ul>
+        </section>
       </div>
     </main>
   )
