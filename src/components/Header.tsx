@@ -16,7 +16,7 @@ export default function Header() {
       <div className="container">
         <div className="header__top">
           <Link href="/" className="header__logo">
-            Altas Capacidades
+            Altas Capacidades Intelectuales
           </Link>
           <div className="header__controls">
             <ThemeToggle />
@@ -64,16 +64,16 @@ export default function Header() {
             Legislación
           </Link>
           <Link 
-            href="/acerca" 
-            className={`nav-link ${pathname === '/acerca' ? 'active' : ''}`}
-          >
-            Acerca
-          </Link>
-          <Link 
             href="/profesionales" 
             className={`nav-link ${pathname === '/profesionales' ? 'active' : ''}`}
           >
             Profesionales
+          </Link>
+          <Link 
+            href="/acerca" 
+            className={`nav-link ${pathname === '/acerca' ? 'active' : ''}`}
+          >
+            Acerca
           </Link>
         </nav>
       </div>

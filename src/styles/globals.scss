@@ -274,7 +274,6 @@ a {
     }
   }
 }
-
 // Header & Navigation
 .header {
   position: sticky;
@@ -286,7 +285,7 @@ a {
 
   &__top {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Cambiado de space-between a center para centrar el logo */
     align-items: center;
     margin-bottom: var(--spacing-md);
   }
@@ -296,11 +295,13 @@ a {
     font-weight: 600;
     color: var(--color-primary);
     text-decoration: none;
+    text-align: center; /* Asegura que el texto esté centrado */
     
     &:hover {
       color: var(--color-secondary);
     }
   }
+
 
   &__controls {
     display: flex;

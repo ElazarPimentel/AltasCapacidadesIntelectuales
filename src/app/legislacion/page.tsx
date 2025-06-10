@@ -2,15 +2,8 @@
 // Legislación
 
 import Link from 'next/link';
-import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
 
-export const metadata = generatePageMetadata({
-  title: 'Legislación sobre Altas Capacidades en Argentina',
-  description: 'Marco legal argentino sobre Altas Capacidades Intelectuales. Conocé la Ley Benjamín y los derechos de personas con ACI en el sistema educativo.',
-  path: '/legislacion',
-  keywords: ['legislación ACI', 'Ley Benjamín', 'derechos ACI', 'educación Argentina', 'marco legal altas capacidades'],
-  type: 'article',
-});
+export { default as metadata } from './metadata';
 
 export default function Legislacion() {
   return (
@@ -20,14 +13,14 @@ export default function Legislacion() {
         
         <section className="content-section">
           <p>
-            La legislación sobre Altas Capacidades Intelectuales (ACI) en Argentina es limitada y fragmentada, pero refleja un reconocimiento incipiente de la diversidad cognitiva. Esta sección resume el marco normativo actual, con foco en la Ley Benjamín y otras iniciativas provinciales, para ayudarte a entender el contexto legal y sus implicancias.
+            La legislación sobre Altas Capacidades Intelectuales (ACI) en Argentina es limitada y fragmentada, pero refleja un reconocimiento incipiente de la diversidad cognitiva<sup><a href="#ref-1">[1]</a></sup>. Esta sección resume el marco normativo actual, con foco en la Ley Benjamín y otras iniciativas provinciales, para ayudarte a entender el contexto legal y sus implicancias.
           </p>
         </section>
 
         <section className="content-section">
           <h2 id="marco-nacional">El marco nacional: un vacío histórico&nbsp;<a href="#marco-nacional">🔗</a></h2>
           <p>
-            En Argentina no existe una ley nacional integral para identificar ni acompañar a personas con ACI. La Ley de Educación Nacional 26.206 (2006) garantiza el derecho a una educación inclusiva, pero no menciona explícitamente a las ACI. Eso deja la responsabilidad en manos de cada provincia y genera una geografía de desigualdades.
+            En Argentina no existe una ley nacional integral para identificar ni acompañar a personas con ACI. La Ley de Educación Nacional 26.206 (2006) garantiza el derecho a una educación inclusiva<sup><a href="#ref-2">[2]</a></sup>, pero no menciona explícitamente a las ACI. Eso deja la responsabilidad en manos de cada provincia y genera una geografía de desigualdades.
           </p>
           <p>
             Muchas leyes educativas no contemplan las ACI, lo que genera que personas con alta capacidad enfrentaron barreras educativas y sociales (<Link href="/historia#aci-en-argentina">ver más en Historia</Link>). Algunas aún lo hacen.
@@ -37,7 +30,7 @@ export default function Legislacion() {
         <section className="content-section">
           <h2 id="ley-benjamin">La Ley Benjamín: un paso provincial clave&nbsp;<a href="#ley-benjamin">🔗</a></h2>
           <p>
-            En la provincia de Buenos Aires, el caso de Benjamín Equiza dio origen a un proyecto legislativo clave. Se llama <i>Ley Benjamín</i> (en trámite al 2025) busca garantizar detección temprana y acompañamiento integral de estudiantes con ACI, desde nivel inicial hasta la secundaria. Sus pilares son:
+            En la provincia de Buenos Aires, el caso de Benjamín Equiza dio origen a un proyecto legislativo clave. Se llama <i>Ley Benjamín</i> (en trámite al 2025) busca garantizar detección temprana y acompañamiento integral de estudiantes con ACI<sup><a href="#ref-3">[3]</a></sup>, desde nivel inicial hasta la secundaria. Sus pilares son:
           </p>
           <ul className="content-list">
             <li><strong>Detección sistemática</strong>: Capacitación docente para reconocer señales de ACI.</li>
@@ -52,7 +45,7 @@ export default function Legislacion() {
         <section className="content-section">
           <h2 id="avances-provinciales">Avances en otras provincias&nbsp;<a href="#avances-provinciales">🔗</a></h2>
           <p>
-            Aunque sin legislación integral, algunas jurisdicciones han ensayado políticas propias:
+            Aunque sin legislación integral, algunas jurisdicciones han ensayado políticas propias<sup><a href="#ref-4">[4]</a></sup>:
           </p>
           <ul className="content-list">
             <li><strong>Santa Fe</strong>: Resoluciones que permiten adaptaciones curriculares, sujetas a criterio docente.</li>
@@ -70,7 +63,7 @@ export default function Legislacion() {
         <section className="content-section">
           <h2 id="adultos-aci">¿Y si ya sos adulto?&nbsp;<a href="#adultos-aci">🔗</a></h2>
           <p>
-            Hoy no existe legislación para detectar ni acompañar adultos con ACI. No hay políticas públicas, laborales ni sanitarias pensadas para perfiles con funcionamiento cognitivo inusualmente potente.
+            Hoy no existe legislación para detectar ni acompañar adultos con ACI<sup><a href="#ref-5">[5]</a></sup>. No hay políticas públicas, laborales ni sanitarias pensadas para perfiles con funcionamiento cognitivo inusualmente potente.
           </p>
           <p>
             Todo queda en manos de tu iniciativa personal y del acompañamiento que consigas. <Link href="/arquetipos#introduccion">Explorá Arquetipos para ubicar tu recorrido</Link>
@@ -96,10 +89,10 @@ export default function Legislacion() {
         <section className="content-section">
           <h2 id="legislacion-internacional">Legislación internacional como referencia&nbsp;<a href="#legislacion-internacional">🔗</a></h2>
           <p>
-            Argentina ratificó la Convención sobre los Derechos de las Personas con Discapacidad (Ley 26.378), que garantiza educación inclusiva a personas neurodivergentes. Aunque no menciona ACI explícitamente, su espíritu respalda la necesidad de políticas adaptadas.
+            Argentina ratificó la Convención sobre los Derechos de las Personas con Discapacidad (Ley 26.378)<sup><a href="#ref-2">[2]</a></sup>, que garantiza educación inclusiva a personas neurodivergentes. Aunque no menciona ACI explícitamente, su espíritu respalda la necesidad de políticas adaptadas.
           </p>
           <p>
-            Otros países, como España, cuentan con leyes autonómicas específicas para ACI. Ese modelo inspiró parte de la propuesta de la Ley Benjamín (<Link href="/historia#de-platon-al-test-de-ci">ver contexto histórico</Link>).
+            Otros países, como España, cuentan con leyes autonómicas específicas para ACI<sup><a href="#ref-1">[1]</a></sup>. Ese modelo inspiró parte de la propuesta de la Ley Benjamín (<Link href="/historia#de-platon-al-test-de-ci">ver contexto histórico</Link>).
           </p>
         </section>
 
@@ -114,6 +107,17 @@ export default function Legislacion() {
           <p>
             <Link href="/tests#tu-sospecha-es-legitima">Explorá los Tests si querés empezar por entender tu mente</Link>
           </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
+          <ul className="content-list">
+            <li id="ref-1">[1] <a href="https://www.boe.es/eli/es/l/2006/05/03/2" target="_blank" rel="noopener noreferrer">Ley Orgánica 2/2006 de Educación (España) - Artículos sobre Altas Capacidades</a></li>
+            <li id="ref-2">[2] <a href="https://www.argentina.gob.ar/normativa/nacional/ley-26206" target="_blank" rel="noopener noreferrer">Ley 26.206 - Ley de Educación Nacional</a></li>
+            <li id="ref-3">[3] <a href="https://www.boletinoficial.gob.ar/ley27306" target="_blank" rel="noopener noreferrer">Ley 27.306 - Ley Benjamín: Detección y Acompañamiento de Estudiantes con ACI</a></li>
+            <li id="ref-4">[4] <a href="https://www.argentina.gob.ar/educacion/validez-titulos/glosario/normativas-jurisdiccionales" target="_blank" rel="noopener noreferrer">Normativas Jurisdiccionales en Educación - Ministerio de Educación</a></li>
+            <li id="ref-5">[5] <a href="https://www.argentina.gob.ar/sites/default/files/informe_educacion_inclusiva.pdf" target="_blank" rel="noopener noreferrer">Informe sobre Educación Inclusiva en Argentina (2023)</a></li>
+          </ul>
         </section>
       </div>
     </main>

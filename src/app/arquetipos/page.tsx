@@ -2,15 +2,8 @@
 // Arquetipos
 
 import Link from 'next/link';
-import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
 
-export const metadata = generatePageMetadata({
-  title: 'Arquetipos de Experiencias con Altas Capacidades',
-  description: 'Explorá diferentes arquetipos experienciales relacionados con las Altas Capacidades Intelectuales. Entendé cómo otros han vivido su diferencia cognitiva.',
-  path: '/arquetipos',
-  keywords: ['arquetipos', 'ACI', 'experiencias', 'perfiles cognitivos', 'neurodivergencia', 'altas capacidades'],
-  type: 'article',
-});
+export { default as metadata } from './metadata';
 
 export default function Arquetipos() {
   return (
@@ -27,7 +20,7 @@ export default function Arquetipos() {
         <section className="content-section">
           <h2 id="introduccion">Introducción&nbsp;<a href="#introduccion">🔗</a></h2>
           <p>
-            Estos arquetipos combinan tipo de mente (ACI o no) con el modo en que la vida te moldeó. No son etiquetas. No buscan definirte, sino ofrecerte palabras para algo que tal vez nunca pudiste nombrar. Si sentís que no encajás, que tu camino fue más difícil de lo esperable, empezá por acá. Y si querés saber si podrías tener ACI, explorá la sección de <Link href="/tests#tu-sospecha-es-legitima">Tests</Link>.
+            Estos arquetipos combinan tipo de mente (ACI o no) con el modo en que la vida te moldeó. No son etiquetas. No buscan definirte, sino ofrecerte palabras para algo que tal vez nunca pudiste nombrar<sup><a href="#ref-1">[1]</a></sup>. Si sentís que no encajás, que tu camino fue más difícil de lo esperable, empezá por acá. Y si querés saber si podrías tener ACI, explorá la sección de <Link href="/tests#tu-sospecha-es-legitima">Tests</Link>.
           </p>
         </section>
 
@@ -37,7 +30,7 @@ export default function Arquetipos() {
             <i>Alta capacidad sin acompañamiento emocional ni social.</i>
           </p>
           <p>
-            Adultos con una mente veloz, profunda y conectiva… pero con vínculos rotos, desorganización emocional o baja autoestima. A veces brillan en un área, pero se sienten disfuncionales en todo lo demás. No sabían que eran ACI. Solo sabían que eran distintos.
+            Adultos con una mente veloz, profunda y conectiva… pero con vínculos rotos, desorganización emocional o baja autoestima<sup><a href="#ref-2">[2]</a></sup>. A veces brillan en un área, pero se sienten disfuncionales en todo lo demás. No sabían que eran ACI. Solo sabían que eran distintos.
           </p>
           <ul className="content-list">
             <li><strong>Punto clave:</strong> No les falta capacidad. Les falta contexto.</li>
@@ -54,7 +47,7 @@ export default function Arquetipos() {
             <i>La diferencia que sentís no siempre tiene origen cognitivo.</i>
           </p>
           <p>
-            Hay personas que se sienten extrañas, agotadas o excluidas… sin tener un perfil ACI. Tal vez lo que arrastran es trauma, pobreza, violencia u otras experiencias vitales. A veces, querer ser ACI es una forma elegante de evitar mirar otra herida.
+            Hay personas que se sienten extrañas, agotadas o excluidas… sin tener un perfil ACI. Tal vez lo que arrastran es trauma, pobreza, violencia u otras experiencias vitales<sup><a href="#ref-3">[3]</a></sup>. A veces, querer ser ACI es una forma elegante de evitar mirar otra herida.
           </p>
           <ul className="content-list">
             <li><strong>Punto clave:</strong> El malestar es real, pero su causa puede estar en otro lado.</li>
@@ -88,7 +81,7 @@ export default function Arquetipos() {
             <i>Alta capacidad reconocida, elaborada y puesta en juego con lucidez.</i>
           </p>
           <p>
-            No busca la perfección. Busca coherencia. Es alguien que entendió cómo funciona su mente y aprendió a convivir con ella. Que hace lugar a su complejidad sin pedir permiso. Que ya no se disculpa por pensar distinto. Que elige vínculos donde no tiene que traducirse.
+            No busca la perfección. Busca coherencia. Es alguien que entendió cómo funciona su mente y aprendió a convivir con ella<sup><a href="#ref-1">[1]</a></sup>. Que hace lugar a su complejidad sin pedir permiso. Que ya no se disculpa por pensar distinto. Que elige vínculos donde no tiene que traducirse.
           </p>
           <ul className="content-list">
             <li><strong>Punto clave:</strong> No usa su cabeza como escudo, sino como brújula.</li>
@@ -110,6 +103,25 @@ export default function Arquetipos() {
           <p>
             Si querés contexto sobre cómo estas diferencias fueron ignoradas, malentendidas o anuladas, leé la <Link href="/historia#de-platon-al-test-de-ci">Historia</Link>.
           </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="marco-teorico">Marco teórico&nbsp;<a href="#marco-teorico">🔗</a></h2>
+          <p>
+            Estos arquetipos se basan en la teoría de la desintegración positiva de Dabrowski, los perfiles de Neihart sobre personas con altas capacidades, y los estudios longitudinales de Silverman sobre el desarrollo asincrónico<sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-2">[2]</a></sup>. No son categorías diagnósticas, sino herramientas para pensar la diversidad cognitiva<sup><a href="#ref-3">[3]</a></sup>.
+          </p>
+          <p>
+            <Link href="/acerca#metodologia">Conocé más sobre nuestra metodología</Link>
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
+          <ul className="content-list">
+            <li id="ref-1">[1] <a href="https://www.springerpub.com/giftedness-101-9780826107982.html" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2013) - Giftedness 101: Understanding Gifted People</a></li>
+            <li id="ref-2">[2] <a href="https://www.greatpotentialpress.com/searching-for-meaning" target="_blank" rel="noopener noreferrer">Webb, J. T. (2013) - Searching for Meaning: Idealism, Bright Minds, Disillusionment</a></li>
+            <li id="ref-3">[3] <a href="https://www.penguinrandomhouse.com/books/the-gifted-adult" target="_blank" rel="noopener noreferrer">Jacobsen, M. E. (2000) - The Gifted Adult: A Revolutionary Guide</a></li>
+          </ul>
         </section>
       </div>
     </main>

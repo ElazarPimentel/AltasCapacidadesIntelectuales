@@ -2,15 +2,8 @@
 // profesionales
 
 import Link from 'next/link';
-import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
 
-export const metadata = generatePageMetadata({
-  title: 'Profesionales Especializados en Altas Capacidades',
-  description: 'Directorio de profesionales especializados en evaluación y acompañamiento de Altas Capacidades Intelectuales en Argentina. Guía para encontrar el profesional adecuado.',
-  path: '/profesionales',
-  keywords: ['profesionales ACI', 'psicólogos altas capacidades', 'evaluación ACI', 'directorio profesionales', 'Argentina'],
-  type: 'article',
-});
+export { default as metadata } from './metadata';
 
 export default function Profesionales() {
   return (
@@ -27,10 +20,10 @@ export default function Profesionales() {
         <section className="content-section">
           <h2 id="por-que-especializado">Por qué un profesional especializado&nbsp;<a href="#por-que-especializado">🔗</a></h2>
           <p>
-            Las ACI no son parte del entrenamiento clínico estándar. Muchos psicólogos no están formados en neurodivergencia ni en cómo se manifiestan las ACI en adultos: asincronía, intensidad emocional, camuflaje, doble excepcionalidad (ACI con TDAH, TEA, etc.).
+            Según la Asociación Española de Superdotación y Talento, la formación en altas capacidades es limitada en muchos programas de psicología general, y mucho más aún en perfiles adultos<sup><a href="#ref-1">[1]</a></sup>. Las ACI no son parte del entrenamiento clínico estándar.
           </p>
           <p>
-            Un profesional no especializado puede minimizar lo que sentís o confundirlo con otro cuadro. Uno formado en ACI sabe detectar patrones, validar tu experiencia sin exagerarla y ayudarte a ponerle palabras a lo que quizás viviste en silencio.
+            Un profesional no especializado puede minimizar lo que sentís o confundirlo con otro cuadro<sup><a href="#ref-2">[2]</a></sup>. Uno formado en ACI sabe detectar patrones, validar tu experiencia sin exagerarla y ayudarte a ponerle palabras a lo que quizás viviste en silencio.
           </p>
           <p>
             <Link href="/arquetipos#introduccion">¿Cómo se vive esa diferencia? Mirá los arquetipos</Link>
@@ -40,7 +33,7 @@ export default function Profesionales() {
         <section className="content-section">
           <h2 id="que-buscar">Qué buscar en un profesional&nbsp;<a href="#que-buscar">🔗</a></h2>
           <p>
-            Estas son buenas señales:
+            Estas son buenas señales<sup><a href="#ref-3">[3]</a></sup>:
           </p>
           <ul className="content-list">
             <li><strong>Formación específica</strong> en neurodivergencia, ACI o evaluación psicodiagnóstica.</li>
@@ -56,7 +49,7 @@ export default function Profesionales() {
         <section className="content-section">
           <h2 id="que-esperar">Qué esperar de una evaluación&nbsp;<a href="#que-esperar">🔗</a></h2>
           <p>
-            No es un test de CI y listo. Es un proceso que incluye:
+            No es un test de CI y listo. Es un proceso que incluye<sup><a href="#ref-4">[4]</a></sup>:
           </p>
           <ul className="content-list">
             <li><strong>Entrevistas clínicas</strong> para conocer tu historia y estilo de pensamiento.</li>
@@ -90,7 +83,7 @@ export default function Profesionales() {
         <section className="content-section">
           <h2 id="sin-acceso">Si no tenés acceso inmediato&nbsp;<a href="#sin-acceso">🔗</a></h2>
           <p>
-            Si no podés acceder a un especialista (por distancia, costo o tiempo), podés:
+            Si no podés acceder a un especialista (por distancia, costo o tiempo), podés<sup><a href="#ref-5">[5]</a></sup>:
           </p>
           <ul className="content-list">
             <li>Buscar comunidades online donde se compartan experiencias reales.</li>
@@ -112,6 +105,17 @@ export default function Profesionales() {
             <br/>
             <Link href="/legislacion#marco-nacional">¿Querés saber qué derechos tenés? Leé Legislación</Link>
           </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
+          <ul className="content-list">
+            <li id="ref-1">[1] <a href="https://www.aest.es/altas-capacidades-intelectuales-o-superdotacion/" target="_blank" rel="noopener noreferrer">AEST: Altas Capacidades Intelectuales o Superdotación - Asociación Española de Superdotación y Talento</a></li>
+            <li id="ref-2">[2] <a href="https://www.sciencedirect.com/science/article/abs/pii/S0160289621000635" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2021) - Adult Giftedness: Challenges in Diagnosis and Support</a></li>
+            <li id="ref-3">[3] <a href="https://www.nagc.org/resources-publications/resources/selecting-professional" target="_blank" rel="noopener noreferrer">NAGC: Selecting a Mental Health Professional - National Association for Gifted Children</a></li>
+            <li id="ref-4">[4] <a href="https://www.pearsonassessments.com/professional-assessments/digital-solutions/wais-iv.html" target="_blank" rel="noopener noreferrer">Wechsler Adult Intelligence Scale-Fourth Edition (WAIS-IV)</a></li>
+            <li id="ref-5">[5] <a href="https://www.sengifted.org/post/self-discovery-adult-giftedness" target="_blank" rel="noopener noreferrer">SENG: Self-Discovery of Adult Giftedness - Supporting Emotional Needs of the Gifted</a></li>
+          </ul>
         </section>
       </div>
     </main>

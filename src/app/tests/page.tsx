@@ -1,9 +1,10 @@
 // src/app/tests/page.tsx
 // Tests
 
-"use client";
-
 import Link from 'next/link';
+import CopyPromptButton from '@/components/CopyPromptButton';
+
+export { default as metadata } from './metadata';
 
 export default function Tests() {
   return (
@@ -13,7 +14,7 @@ export default function Tests() {
 
         <section className="content-section">
           <p>
-            Sospechar que podrías tener un perfil ACI es un primer paso válido. Esta sección explica cómo confirmar esa intuición de forma rigurosa, por qué los tests online no sirven y qué esperar de una evaluación profesional. No se trata de ponerte una etiqueta: se trata de entender cómo funciona tu mente.
+            Una evaluación para Altas Capacidades Intelectuales (ACI) es más que un test de CI. Es un proceso integral que busca entender cómo funciona tu mente, no solo medir un número. Esta guía te ayuda a navegar ese proceso con claridad.
           </p>
         </section>
 
@@ -24,6 +25,13 @@ export default function Tests() {
           </p>
           <p>
             Si esto te interpela, mirá los <Link href="/arquetipos">arquetipos</Link> para pensar cómo viviste tu diferencia.
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="dimension-del-fenomeno">Dimensión del fenómeno&nbsp;<a href="#dimension-del-fenomeno">🔗</a></h2>
+          <p>
+            Se estima que casi un millón de personas en Argentina tienen Altas Capacidades Intelectuales[1], pero la mayoría no han sido detectadas. Esta cifra nos da una idea de la magnitud del fenómeno y la importancia de mejorar los procesos de identificación y acompañamiento.
           </p>
         </section>
 
@@ -40,7 +48,7 @@ export default function Tests() {
         <section className="content-section">
           <h2 id="la-verdadera-evaluacion-es-un-proceso">La verdadera evaluación es un proceso&nbsp;<a href="#la-verdadera-evaluacion-es-un-proceso">🔗</a></h2>
           <p>
-            Una evaluación para ACI no es solo un test de CI. Es un proceso integral que combina entrevistas clínicas, análisis de tu historia de vida, pruebas psicométricas (como WAIS-IV) y observación de tu estilo cognitivo y emocional. Busca entender cómo pensás, no solo qué tan "rápido" lo hacés. Este enfoque detecta patrones como razonamiento abstracto, creatividad o asincronía, incluso si no tuviste formación académica.
+            Una evaluación para ACI no es solo un test de CI. Es un proceso integral que combina entrevistas clínicas, análisis de tu historia de vida, pruebas psicométricas (como WAIS-IV[2]) y observación de tu estilo cognitivo y emocional[3]. Busca entender cómo pensás, no solo qué tan "rápido" lo hacés. Este enfoque detecta patrones como razonamiento abstracto, creatividad o asincronía, incluso si no tuviste formación académica.
           </p>
           <p>
             <Link href="/profesionales#que-buscar">Buscá un profesional especializado para esto</Link>
@@ -116,24 +124,7 @@ export default function Tests() {
             Mientras pensás si buscar un profesional, podés usar una IA (LLM) para explorar patrones cognitivos o poner en palabras lo que sentís. Sitios como <a href="http://www.grok.com" target="_blank" rel="noopener noreferrer">grok.com</a> o <a href="http://www.chatgpt.com" target="_blank" rel="noopener noreferrer">chatgpt.com</a> son útiles. Probá este prompt:
           </p>
           <div className="prompt-block">
-            <button 
-              onClick={() => {
-                const blockquote = document.querySelector('.prompt-block blockquote');
-                if (blockquote instanceof HTMLElement) {
-                  const text = blockquote.innerText;
-                  navigator.clipboard.writeText(text);
-                  const btn = document.querySelector('.prompt-block button');
-                  if (btn instanceof HTMLButtonElement) {
-                    btn.innerText = 'Copiado';
-                    setTimeout(() => {
-                      btn.innerText = 'Copiar';
-                    }, 2000);
-                  }
-                }
-              }}
-            >
-              Copiar
-            </button>
+            <CopyPromptButton targetSelector=".prompt-block blockquote" />
             <blockquote>
               <p>Quiero que me hagas preguntas para ayudarte a estimar si podría tener Altas Capacidades Intelectuales (ACI), o no.</p>
 
@@ -173,6 +164,15 @@ export default function Tests() {
           <p>
             <strong>Nota</strong>: Una evaluación psicodiagnóstica integral incluye entrevistas, pruebas y análisis clínico para entender tu mente, no solo un número. <Link href="/profesionales#que-esperar">Ver más en Profesionales</Link>
           </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
+          <ul className="content-list">
+            <li id="ref-1">[1] <a href="https://altascapacidadesintelectuales.vercel.app/data/2025-06-08-1656-DeepSearch-Gemini-v002.docx" target="_blank" rel="noopener noreferrer">DeepSearch Gemini v002: Informe demográfico sobre Altas Capacidades Intelectuales en Argentina (2025)</a></li>
+            <li id="ref-2">[2] <a href="https://www.pearsonclinical.com" target="_blank" rel="noopener noreferrer">Manual Técnico: Escala de Inteligencia de Wechsler para Adultos (WAIS-IV)</a></li>
+            <li id="ref-3">[3] <a href="https://www.springerpub.com/giftedness-101-9780826107982.html" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2013) - Giftedness 101: Entendiendo las Altas Capacidades</a></li>
+          </ul>
         </section>
 
       </div>
