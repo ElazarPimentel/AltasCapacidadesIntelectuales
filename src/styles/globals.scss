@@ -274,7 +274,8 @@ a {
     }
   }
 }
-// Header & Navigation
+
+// Header styles
 .header {
   position: sticky;
   top: 0;
@@ -285,8 +286,9 @@ a {
 
   &__top {
     display: flex;
-    justify-content: center; /* Cambiado de space-between a center para centrar el logo */
+    justify-content: center; /* Center the logo */
     align-items: center;
+    position: relative; /* Allow absolute positioning of controls */
     margin-bottom: var(--spacing-md);
   }
 
@@ -295,15 +297,16 @@ a {
     font-weight: 600;
     color: var(--color-primary);
     text-decoration: none;
-    text-align: center; /* Asegura que el texto esté centrado */
+    text-align: center;
     
     &:hover {
       color: var(--color-secondary);
     }
   }
 
-
   &__controls {
+    position: absolute;
+    right: var(--spacing-md); /* Move toggle button to the right */
     display: flex;
     align-items: center;
     gap: var(--spacing-md);
@@ -404,8 +407,6 @@ footer {
     margin-bottom: var(--spacing-xs);
   }
 }
-
-
 
 // Reusable Mixins
 @mixin section-base {
