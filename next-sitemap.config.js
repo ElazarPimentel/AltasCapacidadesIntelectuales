@@ -34,5 +34,6 @@ module.exports = {
     await config.transform(config, '/legislacion'),
     await config.transform(config, '/acerca'),
     await config.transform(config, '/profesionales'),
+    await config.transform(config, '/curiosidades'),
   ],
 }; 

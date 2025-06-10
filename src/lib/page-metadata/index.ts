@@ -48,4 +48,12 @@ export const testsMetadata = generatePageMetadata({
   description: 'Guía sobre evaluación profesional y tests orientativos para adultos que sospechan tener Altas Capacidades.',
   path: '/tests',
   type: 'article',
+});
+
+export const curiosidadesMetadata = generatePageMetadata({
+  title: "Curiosidades para Mentes ACI | Argentina",
+  description: "Juegos, paradojas y datos para estimular el pensamiento abstracto en adultos con Altas Capacidades.",
+  path: '/curiosidades',
+  keywords: ["curiosidades ACI", "juegos lógicos", "pensamiento abstracto", "neurodivergencia"],
+  type: "article",
 }); 
