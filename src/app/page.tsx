@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <main className="main-content">
       <div className="container">
-        <h1>Altas Capacidades Intelectuales (ACI) en Adultos</h1>
+        <h1>ACI en Adultos</h1>
         
         <section className="content-section">
           <p>

@@ -1,3 +1,6 @@
+// src/components/Header.tsx
+// header 
+
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
@@ -68,6 +71,12 @@ export default function Header() {
             className={`nav-link ${pathname === '/profesionales' ? 'active' : ''}`}
           >
             Profesionales
+          </Link>
+          <Link 
+            href="/curiosidades" 
+            className={`nav-link ${pathname === '/curiosidades' ? 'active' : ''}`}
+          >
+            Curiosidades
           </Link>
           <Link 
             href="/acerca" 
