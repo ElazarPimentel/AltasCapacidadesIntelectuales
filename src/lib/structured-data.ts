@@ -1,16 +1,3 @@
-interface JsonLdProps {
-  data: Record<string, unknown>;
-}
-
-export default function JsonLd({ data }: JsonLdProps) {
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
-    />
-  );
-}
-
 export const websiteStructuredData = {
   "@context": "https://schema.org",
   "@type": "WebSite",
@@ -39,8 +26,8 @@ export const organizationStructuredData = {
   "sameAs": [],
   "address": {
     "@type": "PostalAddress",
-    "addressRegion": "Ciudad Autónoma de Buenos Aires",
-    "addressCountry": "Argentina"
+    "addressLocality": "Buenos Aires, CABA",
+    "addressCountry": "AR"
   },
   "areaServed": [
     {
@@ -82,8 +69,8 @@ export const articleStructuredData = {
     "@type": "Place",
     "address": {
       "@type": "PostalAddress",
-      "addressRegion": "Ciudad Autónoma de Buenos Aires",
-      "addressCountry": "Argentina"
+      "addressLocality": "Buenos Aires, CABA",
+      "addressCountry": "AR"
     }
   }
 }; 

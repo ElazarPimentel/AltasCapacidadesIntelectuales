@@ -2,7 +2,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.scss";
 import LayoutWrapper from "@/components/LayoutWrapper";
 import { defaultMetadata } from "@/lib/metadata";
-import JsonLd, { websiteStructuredData, organizationStructuredData } from "@/components/JsonLd";
+import JsonLd from "@/components/JsonLd";
+import { websiteStructuredData, organizationStructuredData, articleStructuredData } from "@/lib/structured-data";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -26,8 +27,14 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${geistSans.variable} ${geistMono.variable}`}>
       <head>
+        <link 
+          rel="alternate" 
+          hrefLang="es-AR" 
+          href="https://altas-capacidades-intelectuales.vercel.app"
+        />
         <JsonLd data={websiteStructuredData} />
         <JsonLd data={organizationStructuredData} />
+        <JsonLd data={articleStructuredData} />
       </head>
       <body>
         <LayoutWrapper>

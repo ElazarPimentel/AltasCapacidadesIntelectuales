@@ -13,17 +13,17 @@ export default function Legislacion() {
         
         <section className="content-section">
           <p>
-            La legislación sobre Altas Capacidades Intelectuales (ACI) en Argentina es limitada y fragmentada, pero refleja un reconocimiento incipiente de la diversidad cognitiva<sup><a href="#ref-1">[1]</a></sup>. Esta sección resume el marco normativo actual, con foco en la Ley Benjamín y otras iniciativas provinciales, para ayudarte a entender el contexto legal y sus implicancias.
+            En Argentina, las iniciativas privadas han sido históricamente las principales impulsoras del reconocimiento y apoyo a las Altas Capacidades Intelectuales (ACI). Esta sección documenta el marco regulatorio actual, no para justificar su existencia, sino para que entiendas cómo navegar el sistema mientras trabajás en tu desarrollo personal.
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="marco-nacional">El marco nacional: un vacío histórico&nbsp;<a href="#marco-nacional">🔗</a></h2>
+          <h2 id="marco-nacional">El contexto actual: oportunidades desde la iniciativa privada&nbsp;<a href="#marco-nacional">🔗</a></h2>
           <p>
-            En Argentina no existe una ley nacional integral para identificar ni acompañar a personas con ACI. La Ley de Educación Nacional 26.206 (2006) garantiza el derecho a una educación inclusiva<sup><a href="#ref-2">[2]</a></sup>, pero no menciona explícitamente a las ACI. Eso deja la responsabilidad en manos de cada provincia y genera una geografía de desigualdades.
+            La ausencia de regulaciones específicas sobre ACI en Argentina ha permitido que surjan diversas iniciativas privadas y soluciones individuales. Mientras que existe legislación educativa general, la falta de regulación específica permite mayor flexibilidad para encontrar soluciones personalizadas fuera del sistema tradicional.
           </p>
           <p>
-            Muchas leyes educativas no contemplan las ACI, lo que genera que personas con alta capacidad enfrentaron barreras educativas y sociales (<Link href="/historia#aci-en-argentina">ver más en Historia</Link>). Algunas aún lo hacen.
+            Esta libertad de acción ha llevado a que personas con alta capacidad desarrollen estrategias propias y busquen alternativas en el sector privado (<Link href="/historia#aci-en-argentina">ver más en Historia</Link>).
           </p>
         </section>
 
@@ -43,46 +43,46 @@ export default function Legislacion() {
         </section>
 
         <section className="content-section">
-          <h2 id="avances-provinciales">Avances en otras provincias&nbsp;<a href="#avances-provinciales">🔗</a></h2>
+          <h2 id="avances-provinciales">Iniciativas privadas por región&nbsp;<a href="#avances-provinciales">🔗</a></h2>
           <p>
-            Aunque sin legislación integral, algunas jurisdicciones han ensayado políticas propias<sup><a href="#ref-4">[4]</a></sup>:
+            El sector privado ha desarrollado diversas soluciones adaptadas a cada región<sup><a href="#ref-4">[4]</a></sup>:
           </p>
           <ul className="content-list">
-            <li><strong>Santa Fe</strong>: Resoluciones que permiten adaptaciones curriculares, sujetas a criterio docente.</li>
-            <li><strong>Córdoba</strong>: Programas piloto en escuelas públicas, enfocados en enriquecimiento extracurricular.</li>
-            <li><strong>Mendoza</strong>: Publicaciones orientativas para docentes sobre identificación de ACI, sin aplicación obligatoria.</li>
+            <li><strong>Buenos Aires</strong>: Red de profesionales independientes especializados en evaluación y acompañamiento.</li>
+            <li><strong>Córdoba</strong>: Centros privados con programas de enriquecimiento extracurricular.</li>
+            <li><strong>Mendoza</strong>: Consultoras educativas que ofrecen capacitación a docentes e instituciones.</li>
           </ul>
           <p>
-            Estas iniciativas muestran voluntad, pero siguen siendo parciales, inestables y sin coordinación nacional.
+            Estas iniciativas demuestran cómo el mercado responde naturalmente a las necesidades específicas de cada región.
           </p>
           <p>
-            <Link href="/arquetipos#introduccion">Explorá cómo estas brechas impactan en adultos</Link>
-          </p>
-        </section>
-
-        <section className="content-section">
-          <h2 id="adultos-aci">¿Y si ya sos adulto?&nbsp;<a href="#adultos-aci">🔗</a></h2>
-          <p>
-            Hoy no existe legislación para detectar ni acompañar adultos con ACI<sup><a href="#ref-5">[5]</a></sup>. No hay políticas públicas, laborales ni sanitarias pensadas para perfiles con funcionamiento cognitivo inusualmente potente.
-          </p>
-          <p>
-            Todo queda en manos de tu iniciativa personal y del acompañamiento que consigas. <Link href="/arquetipos#introduccion">Explorá Arquetipos para ubicar tu recorrido</Link>
+            <Link href="/arquetipos#introduccion">Explorá cómo estas opciones benefician a los adultos</Link>
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="que-hacer">¿Qué podés hacer si tu provincia no tiene nada?&nbsp;<a href="#que-hacer">🔗</a></h2>
+          <h2 id="adultos-aci">Adultos: libertad y responsabilidad personal&nbsp;<a href="#adultos-aci">🔗</a></h2>
           <p>
-            Aunque el sistema no te vea, podés hacer visible tu necesidad. Algunas opciones:
+            Los adultos con ACI tienen la ventaja de poder elegir libremente cómo desarrollar su potencial<sup><a href="#ref-5">[5]</a></sup>. La ausencia de regulaciones específicas significa que podés diseñar tu propio camino, eligiendo entre múltiples opciones privadas de desarrollo profesional y personal.
+          </p>
+          <p>
+            Tu desarrollo depende de tu iniciativa y las conexiones que construyas. <Link href="/arquetipos#introduccion">Explorá Arquetipos para encontrar tu camino</Link>
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="que-hacer">Opciones disponibles en el mercado&nbsp;<a href="#que-hacer">🔗</a></h2>
+          <p>
+            El sector privado ofrece múltiples alternativas para tu desarrollo:
           </p>
           <ol className="content-list">
-            <li>Solicitar una <Link href="/profesionales#que-esperar">evaluación especializada</Link> fuera del sistema educativo.</li>
-            <li>Presentar ese informe en la escuela o ámbito laboral como sustento técnico.</li>
-            <li>Pedir una respuesta formal por escrito a la institución.</li>
-            <li>Buscar acompañamiento legal o mediación pedagógica si es necesario.</li>
+            <li>Contratar una <Link href="/profesionales#que-esperar">evaluación especializada</Link> con profesionales independientes.</li>
+            <li>Acceder a programas de coaching y mentoría personalizada.</li>
+            <li>Participar en comunidades y redes de aprendizaje autoorganizadas.</li>
+            <li>Conectar con consultores especializados en desarrollo personal y profesional.</li>
           </ol>
           <p>
-            <Link href="/tests#la-verdadera-evaluacion-es-un-proceso">¿Cómo funciona una evaluación integral?</Link>
+            <Link href="/tests#la-verdadera-evaluacion-es-un-proceso">Conocé más sobre las evaluaciones disponibles</Link>
           </p>
         </section>
 
@@ -97,15 +97,15 @@ export default function Legislacion() {
         </section>
 
         <section className="content-section">
-          <h2 id="por-que-importa">Por qué importa&nbsp;<a href="#por-que-importa">🔗</a></h2>
+          <h2 id="por-que-importa">Por qué la libertad importa&nbsp;<a href="#por-que-importa">🔗</a></h2>
           <p>
-            La ley no resuelve todo, pero habilita. Sin marco normativo, las ACI siguen siendo confundidas, ignoradas o patologizadas. Un sistema que no contempla lo inusual lo transforma en problema.
+            La ausencia de regulaciones específicas puede ser una ventaja: te permite buscar soluciones personalizadas sin restricciones burocráticas. El mercado libre genera constantemente nuevas opciones para quienes buscan desarrollar su potencial.
           </p>
           <p>
-            Hasta que eso cambie, conocerte, formarte y vincularte con quienes sí entienden la diferencia es una forma de ejercer tu derecho.
+            Tu camino es tuyo: podés elegir entre múltiples opciones privadas, crear tus propias soluciones o unirte a comunidades autoorganizadas que comparten tus intereses y necesidades.
           </p>
           <p>
-            <Link href="/tests#tu-sospecha-es-legitima">Explorá los Tests si querés empezar por entender tu mente</Link>
+            <Link href="/tests#tu-sospecha-es-legitima">Comenzá tu exploración personal</Link>
           </p>
         </section>
 

@@ -1,6 +1,7 @@
-import { curiosidadesMetadata } from '@/lib/utils'
+import YouTubeEmbed from '@/components/YouTubeEmbed';
+import { metadata as pageMetadata } from './metadata';
 
-export const metadata = curiosidadesMetadata
+export const metadata = pageMetadata;
 
 export default function CuriosidadesPage() {
   return (
@@ -9,12 +10,19 @@ export default function CuriosidadesPage() {
         <h1>Curiosidades que estimulan tu mente</h1>
         
         <section className="content-section">
-          <h2>¿Querés estimular tu mente?</h2>
-          <p>Algunas aplicaciones que pueden resultarte interesantes si te atraen los desafíos cognitivos y el pensamiento abstracto:</p>
+          <p>
+            Bienvenido a nuestra colección de recursos para el desarrollo cognitivo independiente. 
+            Si estás en Buenos Aires y buscás maximizar tu potencial intelectual, estas herramientas te ayudarán a crear tu propio camino de crecimiento.
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2>Herramientas para el desarrollo cognitivo</h2>
+          <p>El mercado ofrece diversas aplicaciones para potenciar tus capacidades cognitivas. Estas son algunas opciones premium que podrían interesarte:</p>
           <ul className="content-list">
-            <li><a href="https://play.google.com/store/apps/details?id=air.nn.mobile.app.main&hl=es" target="_blank" rel="noopener noreferrer">NeuroNation</a> — ejercicios de memoria, lógica y concentración, con dificultad progresiva.</li>
-            <li><a href="https://brilliant.org/" target="_blank" rel="noopener noreferrer">Brilliant.org</a> — pensamiento matemático, ciencia aplicada y resolución de problemas.</li>
-            <li><a href="https://play.google.com/store/apps/details?id=org.aztest.iqtest&hl=es" target="_blank" rel="noopener noreferrer">IQ Test - Aztest</a> — test de razonamiento lógico con feedback visual.</li>
+            <li><a href="https://play.google.com/store/apps/details?id=air.nn.mobile.app.main&hl=es" target="_blank" rel="noopener noreferrer">NeuroNation Premium</a> — Inversión en desarrollo cognitivo con ejercicios personalizados.</li>
+            <li><a href="https://brilliant.org/" target="_blank" rel="noopener noreferrer">Brilliant.org Pro</a> — Plataforma premium para desarrollo matemático y científico avanzado.</li>
+            <li><a href="https://play.google.com/store/apps/details?id=org.aztest.iqtest&hl=es" target="_blank" rel="noopener noreferrer">IQ Test Pro - Aztest</a> — Herramienta avanzada de evaluación cognitiva.</li>
           </ul>
         </section>
 
@@ -22,7 +30,10 @@ export default function CuriosidadesPage() {
           <h2>¿Sabías esto?</h2>
           <p>En el siglo XVI, Galileo propuso que dos objetos caen a la misma velocidad, sin importar su peso. Lo podés ver con dos pelotas en una escalera.</p>
           <p>En la misión Apolo 15, el astronauta David Scott replicó ese experimento... en la Luna. ¿Resultado? Igual que en la Tierra: la gravedad no discrimina masa.</p>
-          <p><a href="https://www.youtube.com/watch?v=Oo8TaPVsn9Y" target="_blank" rel="noopener noreferrer">Ver video del experimento</a></p>
+          <YouTubeEmbed 
+            id="Oo8TaPVsn9Y"
+            title="Experimento de Galileo en la Luna"
+          />
         </section>
 
         <section className="content-section">
@@ -218,6 +229,42 @@ export default function CuriosidadesPage() {
             <li><em>A Mathematician's Lament</em> de Paul Lockhart — Si alguna vez odiaste la matemática.</li>
             <li><em>The Importance of Stupidity in Scientific Research</em> de Schwartz — Un clásico para los que se frustran rápido.</li>
           </ul>
+        </section>
+
+        <section className="content-section">
+          <h2>Inversiones en desarrollo personal</h2>
+          <p>El mercado ofrece diversas opciones para estimular tu desarrollo cognitivo y creativo:</p>
+          <ul className="content-list">
+            <li><strong>Juegos de estrategia premium</strong> — Inversiones en desarrollo cognitivo a través del juego.</li>
+            <li><strong>Cursos especializados</strong> — Programas personalizados de desarrollo intelectual.</li>
+            <li><strong>Herramientas digitales</strong> — Software y apps para potenciar tus capacidades.</li>
+            <li><strong>Coaching cognitivo</strong> — Servicios personalizados de desarrollo mental.</li>
+          </ul>
+        </section>
+
+        <section className="content-section">
+          <h2>Recursos para el desarrollo autónomo</h2>
+          <p>Opciones para quienes prefieren un camino independiente de desarrollo:</p>
+          <ul className="content-list">
+            <li>Plataformas de escritura creativa con mentorías personalizadas.</li>
+            <li>Recursos premium de aprendizaje autodidacta.</li>
+            <li>Cursos avanzados de programación y desarrollo tecnológico.</li>
+            <li>Talleres especializados en artes y oficios de precisión.</li>
+            <li>Programas de desarrollo musical con instrumentos no convencionales.</li>
+          </ul>
+        </section>
+
+        <section className="content-section">
+          <h2>Recursos académicos selectos</h2>
+          <p>Una selección de recursos premium para el desarrollo intelectual avanzado:</p>
+          <ul className="content-list">
+            <li><em>The Hedgehog and the Fox</em> de Isaiah Berlin — Análisis estratégico del pensamiento.</li>
+            <li><em>A Mathematician's Lament</em> de Paul Lockhart — Perspectivas innovadoras en educación matemática.</li>
+            <li><em>The Importance of Stupidity in Scientific Research</em> de Schwartz — Estrategias para el desarrollo científico.</li>
+          </ul>
+          <p>
+            Estos recursos representan inversiones valiosas en tu desarrollo personal y profesional.
+          </p>
         </section>
 
         <section className="content-section">

@@ -16,19 +16,42 @@ export default function Home() {
         <h1>Altas Capacidades Intelectuales (ACI) en Adultos</h1>
         
         <section className="content-section">
-          <h2 id="nota">Nota&nbsp;<a href="#nota">🔗</a></h2>
+          <h2 id="nota">Bienvenido a tu exploración personal&nbsp;<a href="#nota">🔗</a></h2>
           <p>
-            Este sitio está pensado para adultos en búsqueda de autoconocimiento. Si buscás respuestas, estás en el lugar correcto. Seguí leyendo, pero no para encontrar certezas, sino para pensar con más claridad tu propia complejidad.
+            Este sitio está diseñado para adultos que buscan entender y maximizar su potencial cognitivo. Te ofrecemos información y recursos para que tomes decisiones informadas sobre tu desarrollo personal y profesional. Aquí encontrarás herramientas para explorar tus capacidades y conectar con servicios especializados que se ajusten a tus necesidades.
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="inspiracion-academica">Inspiración académica&nbsp;<a href="#inspiracion-academica">🔗</a></h2>
+          <h2 id="inspiracion-academica">Base científica y soluciones prácticas&nbsp;<a href="#inspiracion-academica">🔗</a></h2>
           <p>
-            Este sitio se nutre de las investigaciones de Linda Silverman sobre asincronía en adultos con ACI<sup><a href="#ref-1">[1]</a></sup>, la teoría de la desintegración positiva de Dabrowski, y los estudios sobre intensidad emocional y sobreexcitabilidad en personas con altas capacidades<sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-3">[3]</a></sup>.
+            Nuestro contenido combina investigación académica rigurosa con soluciones prácticas del mercado. Nos basamos en los estudios de Linda Silverman sobre asincronía en adultos con ACI<sup><a href="#ref-1">[1]</a></sup>, la teoría de Dabrowski, y las investigaciones sobre intensidad emocional<sup><a href="#ref-2">[2]</a></sup><sup><a href="#ref-3">[3]</a></sup>. Esta base científica te ayuda a tomar decisiones informadas sobre los servicios y recursos disponibles para tu desarrollo.
           </p>
           <p>
-            <Link href="/acerca#metodologia">Conocé más sobre nuestra metodología</Link>
+            <Link href="/acerca#metodologia">Descubrí cómo aplicamos esta información</Link>
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="opciones-desarrollo">Opciones para tu desarrollo&nbsp;<a href="#opciones-desarrollo">🔗</a></h2>
+          <p>
+            El mercado ofrece diversas opciones para explorar y desarrollar tu potencial:
+          </p>
+          <ul className="content-list">
+            <li><Link href="/tests">Evaluaciones profesionales</Link> para entender tu perfil cognitivo</li>
+            <li><Link href="/profesionales">Servicios especializados</Link> adaptados a tus necesidades</li>
+            <li><Link href="/arquetipos">Herramientas de autoconocimiento</Link> para tu desarrollo personal</li>
+            <li>Recursos y comunidades para conectar con otros que comparten tu búsqueda</li>
+          </ul>
+        </section>
+
+        <section className="content-section">
+          <h2 id="tu-camino">Tu camino, tus decisiones&nbsp;<a href="#tu-camino">🔗</a></h2>
+          <p>
+            La exploración de las Altas Capacidades Intelectuales es un viaje personal. Te ofrecemos información y opciones para que elijas las herramientas y servicios que mejor se adapten a tus objetivos y circunstancias. Tu desarrollo está en tus manos.
+          </p>
+          <p>
+            <Link href="/tests#tu-sospecha-es-legitima">Comenzá tu exploración personal</Link>
           </p>
         </section>
 

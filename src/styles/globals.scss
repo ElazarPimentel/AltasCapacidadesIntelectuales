@@ -765,3 +765,20 @@ h2 {
     background-color: var(--bg-hover);
   }
 }
+
+// Video container for responsive embeds
+.video-container {
+  margin: var(--spacing-md) 0;
+  border-radius: var(--border-radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  
+  .yt-lite {
+    border-radius: inherit;
+    
+    &::before {
+      // Maintain 16:9 aspect ratio
+      padding-bottom: 56.25% !important;
+    }
+  }
+}

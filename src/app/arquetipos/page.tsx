@@ -20,24 +20,24 @@ export default function Arquetipos() {
         <section className="content-section">
           <h2 id="introduccion">Introducción&nbsp;<a href="#introduccion">🔗</a></h2>
           <p>
-            Estos arquetipos combinan tipo de mente (ACI o no) con el modo en que la vida te moldeó. No son etiquetas. No buscan definirte, sino ofrecerte palabras para algo que tal vez nunca pudiste nombrar<sup><a href="#ref-1">[1]</a></sup>. Si sentís que no encajás, que tu camino fue más difícil de lo esperable, empezá por acá. Y si querés saber si podrías tener ACI, explorá la sección de <Link href="/tests#tu-sospecha-es-legitima">Tests</Link>.
+            Estos arquetipos combinan tipo de mente (ACI o no) con el modo en que tus decisiones y circunstancias te moldearon. No son etiquetas ni categorías impuestas. Son herramientas para que vos elijas cómo entender y desarrollar tu potencial<sup><a href="#ref-1">[1]</a></sup>. Si sentís que no encajás, que tu camino fue más desafiante de lo esperado, empezá por acá. Y si querés explorar tu perfil cognitivo, el mercado ofrece diversas opciones en la sección de <Link href="/tests#tu-sospecha-es-legitima">Tests</Link>.
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="arquetipo-a">a) Persona ACI con baja integración personal&nbsp;<a href="#arquetipo-a">🔗</a></h2>
+          <h2 id="arquetipo-a">a) Persona ACI en búsqueda de desarrollo personal&nbsp;<a href="#arquetipo-a">🔗</a></h2>
           <p>
-            <i>Alta capacidad sin acompañamiento emocional ni social.</i>
+            <i>Alta capacidad buscando su camino de crecimiento.</i>
           </p>
           <p>
-            Adultos con una mente veloz, profunda y conectiva… pero con vínculos rotos, desorganización emocional o baja autoestima<sup><a href="#ref-2">[2]</a></sup>. A veces brillan en un área, pero se sienten disfuncionales en todo lo demás. No sabían que eran ACI. Solo sabían que eran distintos.
+            Adultos con una mente veloz, profunda y conectiva que están explorando cómo maximizar su potencial. Pueden destacar en algunas áreas mientras buscan mejorar en otras<sup><a href="#ref-2">[2]</a></sup>. La clave está en reconocer que ser diferente es una oportunidad para crear tu propio camino.
           </p>
           <ul className="content-list">
-            <li><strong>Punto clave:</strong> No les falta capacidad. Les falta contexto.</li>
-            <li><strong>Riesgo:</strong> Aislarse, vivir adentro de su cabeza, resignarse al desencaje.</li>
+            <li><strong>Punto clave:</strong> Tu capacidad es un activo que podés desarrollar proactivamente.</li>
+            <li><strong>Oportunidad:</strong> Crear tu propio espacio, conectar con otros que comparten tu visión, desarrollar tu potencial único.</li>
           </ul>
           <p>
-            <Link href="/profesionales#que-buscar">Buscá acompañamiento adecuado si esto te suena</Link>
+            <Link href="/profesionales#que-buscar">Explorá opciones de desarrollo profesional si esto te resuena</Link>
           </p>
         </section>
 
@@ -76,32 +76,32 @@ export default function Arquetipos() {
         </section>
 
         <section className="content-section">
-          <h2 id="d-persona-aci-adaptada-y-funcional">d) Persona ACI adaptada y funcional&nbsp;<a href="#d-persona-aci-adaptada-y-funcional">🔗</a></h2>
+          <h2 id="d-persona-aci-adaptada-y-funcional">d) Persona ACI emprendedora y autónoma&nbsp;<a href="#d-persona-aci-adaptada-y-funcional">🔗</a></h2>
           <p>
-            <i>Alta capacidad reconocida, elaborada y puesta en juego con lucidez.</i>
+            <i>Alta capacidad como ventaja competitiva en el mercado.</i>
           </p>
           <p>
-            No busca la perfección. Busca coherencia. Es alguien que entendió cómo funciona su mente y aprendió a convivir con ella<sup><a href="#ref-1">[1]</a></sup>. Que hace lugar a su complejidad sin pedir permiso. Que ya no se disculpa por pensar distinto. Que elige vínculos donde no tiene que traducirse.
+            No busca ajustarse a sistemas preestablecidos. Crea sus propias oportunidades. Es alguien que ha convertido su forma única de pensar en una ventaja competitiva<sup><a href="#ref-1">[1]</a></sup>. Que construye espacios donde su complejidad agrega valor. Que elige conscientemente sus conexiones y proyectos.
           </p>
           <ul className="content-list">
-            <li><strong>Punto clave:</strong> No usa su cabeza como escudo, sino como brújula.</li>
-            <li><strong>Riesgo:</strong> Agotarse por sostener entornos que no la comprenden.</li>
+            <li><strong>Punto clave:</strong> Usa su capacidad como herramienta para crear valor.</li>
+            <li><strong>Oportunidad:</strong> Desarrollar proyectos innovadores, crear espacios de valor, liderar iniciativas únicas.</li>
           </ul>
           <p>
-            <Link href="/profesionales#que-buscar">Querés trabajar hacia esto? Empezá por encontrar el profesional adecuado</Link>
+            <Link href="/profesionales#que-buscar">¿Querés desarrollar este potencial? Explorá opciones de mentoría especializada</Link>
           </p>
         </section>
 
         <section className="content-section">
           <h2 id="epilogo">Epílogo&nbsp;<a href="#epilogo">🔗</a></h2>
           <p>
-            Estos arquetipos no son definiciones. Son herramientas. Sirven si abren puertas. No sirven si las cierran.
+            Estos arquetipos son herramientas para tu desarrollo personal. Son puntos de partida para que explores y elijas tu propio camino.
           </p>
           <p>
-            Si sospechás que tu mente funciona distinto, una <Link href="/tests#la-verdadera-evaluacion-es-un-proceso">evaluación profesional</Link> puede ser el próximo paso.
+            Si querés entender mejor cómo funciona tu mente, el mercado ofrece diversas opciones de <Link href="/tests#la-verdadera-evaluacion-es-un-proceso">evaluación profesional</Link>.
           </p>
           <p>
-            Si querés contexto sobre cómo estas diferencias fueron ignoradas, malentendidas o anuladas, leé la <Link href="/historia#de-platon-al-test-de-ci">Historia</Link>.
+            Para entender mejor el contexto histórico y cómo otros han navegado estos desafíos, explorá la sección de <Link href="/historia#de-platon-al-test-de-ci">Historia</Link>.
           </p>
         </section>
 

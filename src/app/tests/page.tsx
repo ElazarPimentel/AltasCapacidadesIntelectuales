@@ -29,59 +29,59 @@ export default function Tests() {
         </section>
 
         <section className="content-section">
-          <h2 id="dimension-del-fenomeno">Dimensión del fenómeno&nbsp;<a href="#dimension-del-fenomeno">🔗</a></h2>
+          <h2 id="dimension-del-fenomeno">Un mercado en crecimiento&nbsp;<a href="#dimension-del-fenomeno">🔗</a></h2>
           <p>
-            Se estima que casi un millón de personas en Argentina tienen Altas Capacidades Intelectuales[1], pero la mayoría no han sido detectadas. Esta cifra nos da una idea de la magnitud del fenómeno y la importancia de mejorar los procesos de identificación y acompañamiento.
+            Con cerca de un millón de personas en Argentina con potencial de Altas Capacidades Intelectuales[1], existe una demanda significativa de servicios especializados. Este mercado emergente ofrece oportunidades tanto para profesionales que buscan especializarse como para personas que desean explorar su potencial cognitivo.
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="los-tests-online-no-son-confiables">Los tests online no son confiables&nbsp;<a href="#los-tests-online-no-son-confiables">🔗</a></h2>
+          <h2 id="los-tests-online-no-son-confiables">Elegir servicios de calidad&nbsp;<a href="#los-tests-online-no-son-confiables">🔗</a></h2>
           <p>
-            Los tests gratuitos en internet pueden ser divertidos, pero no son diagnósticos. Muchos están diseñados para halagar, no para medir. Confiar en ellos es como usar un termómetro roto para chequear fiebre. Si querés saber más sobre las ACI, evitá los atajos y explorá una <a href="#la-verdadera-evaluacion-es-un-proceso">evaluación psicodiagnóstica integral</a>.
+            En el mercado actual, encontrás desde tests gratuitos online hasta evaluaciones profesionales completas. Como consumidor informado, es importante entender que los tests gratuitos son entretenimiento, no herramientas diagnósticas. La inversión en una <a href="#la-verdadera-evaluacion-es-un-proceso">evaluación profesional integral</a> ofrece un valor significativamente mayor.
           </p>
           <p>
-            <Link href="/historia#de-platon-al-test-de-ci">Conocé por qué importa tener contexto en Historia</Link>
-          </p>
-        </section>
-
-        <section className="content-section">
-          <h2 id="la-verdadera-evaluacion-es-un-proceso">La verdadera evaluación es un proceso&nbsp;<a href="#la-verdadera-evaluacion-es-un-proceso">🔗</a></h2>
-          <p>
-            Una evaluación para ACI no es solo un test de CI. Es un proceso integral que combina entrevistas clínicas, análisis de tu historia de vida, pruebas psicométricas (como WAIS-IV[2]) y observación de tu estilo cognitivo y emocional[3]. Busca entender cómo pensás, no solo qué tan "rápido" lo hacés. Este enfoque detecta patrones como razonamiento abstracto, creatividad o asincronía, incluso si no tuviste formación académica.
-          </p>
-          <p>
-            <Link href="/profesionales#que-buscar">Buscá un profesional especializado para esto</Link>
+            <Link href="/historia#de-platon-al-test-de-ci">Entendé la evolución de estos servicios en Historia</Link>
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="el-profesional-adecuado-importa">El profesional adecuado importa&nbsp;<a href="#el-profesional-adecuado-importa">🔗</a></h2>
+          <h2 id="la-verdadera-evaluacion-es-un-proceso">Servicios profesionales integrales&nbsp;<a href="#la-verdadera-evaluacion-es-un-proceso">🔗</a></h2>
           <p>
-            No cualquier psicólogo está preparado para evaluar ACI en adultos. Necesitás alguien con experiencia en neurodivergencia y, si aplica, en doble excepcionalidad (ACI junto a TDAH, TEA u otros perfiles). Un buen diagnóstico puede explicar años de confusión. Organizaciones como Mensa Argentina, o nuestra sección de <Link href="/profesionales#lista-de-profesionales">Profesionales</Link>, son un buen punto de partida.
+            El mercado de evaluaciones profesionales ofrece servicios que van más allá del simple test de CI. Los mejores proveedores combinan entrevistas personalizadas, análisis de historia vital, pruebas psicométricas avanzadas (como WAIS-IV[2]) y evaluación de estilo cognitivo[3]. Esta inversión en autoconocimiento te permite entender y maximizar tu potencial cognitivo.
           </p>
           <p>
-            <Link href="/arquetipos#c-persona-no-aci-con-alto-desempeno">Ver diferencias comunes en perfiles no ACI</Link>
-          </p>
-        </section>
-
-        <section className="content-section">
-          <h2 id="el-objetivo-es-entenderte">El objetivo es entenderte&nbsp;<a href="#el-objetivo-es-entenderte">🔗</a></h2>
-          <p>
-            Una evaluación no busca validarte ni darte un título. Es una herramienta para conocerte sin autoengaño, para alinear tus decisiones con cómo funciona tu mente. No necesitás una etiqueta para ser valioso, pero entender tu perfil puede cambiar cómo navegás tu vida.
-          </p>
-          <p>
-            <Link href="/historia#adultos-la-generacion-sin-nombre">Conocé más sobre la historia de las ACI</Link>
+            <Link href="/profesionales#que-buscar">Explorá opciones de servicios especializados</Link>
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="sobre-los-tests-de-ci">Sobre los tests de CI&nbsp;<a href="#sobre-los-tests-de-ci">🔗</a></h2>
+          <h2 id="el-profesional-adecuado-importa">Elegir el servicio adecuado&nbsp;<a href="#el-profesional-adecuado-importa">🔗</a></h2>
           <p>
-            Los tests modernos, como WAIS-IV, miden más que lógica o matemáticas. Evalúan razonamiento verbal, espacial, memoria de trabajo y velocidad de procesamiento. Si rendiste uno y el resultado fue promedio, pero las señales de ACI te resuenan, vale preguntarse si el contexto fue justo. Prepararte para un test no es trampa: es como entrenar para mostrar tu mejor versión.
+            El mercado de servicios especializados en ACI ofrece diferentes niveles de expertise. Los profesionales más valiosos son aquellos que han invertido en formación específica sobre neurodivergencia y doble excepcionalidad (ACI junto a TDAH, TEA u otros perfiles). Organizaciones privadas como Mensa Argentina y nuestra sección de <Link href="/profesionales#lista-de-profesionales">Profesionales</Link> te ayudan a encontrar los mejores servicios disponibles.
           </p>
           <p>
-            <Link href="/#como-se-si-podria-tener-aci">Más sobre preparación, contexto y sesgos en Home</Link>
+            <Link href="/arquetipos#c-persona-no-aci-con-alto-desempeno">Entendé las diferentes opciones de servicio</Link>
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="el-objetivo-es-entenderte">Invertir en autoconocimiento&nbsp;<a href="#el-objetivo-es-entenderte">🔗</a></h2>
+          <p>
+            Una evaluación profesional es una inversión en tu desarrollo personal y profesional. No es solo sobre obtener un diagnóstico; es sobre adquirir herramientas para optimizar tu potencial y tomar decisiones más informadas sobre tu carrera y desarrollo personal.
+          </p>
+          <p>
+            <Link href="/historia#adultos-la-generacion-sin-nombre">Descubrí cómo otros han aprovechado esta inversión</Link>
+          </p>
+        </section>
+
+        <section className="content-section">
+          <h2 id="sobre-los-tests-de-ci">Valor de mercado de los tests&nbsp;<a href="#sobre-los-tests-de-ci">🔗</a></h2>
+          <p>
+            Las herramientas modernas de evaluación, como WAIS-IV, son el resultado de décadas de investigación y desarrollo privado. Estas evaluaciones profesionales miden múltiples aspectos cognitivos: razonamiento verbal, espacial, memoria de trabajo y velocidad de procesamiento. La preparación adecuada para estos tests es una inversión legítima en mostrar tu verdadero potencial.
+          </p>
+          <p>
+            <Link href="/#como-se-si-podria-tener-aci">Más sobre optimización y preparación en Home</Link>
           </p>
         </section>
 
@@ -157,12 +157,12 @@ export default function Tests() {
         </section>
 
         <section className="content-section">
-          <h2 id="si-no-podes-acceder">Si no podés acceder a una evaluación&nbsp;<a href="#si-no-podes-acceder">🔗</a></h2>
+          <h2 id="si-no-podes-acceder">Opciones para cada presupuesto&nbsp;<a href="#si-no-podes-acceder">🔗</a></h2>
           <p>
-            No todos tienen recursos económicos o geográficos para un diagnóstico profesional. Eso no invalida tu búsqueda. Podés empezar por lecturas, comunidades online o un registro personal de tus patrones mentales. Observarte con honestidad es un primer paso poderoso.
+            El mercado ofrece un espectro de servicios para diferentes presupuestos y necesidades. Desde recursos educativos accesibles y comunidades online hasta evaluaciones profesionales completas, podés elegir el nivel de inversión que mejor se ajuste a tus circunstancias actuales y objetivos personales.
           </p>
           <p>
-            <strong>Nota</strong>: Una evaluación psicodiagnóstica integral incluye entrevistas, pruebas y análisis clínico para entender tu mente, no solo un número. <Link href="/profesionales#que-esperar">Ver más en Profesionales</Link>
+            <strong>Nota</strong>: Las evaluaciones profesionales integrales son una inversión significativa que incluye múltiples servicios especializados. <Link href="/profesionales#que-esperar">Explorá las opciones disponibles en Profesionales</Link>
           </p>
         </section>
 

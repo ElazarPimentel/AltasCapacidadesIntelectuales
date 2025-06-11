@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 const siteUrl = 'https://altas-capacidades-intelectuales.vercel.app';
-const siteName = 'Altas Capacidades Intelectuales en Adultos';
-const defaultDescription = 'Información especializada sobre Altas Capacidades Intelectuales en adultos. Recursos, tests, legislación y profesionales en Argentina.';
+const siteName = 'Altas Capacidades Intelectuales en Buenos Aires';
+const defaultDescription = 'Información especializada sobre Altas Capacidades Intelectuales (ACI) en Buenos Aires, CABA y Argentina. Recursos, tests y profesionales en Ciudad Autónoma de Buenos Aires.';
 
 interface MetadataConfig {
   title: string;
@@ -16,7 +16,7 @@ export function generateMetadata({
   title,
   description = defaultDescription,
   path = '',
-  keywords = ['altas capacidades intelectuales', 'ACI', 'superdotación', 'adultos', 'Argentina'],
+  keywords = ['altas capacidades intelectuales', 'ACI', 'superdotación', 'CABA', 'Buenos Aires', 'Capital Federal', 'Argentina'],
   type = 'website'
 }: MetadataConfig): Metadata {
   const url = `${siteUrl}${path}`;

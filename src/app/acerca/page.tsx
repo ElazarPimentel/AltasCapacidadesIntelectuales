@@ -11,52 +11,52 @@ export default function Acerca() {
         
         <section className="content-section">
           <p>
-            Este sitio fue creado para personas adultas que sospechan tener Altas Capacidades Intelectuales (ACI) y buscan entender su diferencia sin necesidad de etiquetas clínicas ni tecnicismos<sup><a href="#ref-1">[1]</a></sup>. No somos un centro diagnóstico ni una institución educativa. No ofrecemos tests, terapias ni programas. Somos un recurso informativo, independiente y <strong>enfocado exclusivamente en adultos</strong>.
+            Este sitio es un recurso independiente diseñado para adultos que buscan explorar y maximizar su potencial cognitivo. No somos una institución ni un centro diagnóstico. Somos una plataforma informativa que te conecta con recursos, servicios profesionales y opciones de desarrollo personal<sup><a href="#ref-1">[1]</a></sup>. Nuestro enfoque está en empoderarte para tomar decisiones informadas sobre tu desarrollo cognitivo y profesional.
           </p>
           <p>
-            A diferencia de centros que se enfocan en niños y adolescentes, nuestro sitio está diseñado para quienes ya pasaron la infancia sin identificación temprana<sup><a href="#ref-2">[2]</a></sup>. No competimos con instituciones establecidas; las complementamos ofreciendo claridad conceptual, tono empático y orientación práctica hacia <Link href="/profesionales">profesionales especializados</Link>.
+            Mientras que muchos servicios se concentran en niños y adolescentes, nosotros nos especializamos en adultos que buscan entender y aprovechar sus capacidades<sup><a href="#ref-2">[2]</a></sup>. Facilitamos la conexión entre individuos y proveedores de servicios especializados, ofreciendo información clara y opciones prácticas para tu desarrollo personal. Explorá nuestra red de <Link href="/profesionales">profesionales independientes</Link>.
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="metodologia">Metodología y Enfoque&nbsp;<a href="#metodologia">🔗</a></h2>
+          <h2 id="metodologia">Enfoque centrado en el individuo&nbsp;<a href="#metodologia">🔗</a></h2>
           <p>
-            Nuestro enfoque se basa en tres pilares<sup><a href="#ref-3">[3]</a></sup>:
+            Nuestra plataforma se basa en tres principios fundamentales<sup><a href="#ref-3">[3]</a></sup>:
           </p>
           <ul className="content-list">
-            <li><strong>Evidencia científica</strong>: Nos basamos en investigación actualizada sobre ACI en adultos.</li>
-            <li><strong>Experiencia vivida</strong>: Incorporamos testimonios y patrones observados en la práctica clínica.</li>
-            <li><strong>Accesibilidad</strong>: Traducimos conceptos complejos a lenguaje claro y accionable.</li>
+            <li><strong>Libertad de elección</strong>: Te presentamos opciones para que decidas tu camino de desarrollo.</li>
+            <li><strong>Información de calidad</strong>: Combinamos investigación científica con experiencias prácticas del mercado.</li>
+            <li><strong>Empoderamiento personal</strong>: Te damos herramientas para tomar decisiones informadas sobre tu desarrollo.</li>
           </ul>
           <p>
-            Cada sección está diseñada para ayudarte a entender tu mente sin patologizarla<sup><a href="#ref-4">[4]</a></sup>.
+            Cada sección está diseñada para ayudarte a entender y maximizar tu potencial<sup><a href="#ref-4">[4]</a></sup>.
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="transparencia">Transparencia y Criterios&nbsp;<a href="#transparencia">🔗</a></h2>
+          <h2 id="transparencia">Nuestro compromiso&nbsp;<a href="#transparencia">🔗</a></h2>
           <p>
-            Nuestro contenido se basa en una <a href="/data/editorial-guide.md" target="_blank" rel="noopener noreferrer">guía editorial propia</a>, alineada con enfoques multidimensionales que reconocen la creatividad, la asincronía y la intensidad emocional de las ACI, más allá del CI<sup><a href="#ref-5">[5]</a></sup>. Nos inspiramos en fuentes confiables y colaboramos con la comunidad, como la <a href="https://revista.elarcondeclio.com.ar/la-asociacion-civil-altas-capacidades-argentina/" target="_blank" rel="noopener noreferrer">Asociación Altas Capacidades Argentina</a>.
+            Nos basamos en una <a href="/data/editorial-guide.md" target="_blank" rel="noopener noreferrer">guía editorial independiente</a> que reconoce la diversidad de talentos y capacidades. Colaboramos con profesionales y organizaciones privadas que comparten nuestra visión de empoderar a individuos para alcanzar su máximo potencial<sup><a href="#ref-5">[5]</a></sup>.
           </p>
           <p>
-            Cada página de este sitio está pensada para aportar claridad sin imponer diagnósticos. Si algo te resuena, perfecto. Si no, también está bien. El objetivo es que tengas palabras para pensar tu experiencia, no que encajes en una categoría.
+            Nuestro objetivo es proporcionarte información clara y opciones prácticas para tu desarrollo personal. La decisión de cómo usar estos recursos siempre está en tus manos. Te ofrecemos herramientas para entender tu potencial y elegir cómo desarrollarlo.
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="donde-continuar">¿Por dónde continuar?&nbsp;<a href="#donde-continuar">🔗</a></h2>
+          <h2 id="donde-continuar">Explora tus opciones&nbsp;<a href="#donde-continuar">🔗</a></h2>
           <ul className="content-list">
             <li>
-              <strong><Link href="/tests">¿Querés explorar tu sospecha?</Link></strong> - Tests orientativos y guía para evaluación profesional
+              <strong><Link href="/tests">Evaluación y desarrollo</Link></strong> - Opciones profesionales para explorar tu potencial
             </li>
             <li>
-              <strong><Link href="/arquetipos">¿Cómo vivir la diferencia?</Link></strong> - Arquetipos experienciales para entender tu recorrido
+              <strong><Link href="/arquetipos">Desarrollo personal</Link></strong> - Herramientas para entender y maximizar tus capacidades
             </li>
             <li>
-              <strong><Link href="/profesionales">¿Buscás acompañamiento?</Link></strong> - Directorio de profesionales especializados
+              <strong><Link href="/profesionales">Servicios especializados</Link></strong> - Red de profesionales independientes
             </li>
             <li>
-              <strong><Link href="/">¿Qué son las ACI?</Link></strong> - Información fundamental sobre altas capacidades
+              <strong><Link href="/">Información fundamental</Link></strong> - Base científica para decisiones informadas
             </li>
           </ul>
         </section>

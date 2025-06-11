@@ -18,31 +18,31 @@ export default function Profesionales() {
         </section>
 
         <section className="content-section">
-          <h2 id="por-que-especializado">Por qué un profesional especializado&nbsp;<a href="#por-que-especializado">🔗</a></h2>
+          <h2 id="por-que-especializado">El valor de la especialización en el mercado&nbsp;<a href="#por-que-especializado">🔗</a></h2>
           <p>
-            Según la Asociación Española de Superdotación y Talento, la formación en altas capacidades es limitada en muchos programas de psicología general, y mucho más aún en perfiles adultos<sup><a href="#ref-1">[1]</a></sup>. Las ACI no son parte del entrenamiento clínico estándar.
+            El mercado de profesionales especializados en ACI ha surgido como respuesta a una demanda específica. Mientras que la formación general en psicología puede ser limitada en este campo<sup><a href="#ref-1">[1]</a></sup>, algunos profesionales han elegido desarrollar expertise particular en altas capacidades, creando un nicho valioso de servicios especializados.
           </p>
           <p>
-            Un profesional no especializado puede minimizar lo que sentís o confundirlo con otro cuadro<sup><a href="#ref-2">[2]</a></sup>. Uno formado en ACI sabe detectar patrones, validar tu experiencia sin exagerarla y ayudarte a ponerle palabras a lo que quizás viviste en silencio.
+            La diferencia entre un profesional generalista y uno especializado en ACI radica en su inversión en formación específica<sup><a href="#ref-2">[2]</a></sup>. Los especialistas han desarrollado herramientas precisas para detectar patrones, validar experiencias y ofrecer un acompañamiento efectivo.
           </p>
           <p>
-            <Link href="/arquetipos#introduccion">¿Cómo se vive esa diferencia? Mirá los arquetipos</Link>
+            <Link href="/arquetipos#introduccion">¿Cómo se refleja esto en la práctica? Mirá los arquetipos</Link>
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="que-buscar">Qué buscar en un profesional&nbsp;<a href="#que-buscar">🔗</a></h2>
+          <h2 id="que-buscar">Criterios para elegir un profesional&nbsp;<a href="#que-buscar">🔗</a></h2>
           <p>
-            Estas son buenas señales<sup><a href="#ref-3">[3]</a></sup>:
+            Al elegir un profesional en el mercado, considerá estos indicadores de calidad<sup><a href="#ref-3">[3]</a></sup>:
           </p>
           <ul className="content-list">
-            <li><strong>Formación específica</strong> en neurodivergencia, ACI o evaluación psicodiagnóstica.</li>
-            <li><strong>Experiencia con adultos</strong>: muchos solo trabajan con niños.</li>
-            <li><strong>Enfoque integral</strong>: entrevistas clínicas + pruebas + contexto vital.</li>
-            <li><strong>Lenguaje claro y sin reduccionismos</strong>: te escucha más de lo que encasilla.</li>
+            <li><strong>Inversión en formación específica</strong> en neurodivergencia, ACI o evaluación psicodiagnóstica.</li>
+            <li><strong>Especialización en adultos</strong>: un nicho más específico y valioso.</li>
+            <li><strong>Metodología integral</strong>: combinación de herramientas diagnósticas y análisis personalizado.</li>
+            <li><strong>Comunicación efectiva</strong>: capacidad de transmitir información compleja de forma clara.</li>
           </ul>
           <p>
-            Organizaciones como AACArg o Mensa pueden servir como punto de partida. También podés consultar la <a href="#lista-de-profesionales">lista de profesionales</a>.
+            El mercado ofrece múltiples opciones: desde profesionales independientes hasta organizaciones especializadas como AACArg o Mensa. Explorá la <a href="#lista-de-profesionales">lista de profesionales</a> para comparar servicios.
           </p>
         </section>
 
@@ -81,29 +81,30 @@ export default function Profesionales() {
         </section>
 
         <section className="content-section">
-          <h2 id="sin-acceso">Si no tenés acceso inmediato&nbsp;<a href="#sin-acceso">🔗</a></h2>
+          <h2 id="sin-acceso">Alternativas en el mercado&nbsp;<a href="#sin-acceso">🔗</a></h2>
           <p>
-            Si no podés acceder a un especialista (por distancia, costo o tiempo), podés<sup><a href="#ref-5">[5]</a></sup>:
+            El mercado ofrece múltiples opciones según tu presupuesto y necesidades<sup><a href="#ref-5">[5]</a></sup>:
           </p>
           <ul className="content-list">
-            <li>Buscar comunidades online donde se compartan experiencias reales.</li>
-            <li>Leer libros o artículos de calidad sobre ACI y neurodivergencia.</li>
-            <li>Usar una IA para poner en palabras lo que sentís (<Link href="/tests#charlar-con-una-ia">ver prompt en Tests</Link>).</li>
+            <li>Comunidades online autoorganizadas con experiencias compartidas.</li>
+            <li>Recursos educativos digitales y libros especializados.</li>
+            <li>Herramientas de IA para exploración inicial (<Link href="/tests#charlar-con-una-ia">ver prompt en Tests</Link>).</li>
+            <li>Consultas virtuales con profesionales de otras regiones.</li>
           </ul>
           <p>
-            No reemplazan una evaluación profesional, pero pueden ayudarte a empezar.
+            Cada opción tiene su propio valor y puedes elegir la que mejor se ajuste a tus necesidades actuales.
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="por-que-importa">Por qué importa&nbsp;<a href="#por-que-importa">🔗</a></h2>
+          <h2 id="por-que-importa">El valor de la elección informada&nbsp;<a href="#por-que-importa">🔗</a></h2>
           <p>
-            Un diagnóstico no es una etiqueta: es una llave. El profesional adecuado puede ayudarte a entender tu mente sin distorsionarla, y acompañarte a integrarla en tu vida.
+            La diversidad de opciones en el mercado te permite elegir el camino que mejor se ajuste a tus necesidades. Un profesional especializado es una inversión en autoconocimiento que puede transformar cómo entendés y aprovechás tus capacidades.
           </p>
           <p>
-            <Link href="/historia#aci-en-argentina">¿Querés entender cómo llegamos hasta acá? Mirá Historia</Link>
+            <Link href="/historia#aci-en-argentina">¿Querés entender cómo evolucionó este mercado? Mirá Historia</Link>
             <br/>
-            <Link href="/legislacion#marco-nacional">¿Querés saber qué derechos tenés? Leé Legislación</Link>
+            <Link href="/legislacion#marco-nacional">¿Querés conocer el contexto actual? Leé Legislación</Link>
           </p>
         </section>
 

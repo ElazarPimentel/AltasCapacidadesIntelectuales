@@ -36,25 +36,25 @@ export default function Page() {
         </section>
 
         <section className="content-section">
-          <h2 id="aci-en-argentina">ACI en Argentina: un desafío histórico&nbsp;<a href="#aci-en-argentina">🔗</a></h2>
+          <h2 id="aci-en-argentina">ACI en Argentina: el rol de la iniciativa privada&nbsp;<a href="#aci-en-argentina">🔗</a></h2>
           <p>
-            En Argentina, la atención a las ACI ha sido limitada. Al ser un país federal, la educación depende de cada provincia, y no ha existido una política nacional unificada para identificar o apoyar a personas con alta capacidad. Se estima que cerca de un millón de personas en Argentina podrían tener ACI, pero la mayoría no lo sabe<sup><a href="#ref-3">[3]</a></sup>.
+            En Argentina, el reconocimiento de las ACI ha sido impulsado principalmente por familias, profesionales independientes y organizaciones privadas. Se estima que cerca de un millón de personas en Argentina podrían tener ACI, y su desarrollo ha dependido principalmente de la iniciativa individual y familiar<sup><a href="#ref-3">[3]</a></sup>.
           </p>
           <p>
-            En las décadas de los '80 y '90, muchos niños con ACI fueron mal entendidos, a veces diagnosticados erróneamente con <Link href="/tests#diferencias-con-tdah-tea">TDAH o TEA</Link>, o considerados desinteresados. Esto llevó a dificultades como abandono escolar o baja autoestima<sup><a href="#ref-4">[4]</a></sup>.
+            Durante las décadas de los '80 y '90, surgieron las primeras consultoras y profesionales especializados, ofreciendo alternativas a quienes buscaban entender sus diferencias cognitivas. Estas iniciativas privadas fueron pioneras en brindar evaluaciones precisas y evitar diagnósticos erróneos como <Link href="/tests#diferencias-con-tdah-tea">TDAH o TEA</Link><sup><a href="#ref-4">[4]</a></sup>.
           </p>
           <p>
-            <Link href="/legislacion#marco-nacional">Conocé el marco actual en Legislación</Link>
+            <Link href="/legislacion#marco-nacional">Conocé las opciones actuales en Legislación</Link>
           </p>
         </section>
 
         <section className="content-section">
-          <h2 id="el-caso-benjamin">El caso Benjamín Equiza&nbsp;<a href="#el-caso-benjamin">🔗</a></h2>
+          <h2 id="el-caso-benjamin">El caso Benjamín Equiza: un ejemplo de autogestión familiar&nbsp;<a href="#el-caso-benjamin">🔗</a></h2>
           <p>
-            A los 8 años, Benjamín Equiza leía con fluidez, escribía con claridad y resolvía cálculos complejos. Sin embargo, la Dirección General de Escuelas de Buenos Aires lo obligó a repetir un año por no ajustarse a las normas de edad. Su familia impulsó la Ley Benjamín<sup><a href="#ref-5">[5]</a></sup>, un proyecto para garantizar la detección temprana y el acompañamiento de estudiantes con ACI en la provincia.
+            El caso de Benjamín Equiza ilustra cómo las familias pueden tomar acción directa. A los 8 años, Benjamín leía con fluidez, escribía con claridad y resolvía cálculos complejos. Cuando el sistema educativo tradicional no se adaptó a sus necesidades, su familia no esperó soluciones institucionales: buscó alternativas privadas, conectó con otros padres en situaciones similares y creó una red de apoyo que luego inspiró a otros<sup><a href="#ref-5">[5]</a></sup>.
           </p>
           <p>
-            Este caso reflejó la dificultad de los sistemas educativos para adaptarse a la <Link href="/tests#el-objetivo-es-entenderte">diversidad cognitiva</Link>.
+            Este caso demuestra cómo la iniciativa privada puede generar soluciones efectivas para la <Link href="/tests#el-objetivo-es-entenderte">diversidad cognitiva</Link>.
           </p>
         </section>
 
