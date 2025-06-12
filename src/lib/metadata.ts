@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-const siteUrl = 'https://altas-capacidades-intelectuales.vercel.app';
+const siteUrl = 'https://AltasCapacidadesIntelectuales.org';
 const siteName = 'Altas Capacidades Intelectuales en Buenos Aires';
 const defaultDescription = 'Información especializada sobre Altas Capacidades Intelectuales (ACI) en Buenos Aires, CABA y Argentina. Recursos, tests y profesionales en Ciudad Autónoma de Buenos Aires.';
 

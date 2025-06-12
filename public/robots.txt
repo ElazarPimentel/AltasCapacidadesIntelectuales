@@ -11,7 +11,8 @@ User-agent: GPTBot
 Allow: /
 
 # Host
-Host: https://altas-capacidades-intelectuales.vercel.app
+Host: https://AltasCapacidadesIntelectuales.org
 
 # Sitemaps
+Sitemap: https://AltasCapacidadesIntelectuales.org/sitemap.xml
 Sitemap: https://altas-capacidades-intelectuales.vercel.app/sitemap.xml

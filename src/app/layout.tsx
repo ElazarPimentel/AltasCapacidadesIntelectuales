@@ -34,7 +34,7 @@ export default function RootLayout({
         <link 
           rel="alternate" 
           hrefLang="es-AR" 
-          href="https://altas-capacidades-intelectuales.vercel.app"
+          href="https://AltasCapacidadesIntelectuales.org"
         />
         <JsonLd data={websiteStructuredData} />
         <JsonLd data={organizationStructuredData} />

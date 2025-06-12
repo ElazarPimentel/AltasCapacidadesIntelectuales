@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 const INDEXNOW_KEY = 'f1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6';
-const SITE_URL = 'https://altas-capacidades-intelectuales.vercel.app';
+const SITE_URL = 'https://AltasCapacidadesIntelectuales.org';
 
 export async function POST(request: NextRequest) {
   try {

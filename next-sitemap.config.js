@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://altas-capacidades-intelectuales.vercel.app',
+  siteUrl: 'https://AltasCapacidadesIntelectuales.org',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   robotsTxtOptions: {

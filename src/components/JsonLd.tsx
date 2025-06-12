@@ -1,3 +1,5 @@
+// src/components/JsonLd.tsx
+
 interface JsonLdProps {
   data: Record<string, unknown>;
 }
@@ -16,17 +18,17 @@ export const websiteStructuredData = {
   "@type": "WebSite",
   "name": "Altas Capacidades Intelectuales en Buenos Aires",
   "description": "Información especializada sobre Altas Capacidades Intelectuales en CABA. Recursos, tests, legislación y profesionales en Ciudad Autónoma de Buenos Aires.",
-  "url": "https://altas-capacidades-intelectuales.vercel.app",
+  "url": "https://AltasCapacidadesIntelectuales.org",
   "inLanguage": "es-AR",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://altas-capacidades-intelectuales.vercel.app/{search_term_string}",
+    "target": "https://AltasCapacidadesIntelectuales.org/{search_term_string}",
     "query-input": "required name=search_term_string"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Sitio ACI Buenos Aires",
-    "url": "https://altas-capacidades-intelectuales.vercel.app"
+    "url": "https://AltasCapacidadesIntelectuales.org"
   }
 };
 
@@ -35,7 +37,7 @@ export const organizationStructuredData = {
   "@type": "Organization",
   "name": "Sitio ACI Buenos Aires",
   "description": "Organización dedicada a la información y recursos sobre Altas Capacidades Intelectuales en Buenos Aires",
-  "url": "https://altas-capacidades-intelectuales.vercel.app",
+  "url": "https://AltasCapacidadesIntelectuales.org",
   "sameAs": [],
   "address": {
     "@type": "PostalAddress",
@@ -73,7 +75,7 @@ export const articleStructuredData = {
   "publisher": {
     "@type": "Organization",
     "name": "Sitio ACI Buenos Aires",
-    "url": "https://altas-capacidades-intelectuales.vercel.app"
+    "url": "https://AltasCapacidadesIntelectuales.org"
   },
   "datePublished": "2024-03-19",
   "dateModified": "2024-03-19",

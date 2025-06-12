@@ -7,8 +7,8 @@
 - ✅ `robots.txt` with directives for all crawlers including AI bots
 - ✅ Explicit permissions for PerplexityBot, GPTBot, ClaudeBot, etc.
 - ✅ Accessible at: 
-  - `https://altas-capacidades-intelectuales.vercel.app/sitemap.xml`
-  - `https://altas-capacidades-intelectuales.vercel.app/robots.txt`
+  - `https://AltasCapacidadesIntelectuales.org/sitemap.xml`
+  - `https://AltasCapacidadesIntelectuales.org/robots.txt`
 
 ### 2. **Enhanced Metadata**
 - ✅ Comprehensive metadata utility in `src/lib/metadata.ts`
@@ -43,7 +43,7 @@
 
 ### Google Search Console
 1. Verify ownership at https://search.google.com/search-console/
-2. Submit sitemap: `https://altas-capacidades-intelectuales.vercel.app/sitemap.xml`
+2. Submit sitemap: `https://AltasCapacidadesIntelectuales.org/sitemap.xml`
 3. Request indexing for main pages manually
 4. Monitor indexation status and fix any issues
 
@@ -52,9 +52,9 @@
 2. Submit sitemap and enable IndexNow
 3. Use IndexNow API for real-time updates:
    ```bash
-   curl -X POST https://altas-capacidades-intelectuales.vercel.app/api/indexnow \
+   curl -X POST https://AltasCapacidadesIntelectuales.org/api/indexnow \
    -H "Content-Type: application/json" \
-   -d '{"urls": ["https://altas-capacidades-intelectuales.vercel.app/"]}'
+   -d '{"urls": ["https://AltasCapacidadesIntelectuales.org/"]}'
    ```
 
 ### Perplexity AI Indexation
@@ -74,7 +74,7 @@
 1. **Google Search Console**: Primary indexation monitoring
 2. **Bing Webmaster Tools**: Microsoft ecosystem indexation
 3. **Site crawlers**: Use tools like Screaming Frog to verify
-4. **Search operators**: Test with `site:altas-capacidades-intelectuales.vercel.app`
+4. **Search operators**: Test with `site:AltasCapacidadesIntelectuales.org`
 
 ### Key Metrics to Track
 - Pages indexed vs. submitted

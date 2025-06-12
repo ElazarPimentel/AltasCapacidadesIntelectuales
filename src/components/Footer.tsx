@@ -1,3 +1,6 @@
+// src/components/Footer.tsx
+// Footer
+
 export default function Footer() {
   return (
     <footer>

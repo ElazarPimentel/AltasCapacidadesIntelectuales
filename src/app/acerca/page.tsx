@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Disclaimer from '@/components/Disclaimer';
 import { getSectionVariant } from '@/lib/utils';
 
 export { default as metadata } from './metadata';
@@ -62,7 +61,9 @@ export default function Acerca() {
           </ul>
         </section>
 
-        <Disclaimer />
+        <div className="disclaimer-box">
+          Este sitio no ofrece diagnóstico. Su contenido es informativo y está orientado a adultos que sospechan tener un perfil ACI. Recomendamos siempre consultar a un profesional especializado.
+        </div>
 
         <section className={`content-section ${getSectionVariant(4)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
@@ -73,6 +74,13 @@ export default function Acerca() {
             <li id="ref-4">[4] <a href="https://www.hoagiesgifted.org/gifted_adults.htm" target="_blank" rel="noopener noreferrer">Hoagies' Gifted: Gifted Adults - Resources and Research</a></li>
             <li id="ref-5">[5] <a href="https://www.davidsongifted.org/gifted-blog/gifted-adults/" target="_blank" rel="noopener noreferrer">Davidson Institute: Understanding and Supporting Gifted Adults</a></li>
           </ul>
+        </section>
+
+        <section className={`content-section ${getSectionVariant(5)}`}>
+          <h2 id="contacto">Contacto&nbsp;<a href="#contacto">🔗</a></h2>
+          <div className="contact-info">
+            Para consultas o sugerencias: <a href="mailto:ACIntelectuales@gmail.com">ACIntelectuales@gmail.com</a>
+          </div>
         </section>
       </div>
     </main>
