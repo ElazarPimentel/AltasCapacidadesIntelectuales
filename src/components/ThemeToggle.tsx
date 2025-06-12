@@ -18,13 +18,8 @@ export function ThemeToggle() {
 
   useEffect(() => {
     setReady(true);
-    const saved =
-      typeof window !== 'undefined' && localStorage.getItem(STORAGE);
-    const initial =
-      saved ??
-      (window.matchMedia('(prefers-color-scheme: dark)').matches
-        ? DARK
-        : LIGHT);
+    const saved = typeof window !== 'undefined' ? localStorage.getItem(STORAGE) : null;
+    const initial = typeof saved === 'string' ? saved : (window.matchMedia('(prefers-color-scheme: dark)').matches ? DARK : LIGHT);
     setTheme(initial);
     applyTheme(initial);
   }, []);

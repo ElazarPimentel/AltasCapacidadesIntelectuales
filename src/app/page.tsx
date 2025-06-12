@@ -25,7 +25,7 @@ export default function Home() {
     <main className="main-content">
       <div className="container">
         <h1>ACI en Adultos</h1>
-
+        
         {/* 0 ● Intro */}
         <section className={`content-section ${getSectionVariant(0)}`}>
           <p>
