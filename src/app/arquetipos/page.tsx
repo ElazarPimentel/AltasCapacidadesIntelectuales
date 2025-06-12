@@ -2,6 +2,7 @@
 // Arquetipos
 
 import Link from 'next/link';
+import { getSectionVariant } from '@/lib/utils';
 
 export { default as metadata } from './metadata';
 
@@ -11,20 +12,20 @@ export default function Arquetipos() {
       <div className="container">
         <h1>Arquetipos de Experiencias con Altas Capacidades Intelectuales</h1>
         
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(0)}`}>
           <p>
             No se trata solo de si tenés o no un perfil ACI. Se trata de cómo viviste con esa diferencia —o sin saber que la tenías. Acá usamos <i>arquetipos experienciales</i> como espejos, no como casilleros. No son categorías clínicas: son formas de entender tu recorrido vital. Si alguno te resuena, puede servirte para pensar(te).
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(1)}`}>
           <h2 id="introduccion">Introducción&nbsp;<a href="#introduccion">🔗</a></h2>
           <p>
             Estos arquetipos combinan tipo de mente (ACI o no) con el modo en que tus decisiones y circunstancias te moldearon. No son etiquetas ni categorías impuestas. Son herramientas para que vos elijas cómo entender y desarrollar tu potencial<sup><a href="#ref-1">[1]</a></sup>. Si sentís que no encajás, que tu camino fue más desafiante de lo esperado, empezá por acá. Y si querés explorar tu perfil cognitivo, el mercado ofrece diversas opciones en la sección de <Link href="/tests#tu-sospecha-es-legitima">Tests</Link>.
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(2)}`}>
           <h2 id="arquetipo-a">a) Persona ACI en búsqueda de desarrollo personal&nbsp;<a href="#arquetipo-a">🔗</a></h2>
           <p>
             <i>Alta capacidad buscando su camino de crecimiento.</i>
@@ -41,7 +42,7 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(3)}`}>
           <h2 id="b-persona-no-aci-con-vida-dificil">b) Persona no ACI con vida difícil&nbsp;<a href="#b-persona-no-aci-con-vida-dificil">🔗</a></h2>
           <p>
             <i>La diferencia que sentís no siempre tiene origen cognitivo.</i>
@@ -58,7 +59,7 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(4)}`}>
           <h2 id="c-persona-no-aci-con-alto-desempeno">c) Persona no ACI con alto desempeño&nbsp;<a href="#c-persona-no-aci-con-alto-desempeno">🔗</a></h2>
           <p>
             <i>Capacidad funcional, estructurada, sostenida.</i>
@@ -75,7 +76,7 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className="content-section variant-b">
           <h2 id="d-persona-aci-adaptada-y-funcional">d) Persona ACI emprendedora y autónoma&nbsp;<a href="#d-persona-aci-adaptada-y-funcional">🔗</a></h2>
           <p>
             <i>Alta capacidad como ventaja competitiva en el mercado.</i>
@@ -92,7 +93,7 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(5)}`}>
           <h2 id="epilogo">Epílogo&nbsp;<a href="#epilogo">🔗</a></h2>
           <p>
             Estos arquetipos son herramientas para tu desarrollo personal. Son puntos de partida para que explores y elijas tu propio camino.
@@ -105,7 +106,7 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(6)}`}>
           <h2 id="marco-teorico">Marco teórico&nbsp;<a href="#marco-teorico">🔗</a></h2>
           <p>
             Estos arquetipos se basan en la teoría de la desintegración positiva de Dabrowski, los perfiles de Neihart sobre personas con altas capacidades, y los estudios longitudinales de Silverman sobre el desarrollo asincrónico<sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-2">[2]</a></sup>. No son categorías diagnósticas, sino herramientas para pensar la diversidad cognitiva<sup><a href="#ref-3">[3]</a></sup>.
@@ -115,7 +116,7 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(7)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
           <ul className="content-list">
             <li id="ref-1">[1] <a href="https://www.springerpub.com/giftedness-101-9780826107982.html" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2013) - Giftedness 101: Understanding Gifted People</a></li>

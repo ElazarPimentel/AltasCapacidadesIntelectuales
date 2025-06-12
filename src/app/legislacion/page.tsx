@@ -2,6 +2,7 @@
 // Legislación
 
 import Link from 'next/link';
+import { getSectionVariant } from '@/lib/utils';
 
 export { default as metadata } from './metadata';
 
@@ -11,13 +12,13 @@ export default function Legislacion() {
       <div className="container">
         <h1>Legislación sobre Altas Capacidades Intelectuales en Argentina</h1>
         
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(0)}`}>
           <p>
             En Argentina, las iniciativas privadas han sido históricamente las principales impulsoras del reconocimiento y apoyo a las Altas Capacidades Intelectuales (ACI). Esta sección documenta el marco regulatorio actual, no para justificar su existencia, sino para que entiendas cómo navegar el sistema mientras trabajás en tu desarrollo personal.
           </p>
         </section>
 
-        <section className="content-section">
+        <section className="content-section variant-b">
           <h2 id="marco-nacional">El contexto actual: oportunidades desde la iniciativa privada&nbsp;<a href="#marco-nacional">🔗</a></h2>
           <p>
             La ausencia de regulaciones específicas sobre ACI en Argentina ha permitido que surjan diversas iniciativas privadas y soluciones individuales. Mientras que existe legislación educativa general, la falta de regulación específica permite mayor flexibilidad para encontrar soluciones personalizadas fuera del sistema tradicional.
@@ -27,7 +28,7 @@ export default function Legislacion() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(1)}`}>
           <h2 id="ley-benjamin">La Ley Benjamín: un paso provincial clave&nbsp;<a href="#ley-benjamin">🔗</a></h2>
           <p>
             En la provincia de Buenos Aires, el caso de Benjamín Equiza dio origen a un proyecto legislativo clave. Se llama <i>Ley Benjamín</i> (en trámite al 2025) busca garantizar detección temprana y acompañamiento integral de estudiantes con ACI<sup><a href="#ref-3">[3]</a></sup>, desde nivel inicial hasta la secundaria. Sus pilares son:
@@ -42,7 +43,7 @@ export default function Legislacion() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(2)}`}>
           <h2 id="avances-provinciales">Iniciativas privadas por región&nbsp;<a href="#avances-provinciales">🔗</a></h2>
           <p>
             El sector privado ha desarrollado diversas soluciones adaptadas a cada región<sup><a href="#ref-4">[4]</a></sup>:
@@ -60,7 +61,7 @@ export default function Legislacion() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(3)}`}>
           <h2 id="adultos-aci">Adultos: libertad y responsabilidad personal&nbsp;<a href="#adultos-aci">🔗</a></h2>
           <p>
             Los adultos con ACI tienen la ventaja de poder elegir libremente cómo desarrollar su potencial<sup><a href="#ref-5">[5]</a></sup>. La ausencia de regulaciones específicas significa que podés diseñar tu propio camino, eligiendo entre múltiples opciones privadas de desarrollo profesional y personal.
@@ -70,7 +71,7 @@ export default function Legislacion() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(4)}`}>
           <h2 id="que-hacer">Opciones disponibles en el mercado&nbsp;<a href="#que-hacer">🔗</a></h2>
           <p>
             El sector privado ofrece múltiples alternativas para tu desarrollo:
@@ -86,7 +87,7 @@ export default function Legislacion() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(5)}`}>
           <h2 id="legislacion-internacional">Legislación internacional como referencia&nbsp;<a href="#legislacion-internacional">🔗</a></h2>
           <p>
             Argentina ratificó la Convención sobre los Derechos de las Personas con Discapacidad (Ley 26.378)<sup><a href="#ref-2">[2]</a></sup>, que garantiza educación inclusiva a personas neurodivergentes. Aunque no menciona ACI explícitamente, su espíritu respalda la necesidad de políticas adaptadas.
@@ -96,7 +97,7 @@ export default function Legislacion() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(6)}`}>
           <h2 id="por-que-importa">Por qué la libertad importa&nbsp;<a href="#por-que-importa">🔗</a></h2>
           <p>
             La ausencia de regulaciones específicas puede ser una ventaja: te permite buscar soluciones personalizadas sin restricciones burocráticas. El mercado libre genera constantemente nuevas opciones para quienes buscan desarrollar su potencial.
@@ -109,7 +110,7 @@ export default function Legislacion() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(7)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
           <ul className="content-list">
             <li id="ref-1">[1] <a href="https://www.boe.es/eli/es/l/2006/05/03/2" target="_blank" rel="noopener noreferrer">Ley Orgánica 2/2006 de Educación (España) - Artículos sobre Altas Capacidades</a></li>

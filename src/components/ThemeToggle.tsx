@@ -1,35 +1,51 @@
-import { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
-export default function ThemeToggle() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+const STORAGE = 'theme';
+const DARK = 'dark';
+const LIGHT = 'light';
+
+function applyTheme(theme: string) {
+  const root = document.documentElement;
+  root.setAttribute('data-theme-transition', 'true');
+  root.dataset.theme = theme;
+  setTimeout(() => root.removeAttribute('data-theme-transition'), 300);
+}
+
+export function ThemeToggle() {
+  const [ready, setReady] = useState(false);
+  const [theme, setTheme] = useState<string>(DARK);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      setIsDarkMode(savedTheme === 'dark');
-      document.documentElement.classList.toggle('light', savedTheme === 'light');
-    } else {
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      setIsDarkMode(prefersDark);
-      document.documentElement.classList.toggle('light', !prefersDark);
-    }
+    setReady(true);
+    const saved =
+      typeof window !== 'undefined' && localStorage.getItem(STORAGE);
+    const initial =
+      saved ??
+      (window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? DARK
+        : LIGHT);
+    setTheme(initial);
+    applyTheme(initial);
   }, []);
 
-  const toggleDarkMode = () => {
-    const newTheme = isDarkMode ? 'light' : 'dark';
-    setIsDarkMode(!isDarkMode);
-    document.documentElement.classList.toggle('light', newTheme === 'light');
-    localStorage.setItem('theme', newTheme);
+  if (!ready) return null;
+
+  const toggle = () => {
+    const next = theme === DARK ? LIGHT : DARK;
+    setTheme(next);
+    localStorage.setItem(STORAGE, next);
+    applyTheme(next);
   };
 
   return (
     <button
       className="theme-toggle"
-      onClick={toggleDarkMode}
-      aria-label="Alternar modo oscuro"
+      onClick={toggle}
+      aria-label={theme === DARK ? 'Light mode' : 'Dark mode'}
+      title={theme === DARK ? 'Light mode' : 'Dark mode'}
     >
-      {isDarkMode ? <FaSun /> : <FaMoon />}
+      {theme === DARK ? <FaSun size={16} /> : <FaMoon size={16} />}
     </button>
   );
 } 

@@ -2,6 +2,7 @@
 // profesionales
 
 import Link from 'next/link';
+import { getSectionVariant } from '@/lib/utils';
 
 export { default as metadata } from './metadata';
 
@@ -11,13 +12,13 @@ export default function Profesionales() {
       <div className="container">
         <h1>Profesionales Especializados en Altas Capacidades Intelectuales</h1>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(0)}`}>
           <p>
             Encontrar un profesional que entienda las Altas Capacidades Intelectuales (ACI) en adultos es clave si querés explorar tu perfil cognitivo o emocional. Esta sección te orienta para elegir bien, entender qué esperar y evitar diagnósticos genéricos que te dejen igual que antes.
           </p>
         </section>
 
-        <section className="content-section">
+        <section className="content-section variant-b">
           <h2 id="por-que-especializado">El valor de la especialización en el mercado&nbsp;<a href="#por-que-especializado">🔗</a></h2>
           <p>
             El mercado de profesionales especializados en ACI ha surgido como respuesta a una demanda específica. Mientras que la formación general en psicología puede ser limitada en este campo<sup><a href="#ref-1">[1]</a></sup>, algunos profesionales han elegido desarrollar expertise particular en altas capacidades, creando un nicho valioso de servicios especializados.
@@ -30,7 +31,7 @@ export default function Profesionales() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(1)}`}>
           <h2 id="que-buscar">Criterios para elegir un profesional&nbsp;<a href="#que-buscar">🔗</a></h2>
           <p>
             Al elegir un profesional en el mercado, considerá estos indicadores de calidad<sup><a href="#ref-3">[3]</a></sup>:
@@ -46,7 +47,7 @@ export default function Profesionales() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(2)}`}>
           <h2 id="que-esperar">Qué esperar de una evaluación&nbsp;<a href="#que-esperar">🔗</a></h2>
           <p>
             No es un test de CI y listo. Es un proceso que incluye<sup><a href="#ref-4">[4]</a></sup>:
@@ -65,7 +66,7 @@ export default function Profesionales() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(3)}`}>
           <h2 id="lista-de-profesionales">Lista de profesionales (placeholder)&nbsp;<a href="#lista-de-profesionales">🔗</a></h2>
           <p>
             <em>(Esta sección debe completarse con especialistas reales)</em>
@@ -80,7 +81,7 @@ export default function Profesionales() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(4)}`}>
           <h2 id="sin-acceso">Alternativas en el mercado&nbsp;<a href="#sin-acceso">🔗</a></h2>
           <p>
             El mercado ofrece múltiples opciones según tu presupuesto y necesidades<sup><a href="#ref-5">[5]</a></sup>:
@@ -96,7 +97,7 @@ export default function Profesionales() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(5)}`}>
           <h2 id="por-que-importa">El valor de la elección informada&nbsp;<a href="#por-que-importa">🔗</a></h2>
           <p>
             La diversidad de opciones en el mercado te permite elegir el camino que mejor se ajuste a tus necesidades. Un profesional especializado es una inversión en autoconocimiento que puede transformar cómo entendés y aprovechás tus capacidades.
@@ -108,7 +109,7 @@ export default function Profesionales() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(6)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
           <ul className="content-list">
             <li id="ref-1">[1] <a href="https://www.aest.es/altas-capacidades-intelectuales-o-superdotacion/" target="_blank" rel="noopener noreferrer">AEST: Altas Capacidades Intelectuales o Superdotación - Asociación Española de Superdotación y Talento</a></li>

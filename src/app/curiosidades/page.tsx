@@ -1,5 +1,6 @@
 import YouTubeEmbed from '@/components/YouTubeEmbed';
 import { metadata as pageMetadata } from './metadata';
+import { getSectionVariant } from '@/lib/utils';
 
 export const metadata = pageMetadata;
 
@@ -9,14 +10,14 @@ export default function CuriosidadesPage() {
       <div className="container">
         <h1>Curiosidades que estimulan tu mente</h1>
         
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(0)}`}>
           <p>
             Bienvenido a nuestra colección de recursos para el desarrollo cognitivo independiente. 
             Si estás en Buenos Aires y buscás maximizar tu potencial intelectual, estas herramientas te ayudarán a crear tu propio camino de crecimiento.
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(1)}`}>
           <h2>Herramientas para el desarrollo cognitivo</h2>
           <p>El mercado ofrece diversas aplicaciones para potenciar tus capacidades cognitivas. Estas son algunas opciones premium que podrían interesarte:</p>
           <ul className="content-list">
@@ -26,7 +27,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(2)}`}>
           <h2>¿Sabías esto?</h2>
           <p>En el siglo XVI, Galileo propuso que dos objetos caen a la misma velocidad, sin importar su peso. Lo podés ver con dos pelotas en una escalera.</p>
           <p>En la misión Apolo 15, el astronauta David Scott replicó ese experimento... en la Luna. ¿Resultado? Igual que en la Tierra: la gravedad no discrimina masa.</p>
@@ -36,7 +37,7 @@ export default function CuriosidadesPage() {
           />
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(3)}`}>
           <h2>Pensamiento lógico</h2>
           <blockquote className="content-quote">
             "Todos los gatos son negros. Vi un gato. ¿De qué color era?"<br/>
@@ -45,7 +46,7 @@ export default function CuriosidadesPage() {
           </blockquote>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(4)}`}>
           <h2>Datos curiosos del universo</h2>
           <h3>¿Qué tan lejos viaja la luz?</h3>
           <table className="data-table">
@@ -76,7 +77,7 @@ export default function CuriosidadesPage() {
           </table>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(5)}`}>
           <h2>Equivalentes astronómicos</h2>
           <table className="data-table">
             <thead>
@@ -141,7 +142,7 @@ export default function CuriosidadesPage() {
           </table>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(6)}`}>
           <h2>Órbitas y zonas espaciales</h2>
           <ul className="content-list">
             <li><strong>LEO (Órbita baja terrestre)</strong>: 160–2.000 km · Ej: ISS, Starlink</li>
@@ -155,7 +156,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(7)}`}>
           <h2>Tamaños relativos</h2>
           <ul className="content-list">
             <li>Diámetro de la Tierra: ~3.7 veces el de la Luna</li>
@@ -174,7 +175,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(8)}`}>
           <h2>Datos Planetarios</h2>
           <p>Distancias promedio al Sol y diámetros ecuatoriales de los planetas.</p>
           <ul className="content-list">
@@ -189,7 +190,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(9)}`}>
           <h2>Juegos de mesa con sesgo abstracto o estratégico</h2>
           <p>Algunos juegos favoritos entre adultos con pensamiento divergente o gusto por la complejidad estructural:</p>
           <ul className="content-list">
@@ -201,7 +202,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(10)}`}>
           <h2>Hobbies que suelen resonar con personas ACI</h2>
           <ul className="content-list">
             <li>Escritura creativa — Como forma de procesar y reorganizar el mundo.</li>
@@ -212,7 +213,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(11)}`}>
           <h2>Paradojas y problemas clásicos</h2>
           <ul className="content-list">
             <li>La paradoja del barquero y el lobo — Más que lógica: regulación emocional bajo presión.</li>
@@ -221,7 +222,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(12)}`}>
           <h2>Microlecturas, papers y artículos con impacto</h2>
           <p>Curaduría de textos breves, intensos, y posiblemente transformadores. Algunos ejemplos:</p>
           <ul className="content-list">
@@ -231,7 +232,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(13)}`}>
           <h2>Inversiones en desarrollo personal</h2>
           <p>El mercado ofrece diversas opciones para estimular tu desarrollo cognitivo y creativo:</p>
           <ul className="content-list">
@@ -242,7 +243,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(14)}`}>
           <h2>Recursos para el desarrollo autónomo</h2>
           <p>Opciones para quienes prefieren un camino independiente de desarrollo:</p>
           <ul className="content-list">
@@ -254,7 +255,7 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(15)}`}>
           <h2>Recursos académicos selectos</h2>
           <p>Una selección de recursos premium para el desarrollo intelectual avanzado:</p>
           <ul className="content-list">
@@ -267,7 +268,7 @@ export default function CuriosidadesPage() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(16)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
           <ul className="content-list">
             <li id="ref-1">[1] <a href="https://www.jstor.org/stable/galileo1638" target="_blank" rel="noopener noreferrer">Galileo Galilei. (1638). Diálogos sobre dos nuevas ciencias. Leiden: Elsevier.</a></li>

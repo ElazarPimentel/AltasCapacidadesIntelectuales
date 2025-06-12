@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Disclaimer from '@/components/Disclaimer';
+import { getSectionVariant } from '@/lib/utils';
 
 export { default as metadata } from './metadata';
 
@@ -9,7 +10,7 @@ export default function Acerca() {
       <div className="container">
         <h1>Acerca de este Sitio</h1>
         
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(0)}`}>
           <p>
             Este sitio es un recurso independiente diseñado para adultos que buscan explorar y maximizar su potencial cognitivo. No somos una institución ni un centro diagnóstico. Somos una plataforma informativa que te conecta con recursos, servicios profesionales y opciones de desarrollo personal<sup><a href="#ref-1">[1]</a></sup>. Nuestro enfoque está en empoderarte para tomar decisiones informadas sobre tu desarrollo cognitivo y profesional.
           </p>
@@ -18,7 +19,7 @@ export default function Acerca() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(1)}`}>
           <h2 id="metodologia">Enfoque centrado en el individuo&nbsp;<a href="#metodologia">🔗</a></h2>
           <p>
             Nuestra plataforma se basa en tres principios fundamentales<sup><a href="#ref-3">[3]</a></sup>:
@@ -33,7 +34,7 @@ export default function Acerca() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(2)}`}>
           <h2 id="transparencia">Nuestro compromiso&nbsp;<a href="#transparencia">🔗</a></h2>
           <p>
             Nos basamos en una <a href="/data/editorial-guide.md" target="_blank" rel="noopener noreferrer">guía editorial independiente</a> que reconoce la diversidad de talentos y capacidades. Colaboramos con profesionales y organizaciones privadas que comparten nuestra visión de empoderar a individuos para alcanzar su máximo potencial<sup><a href="#ref-5">[5]</a></sup>.
@@ -43,7 +44,7 @@ export default function Acerca() {
           </p>
         </section>
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(3)}`}>
           <h2 id="donde-continuar">Explora tus opciones&nbsp;<a href="#donde-continuar">🔗</a></h2>
           <ul className="content-list">
             <li>
@@ -63,7 +64,7 @@ export default function Acerca() {
 
         <Disclaimer />
 
-        <section className="content-section">
+        <section className={`content-section ${getSectionVariant(4)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
           <ul className="content-list">
             <li id="ref-1">[1] <a href="https://www.sengifted.org/post/gifted-adult-manifesto" target="_blank" rel="noopener noreferrer">SENG: The Gifted Adult Manifesto - Supporting Emotional Needs of the Gifted</a></li>

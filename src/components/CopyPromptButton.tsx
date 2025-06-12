@@ -13,12 +13,12 @@ export default function CopyPromptButton({ targetSelector }: CopyPromptButtonPro
       const text = blockquote.innerText;
       const success = await handleCopyClick(text);
       if (success) {
-        const btn = document.querySelector('.prompt-block button');
-        if (btn instanceof HTMLButtonElement) {
-          btn.innerText = 'Copiado';
-          setTimeout(() => {
-            btn.innerText = 'Copiar';
-          }, 2000);
+      const btn = document.querySelector('.prompt-block button');
+      if (btn instanceof HTMLButtonElement) {
+        btn.innerText = 'Copiado';
+        setTimeout(() => {
+          btn.innerText = 'Copiar';
+        }, 2000);
         }
       }
     }
