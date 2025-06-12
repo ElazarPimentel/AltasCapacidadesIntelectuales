@@ -22,7 +22,7 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://altas-capacidades-intelectuales.vercel.app/sitemap.xml
+Sitemap: https://AltasCapacidadesIntelectuales.org/sitemap.xml
 `;
 
   return new NextResponse(robotsTxt, {

@@ -122,7 +122,7 @@ export default function Tests() {
         <section className={`content-section ${getSectionVariant(11)}`}>
           <h2 id="charlar-con-una-ia">Charlar con una IA mientras decidís&nbsp;<a href="#charlar-con-una-ia">🔗</a></h2>
           <p>
-            Mientras pensás si buscar un profesional, podés usar una IA (LLM) para explorar patrones cognitivos o poner en palabras lo que sentís. Sitios como <a href="http://www.grok.com" target="_blank" rel="noopener noreferrer">grok.com</a> o <a href="http://www.chatgpt.com" target="_blank" rel="noopener noreferrer">chatgpt.com</a> son útiles. Probá este prompt:
+            Mientras pensás si buscar un profesional, podés usar una IA (LLM) para explorar patrones cognitivos o poner en palabras lo que sentís. Sitios como <a href="https://www.grok.com" target="_blank" rel="noopener noreferrer">grok.com</a> o <a href="https://www.chatgpt.com" target="_blank" rel="noopener noreferrer">chatgpt.com</a> son útiles. Probá este prompt:
           </p>
           <div className="prompt-block">
             <CopyPromptButton targetSelector=".prompt-block blockquote" />
@@ -170,7 +170,7 @@ export default function Tests() {
         <section className={`content-section variant-b`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
           <ul className="content-list">
-            <li id="ref-1">[1] <a href="https://altascapacidadesintelectuales.vercel.app/data/2025-06-08-1656-DeepSearch-Gemini-v002.docx" target="_blank" rel="noopener noreferrer">DeepSearch Gemini v002: Informe demográfico sobre Altas Capacidades Intelectuales en Argentina (2025)</a></li>
+            <li id="ref-1">[1] <a href="https://AltasCapacidadesIntelectuales.org/data/2025-06-08-1656-DeepSearch-Gemini-v002.docx" target="_blank" rel="noopener noreferrer">DeepSearch Gemini v002: Informe demográfico sobre Altas Capacidades Intelectuales en Argentina (2025)</a></li>
             <li id="ref-2">[2] <a href="https://www.pearsonclinical.com" target="_blank" rel="noopener noreferrer">Manual Técnico: Escala de Inteligencia de Wechsler para Adultos (WAIS-IV)</a></li>
             <li id="ref-3">[3] <a href="https://www.springerpub.com/giftedness-101-9780826107982.html" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2013) - Giftedness 101: Entendiendo las Altas Capacidades</a></li>
           </ul>
