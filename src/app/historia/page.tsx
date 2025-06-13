@@ -29,6 +29,9 @@ export default function Page() {
             En el siglo XX, Lewis Terman y Leta Hollingworth estudiaron a niños superdotados en Estados Unidos<sup><a href="#ref-2">[2]</a></sup>. Sus trabajos marcaron un avance, pero se centraron en varones jóvenes con logros escolares, dejando fuera a mujeres, adultos y perfiles menos convencionales. Esto limitó la comprensión de la <Link href="/tests#el-objetivo-es-entenderte">neurodivergencia</Link> hasta finales del siglo XX.
           </p>
           <p>
+            Términos como <i>superdotación</i> o <i>giftedness</i>, comunes en décadas pasadas, están siendo reemplazados por expresiones más amplias y neutrales como <i>Altas Capacidades Intelectuales (ACI)</i>.
+          </p>
+          <p>
             Hoy, las ACI abarcan más que un CI alto: incluyen creatividad, intensidad emocional y asincronía (<Link href="/">ver más en Home</Link>). Aun así, el mito del "niño genio" persiste, descartando a quienes no encajan en ese molde.
           </p>
           <p>
@@ -39,7 +42,7 @@ export default function Page() {
         <section className={`content-section ${getSectionVariant(2)}`}>
           <h2 id="aci-en-argentina">ACI en Argentina: el rol de la iniciativa privada&nbsp;<a href="#aci-en-argentina">🔗</a></h2>
           <p>
-            En Argentina, el reconocimiento de las ACI ha sido impulsado principalmente por familias, profesionales independientes y organizaciones privadas. Se estima que cerca de un millón de personas en Argentina podrían tener ACI, y su desarrollo ha dependido principalmente de la iniciativa individual y familiar<sup><a href="#ref-3">[3]</a></sup>.
+            En Argentina, el reconocimiento de las ACI ha sido impulsado principalmente por familias, profesionales independientes y organizaciones privadas. Se estima que aproximadamente un 2% de la población argentina podría tener Altas Capacidades Intelectuales (CI ≥ 130), y su desarrollo ha dependido principalmente de la iniciativa individual y familiar<sup><a href="#ref-3">[3]</a></sup>.
           </p>
           <p>
             Durante las décadas de los '80 y '90, surgieron las primeras consultoras y profesionales especializados, ofreciendo alternativas a quienes buscaban entender sus diferencias cognitivas. Estas iniciativas privadas fueron pioneras en brindar evaluaciones precisas y evitar diagnósticos erróneos como <Link href="/tests#diferencias-con-tdah-tea">TDAH o TEA</Link><sup><a href="#ref-4">[4]</a></sup>.

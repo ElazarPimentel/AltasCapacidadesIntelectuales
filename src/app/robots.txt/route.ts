@@ -28,6 +28,7 @@ Sitemap: https://AltasCapacidadesIntelectuales.org/sitemap.xml
   return new NextResponse(robotsTxt, {
     headers: {
       'Content-Type': 'text/plain',
+      'Cache-Control': 'public, max-age=86400, immutable',
     },
   });
 } 

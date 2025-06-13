@@ -121,10 +121,10 @@ export function generateMetadata({
         siteName,
         images: [
           {
-            url: `${siteUrl}/og-image.jpg`,
+            url: `${siteUrl}/api/og?title=${encodeURIComponent(fullTitle)}`,
             width: 1200,
             height: 630,
-            alt: title,
+            alt: fullTitle,
           },
         ],
       },
@@ -132,7 +132,7 @@ export function generateMetadata({
         card: 'summary_large_image',
         title: fullTitle,
         description,
-        images: [`${siteUrl}/og-image.jpg`],
+        images: [`${siteUrl}/api/og?title=${encodeURIComponent(fullTitle)}`],
       },
       alternates: {
         canonical: url,

@@ -21,17 +21,127 @@ export default function Arquetipos() {
         <section className={`content-section ${getSectionVariant(1)}`}>
           <h2 id="introduccion">Introducción&nbsp;<a href="#introduccion">🔗</a></h2>
           <p>
-            Estos arquetipos combinan tipo de mente (ACI o no) con el modo en que tus decisiones y circunstancias te moldearon. No son etiquetas ni categorías impuestas. Son herramientas para que vos elijas cómo entender y desarrollar tu potencial<sup><a href="#ref-1">[1]</a></sup>. Si sentís que no encajás, que tu camino fue más desafiante de lo esperado, empezá por acá. Y si querés explorar tu perfil cognitivo, el mercado ofrece diversas opciones en la sección de <Link href="/tests#tu-sospecha-es-legitima">Tests</Link>.
+            Estos arquetipos combinan <strong>tipo de mente (ACI / no-ACI / típica)</strong> y <strong>trayectoria vital (favorable / adversa)</strong>. 
+            No son diagnósticos ni cajones; son espejos para pensar(te). Si algo te resuena, usalo. Si no, seguí explorando.
+            Si querés datos duros sobre evaluación, visitá la sección de <Link href="/tests#tu-sospecha-es-legitima">Tests</Link>.
           </p>
         </section>
 
         <section className={`content-section ${getSectionVariant(2)}`}>
-          <h2 id="arquetipo-a">a) Persona ACI en búsqueda de desarrollo personal&nbsp;<a href="#arquetipo-a">🔗</a></h2>
+          <h2 id="si-test-no-muestra">¿Y si soy inteligente pero el test no lo muestra?&nbsp;<a href="#si-test-no-muestra">🔗</a></h2>
           <p>
-            <i>Alta capacidad buscando su camino de crecimiento.</i>
+            Gente brillante a veces se frustra si el resultado psicométrico "no coincide" con lo que siente.
+            Tres causas frecuentes:
+          </p>
+          <ol className="content-list">
+            <li><strong>Sobreestimación subjetiva.</strong> Confundimos facilidad académica con rendimiento cognitivo global.</li>
+            <li><strong>Contexto.</strong> Un entorno estimulante eleva a un CI 90; uno adverso sabotea a un CI 115.</li>
+            <li><strong>Expectativa mágica.</strong> Creemos que un único test revelará nuestra genialidad en 90 minutos.</li>
+          </ol>
+        </section>
+
+        <section className={`content-section ${getSectionVariant(3)}`}>
+          <h2 id="que-mide-ci">¿Qué mide el CI?&nbsp;<a href="#que-mide-ci">🔗</a></h2>
+          <ul className="content-list">
+            <li>Media = 100, σ = 15 → ~68 % de la población entre <strong>85 y 115</strong>.</li>
+            <li><strong>115 – 129 → muy inteligentes.</strong> Recursos cognitivos por encima del promedio.</li>
+            <li><strong>≥ 130 → posible perfil ACI</strong> si el patrón global lo confirma.</li>
+          </ul>
+          <p>
+            Un CI alto no garantiza éxito; un CI medio no lo impide. Lo que importa es cómo lo usás.
+          </p>
+        </section>
+
+        <section className={`content-section ${getSectionVariant(4)}`}>
+          <h2 id="diagnostico">Diagnóstico — quién decide&nbsp;<a href="#diagnostico">🔗</a></h2>
+          <p>
+            Identificar ACI requiere baterías como <strong>WAIS-IV / WISC-V</strong>, administradas por profesionales formados, historia clínica y observación cualitativa. "Sentirse distinto" no alcanza, igual que un dolor lumbar necesita placas, no intuición.
+          </p>
+        </section>
+
+        <section className={`content-section ${getSectionVariant(5)}`}>
+          <h2 id="tabla-arquetipos">Mapa 3 × 2 de arquetipos&nbsp;<a href="#tabla-arquetipos">🔗</a></h2>
+          <div className="arquetipos-table-container">
+            <table
+              className="arquetipos-table"
+              aria-labelledby="tabla-arquetipos"
+            >
+              <caption id="tabla-arquetipos" className="u-visually-hidden">
+                Matriz de arquetipos según CI y contexto vital
+              </caption>
+
+              <thead>
+                <tr>
+                  <th scope="col">CI / Contexto</th>
+                  <th scope="col">
+                    Contexto&nbsp;favorable <span className="arquetipos-table__hint">(alto&nbsp;desempeño)</span>
+                  </th>
+                  <th scope="col">
+                    Contexto&nbsp;adverso <span className="arquetipos-table__hint">(vida&nbsp;difícil)</span>
+                  </th>
+                </tr>
+              </thead>
+
+              <tbody>
+                {/* fila ACI */}
+                <tr>
+                  <th scope="row">ACI&nbsp;≥&nbsp;130</th>
+                  <td data-id="D">
+                    <strong>D)</strong> ACI + alto desempeño
+                    <br />
+                    <span className="arquetipos-table__rec">Mentoría especializada</span>
+                  </td>
+                  <td data-id="A">
+                    <strong>A)</strong> ACI + vida difícil
+                    <br />
+                    <span className="arquetipos-table__rec">Apoyo psicológico</span>
+                  </td>
+                </tr>
+
+                {/* fila 110-129 */}
+                <tr>
+                  <th scope="row">Muy inteligente 110-129</th>
+                  <td data-id="C">
+                    <strong>C)</strong> Inteligente + alto desempeño
+                    <br />
+                    <span className="arquetipos-table__rec">Liderazgo / gestión de estrés</span>
+                  </td>
+                  <td data-id="B">
+                    <strong>B)</strong> Inteligente + vida difícil
+                    <br />
+                    <span className="arquetipos-table__rec">Terapia / recursos</span>
+                  </td>
+                </tr>
+
+                {/* fila 95-109 */}
+                <tr>
+                  <th scope="row">Típico 95-109</th>
+                  <td data-id="E">
+                    <strong>E)</strong> Típico + alto desempeño
+                    <br />
+                    <span className="arquetipos-table__rec">Orientación vocacional</span>
+                  </td>
+                  <td data-id="F">
+                    <strong>F)</strong> Típico + vida difícil
+                    <br />
+                    <span className="arquetipos-table__rec">Apoyo socio-económico</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <h2 className="section-title">Descripciones de arquetipos</h2>
+
+        <section className={`content-section ${getSectionVariant(6)}`}>
+          <h2 id="arquetipo-a">a) Persona ACI con vida difícil&nbsp;<a href="#arquetipo-a">🔗</a></h2>
+          <p>
+            <i>Sobrecapacidad sin andamiaje.</i>
           </p>
           <p>
-            Adultos con una mente veloz, profunda y conectiva que están explorando cómo maximizar su potencial. Pueden destacar en algunas áreas mientras buscan mejorar en otras<sup><a href="#ref-2">[2]</a></sup>. La clave está en reconocer que ser diferente es una oportunidad para crear tu propio camino.
+            CI ≥ 130 nunca detectado. Aburrimiento escolar, diagnósticos errados, rechazo social por sensibilidad ética e ideas atípicas.
+            <strong>Clave:</strong> una evaluación certera + apoyos específicos puede cambiar el rumbo.
           </p>
           <ul className="content-list">
             <li><strong>Punto clave:</strong> Tu capacidad es un activo que podés desarrollar proactivamente.</li>
@@ -42,13 +152,14 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className={`content-section ${getSectionVariant(3)}`}>
-          <h2 id="b-persona-no-aci-con-vida-dificil">b) Persona no ACI con vida difícil&nbsp;<a href="#b-persona-no-aci-con-vida-dificil">🔗</a></h2>
+        <section className={`content-section ${getSectionVariant(7)}`}>
+          <h2 id="b-persona-no-aci-con-vida-dificil">b) Persona no-ACI con vida difícil&nbsp;<a href="#b-persona-no-aci-con-vida-dificil">🔗</a></h2>
           <p>
             <i>La diferencia que sentís no siempre tiene origen cognitivo.</i>
           </p>
           <p>
-            Hay personas que se sienten extrañas, agotadas o excluidas… sin tener un perfil ACI. Tal vez lo que arrastran es trauma, pobreza, violencia u otras experiencias vitales<sup><a href="#ref-3">[3]</a></sup>. A veces, querer ser ACI es una forma elegante de evitar mirar otra herida.
+            CI promedio; la dificultad surge de trauma, pobreza o violencia. A veces desea "ser ACI" para explicar su malestar.
+            <strong>Clave:</strong> abordar la causa real (psicológica, social, económica) antes de buscar un rótulo cognitivo.
           </p>
           <ul className="content-list">
             <li><strong>Punto clave:</strong> El malestar es real, pero su causa puede estar en otro lado.</li>
@@ -59,13 +170,15 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className={`content-section ${getSectionVariant(4)}`}>
-          <h2 id="c-persona-no-aci-con-alto-desempeno">c) Persona no ACI con alto desempeño&nbsp;<a href="#c-persona-no-aci-con-alto-desempeno">🔗</a></h2>
+        <section className={`content-section ${getSectionVariant(0)}`}>
+          <h2 id="c-persona-no-aci-con-alto-desempeno">c) Persona no-ACI con alto desempeño&nbsp;<a href="#c-persona-no-aci-con-alto-desempeno">🔗</a></h2>
           <p>
             <i>Capacidad funcional, estructurada, sostenida.</i>
           </p>
           <p>
-            Personas que destacan por mérito, constancia o talento práctico. Su razonamiento es claro, su disciplina sólida, su rendimiento notable. No tienen procesamiento abstracto inusual. No tienen asincronía. Y no lo necesitan.
+            CI 110-129. Brilla por disciplina y buena adaptación a sistemas exigentes; sin asincronía.
+            <strong>Riesgo:</strong> atribuir cualquier frustración a "genialidad incomprendida".
+            <strong>Oportunidad:</strong> optimizar habilidades sin necesidad de una etiqueta.
           </p>
           <ul className="content-list">
             <li><strong>Punto clave:</strong> Son brillantes dentro del marco esperable.</li>
@@ -76,13 +189,14 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className="content-section variant-b">
-          <h2 id="d-persona-aci-adaptada-y-funcional">d) Persona ACI emprendedora y autónoma&nbsp;<a href="#d-persona-aci-adaptada-y-funcional">🔗</a></h2>
+        <section className={`content-section ${getSectionVariant(1)}`}>
+          <h2 id="d-persona-aci-adaptada-y-funcional">d) Persona ACI con alto desempeño&nbsp;<a href="#d-persona-aci-adaptada-y-funcional">🔗</a></h2>
           <p>
             <i>Alta capacidad como ventaja competitiva en el mercado.</i>
           </p>
           <p>
-            No busca ajustarse a sistemas preestablecidos. Crea sus propias oportunidades. Es alguien que ha convertido su forma única de pensar en una ventaja competitiva<sup><a href="#ref-1">[1]</a></sup>. Que construye espacios donde su complejidad agrega valor. Que elige conscientemente sus conexiones y proyectos.
+            CI ≥ 130. Desmenuza estructuras complejas y crea proyectos originales.
+            <strong>Potencia:</strong> florece con desafíos del tamaño adecuado y mentoría de pares.
           </p>
           <ul className="content-list">
             <li><strong>Punto clave:</strong> Usa su capacidad como herramienta para crear valor.</li>
@@ -93,10 +207,69 @@ export default function Arquetipos() {
           </p>
         </section>
 
+        <section className={`content-section ${getSectionVariant(2)}`}>
+          <h2 id="e-persona-tipica-con-alto-desempeno">e) Persona típica con alto desempeño&nbsp;<a href="#e-persona-tipica-con-alto-desempeno">🔗</a></h2>
+          <p>
+            <i>Rendimiento notable con capacidad promedio.</i>
+          </p>
+          <p>
+            CI 95-109 + entorno estimulante. Se destaca gracias a disciplina y feedback.
+            <strong>Necesidad:</strong> orientación vocacional y estrategia para seguir creciendo sin comparaciones tóxicas.
+          </p>
+          <ul className="content-list">
+            <li><strong>Punto clave:</strong> El éxito no depende solo de la capacidad intelectual.</li>
+            <li><strong>Oportunidad:</strong> Aprovechar sus fortalezas en entornos que valoren su estilo de trabajo.</li>
+          </ul>
+          <p>
+            <Link href="/tests#y-si-no-tenes-aci-pero-igual-sos-brillante">¿Te identificás con este perfil? Explorá opciones de desarrollo</Link>
+          </p>
+        </section>
+
+        <section className={`content-section ${getSectionVariant(3)}`}>
+          <h2 id="f-persona-tipica-con-vida-dificil">f) Persona típica con vida difícil&nbsp;<a href="#f-persona-tipica-con-vida-dificil">🔗</a></h2>
+          <p>
+            <i>Potencial valioso en contexto adverso.</i>
+          </p>
+          <p>
+            CI 95-109 en contexto adverso. Puede sentirse "menos" aunque su potencial sea valioso.
+            <strong>Prioridad:</strong> cobertura de necesidades básicas y redes de apoyo antes de metas cognitivas ambiciosas.
+          </p>
+          <ul className="content-list">
+            <li><strong>Punto clave:</strong> El contexto puede limitar el desarrollo del potencial.</li>
+            <li><strong>Oportunidad:</strong> Construir una base sólida para el crecimiento personal y profesional.</li>
+          </ul>
+          <p>
+            <Link href="/profesionales#recursos-basicos">¿Necesitás recursos básicos? Explorá esta sección</Link>
+          </p>
+        </section>
+
+        <section className={`content-section ${getSectionVariant(4)}`}>
+          <h2 id="mitos">Mitos que hay que romper&nbsp;<a href="#mitos">🔗</a></h2>
+          <ul className="content-list">
+            <li>«He tenido problemas en la escuela y me siento incomprendido por todos, soy ACI.» – <strong>Falso</strong></li>
+            <li>«Si no fui un niño prodigio, no soy ACI.» – <strong>Falso</strong></li>
+            <li>«Ser ACI garantiza éxito.» – <strong>Falso</strong></li>
+            <li>«Solo los genios son ACI.» – <strong>Falso</strong></li>
+            <li>«Las ACI se detectan siempre en la infancia.» – <strong>Falso</strong></li>
+          </ul>
+          <p>
+            Conocé más en la sección de <Link href="/historia">Historia</Link>.
+          </p>
+        </section>
+
         <section className={`content-section ${getSectionVariant(5)}`}>
+          <h2 id="que-hacer">¿Qué hacer si sospechás que sos ACI?&nbsp;<a href="#que-hacer">🔗</a></h2>
+          <ol className="content-list">
+            <li>Reflexioná sobre tu historia y tu entorno.</li>
+            <li>Buscá un <Link href="/profesionales#que-buscar">profesional especializado</Link> para una evaluación clara.</li>
+            <li>Explorá actividades intelectuales o creativas que te desafíen.</li>
+          </ol>
+        </section>
+
+        <section className={`content-section ${getSectionVariant(6)}`}>
           <h2 id="epilogo">Epílogo&nbsp;<a href="#epilogo">🔗</a></h2>
           <p>
-            Estos arquetipos son herramientas para tu desarrollo personal. Son puntos de partida para que explores y elijas tu propio camino.
+            Ser ACI no te hace mejor; no serlo no te quita valor. La etiqueta solo importa para elegir estrategias adecuadas de desarrollo. Si dudás, consultá profesionales: un buen diagnóstico ahorra años de ensayo-error.
           </p>
           <p>
             Si querés entender mejor cómo funciona tu mente, el mercado ofrece diversas opciones de <Link href="/tests#la-verdadera-evaluacion-es-un-proceso">evaluación profesional</Link>.
@@ -106,22 +279,28 @@ export default function Arquetipos() {
           </p>
         </section>
 
-        <section className={`content-section ${getSectionVariant(6)}`}>
+        <section className={`content-section ${getSectionVariant(7)}`}>
           <h2 id="marco-teorico">Marco teórico&nbsp;<a href="#marco-teorico">🔗</a></h2>
           <p>
-            Estos arquetipos se basan en la teoría de la desintegración positiva de Dabrowski, los perfiles de Neihart sobre personas con altas capacidades, y los estudios longitudinales de Silverman sobre el desarrollo asincrónico<sup><a href="#ref-1">[1]</a></sup><sup><a href="#ref-2">[2]</a></sup>. No son categorías diagnósticas, sino herramientas para pensar la diversidad cognitiva<sup><a href="#ref-3">[3]</a></sup>.
+            Estos arquetipos se basan en la teoría de la desintegración positiva de <strong>Dabrowski</strong>, los perfiles de <strong>Neihart</strong> sobre personas con altas capacidades, y los estudios longitudinales de <strong>Silverman</strong> sobre el desarrollo asincrónico. No son categorías diagnósticas, sino herramientas para pensar la diversidad cognitiva.
           </p>
           <p>
             <Link href="/acerca#metodologia">Conocé más sobre nuestra metodología</Link>
           </p>
         </section>
 
-        <section className={`content-section ${getSectionVariant(7)}`}>
+        <div className="disclaimer-box">
+          <p><strong>Disclaimer.</strong> Este sitio no ofrece diagnóstico. Su contenido es informativo y está orientado a adultos que sospechan tener un perfil ACI. Recomendamos siempre consultar a un profesional especializado.</p>
+        </div>
+
+        <section className={`content-section ${getSectionVariant(0)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
           <ul className="content-list">
-            <li id="ref-1">[1] <a href="https://www.springerpub.com/giftedness-101-9780826107982.html" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2013) - Giftedness 101: Understanding Gifted People</a></li>
-            <li id="ref-2">[2] <a href="https://www.greatpotentialpress.com/searching-for-meaning" target="_blank" rel="noopener noreferrer">Webb, J. T. (2013) - Searching for Meaning: Idealism, Bright Minds, Disillusionment</a></li>
-            <li id="ref-3">[3] <a href="https://www.penguinrandomhouse.com/books/the-gifted-adult" target="_blank" rel="noopener noreferrer">Jacobsen, M. E. (2000) - The Gifted Adult: A Revolutionary Guide</a></li>
+            <li id="ref-1">[1] <a href="https://www.sengifted.org/post/the-gifted-adult-manifesto" target="_blank" rel="noopener noreferrer">SENG – The Gifted Adult Manifesto</a></li>
+            <li id="ref-2">[2] <a href="https://www.springerpub.com/giftedness-101-9780826107982.html" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2021) – Adult Giftedness: Challenges in Diagnosis and Support</a></li>
+            <li id="ref-3">[3] <a href="https://www.penguinrandomhouse.com/books/the-gifted-adult" target="_blank" rel="noopener noreferrer">Nauta, N. & Ronner, S. (2021) – Gifted Adults in Work</a></li>
+            <li id="ref-4">[4] <a href="https://www.hoagiesgifted.org/gifted_adults.htm" target="_blank" rel="noopener noreferrer">Hoagies' Gifted – Gifted Adults Resources</a></li>
+            <li id="ref-5">[5] <a href="https://www.davidsongifted.org/gifted-blog/understanding-and-supporting-gifted-adults/" target="_blank" rel="noopener noreferrer">Davidson Institute – Understanding and Supporting Gifted Adults</a></li>
           </ul>
         </section>
       </div>

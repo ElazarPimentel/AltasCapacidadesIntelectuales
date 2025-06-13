@@ -32,7 +32,7 @@ export default function Tests() {
         <section className={`content-section ${getSectionVariant(2)}`}>
           <h2 id="dimension-del-fenomeno">Un mercado en crecimiento&nbsp;<a href="#dimension-del-fenomeno">🔗</a></h2>
           <p>
-            Con cerca de un millón de personas en Argentina con potencial de Altas Capacidades Intelectuales[1], existe una demanda significativa de servicios especializados. Este mercado emergente ofrece oportunidades tanto para profesionales que buscan especializarse como para personas que desean explorar su potencial cognitivo.
+            Con aproximadamente un 2% de la población argentina con potencial de Altas Capacidades Intelectuales (CI ≥ 130)[1], existe una demanda significativa de servicios especializados. Este mercado emergente ofrece oportunidades tanto para profesionales que buscan especializarse como para personas que desean explorar su potencial cognitivo.
           </p>
         </section>
 

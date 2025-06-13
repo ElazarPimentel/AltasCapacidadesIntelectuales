@@ -203,7 +203,7 @@ export default function CuriosidadesPage() {
         </section>
 
         <section className={`content-section ${getSectionVariant(10)}`}>
-          <h2>Hobbies que suelen resonar con personas ACI</h2>
+          <h2>Hobbies que suelen resonar con personas con Altas Capacidades Intelectuales (ACI)</h2>
           <ul className="content-list">
             <li>Escritura creativa — Como forma de procesar y reorganizar el mundo.</li>
             <li>Aprendizaje autodidacta en bucle — Aprender sobre aprendizaje: metacognición pura.</li>

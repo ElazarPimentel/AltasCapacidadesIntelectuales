@@ -31,9 +31,14 @@ export default function Home() {
           <p>
             Si sentís que tu mente va a otra velocidad, conectás ideas en formas
             que otros no ven, o el mundo parece ir más lento, esta página es
-            para pensarte. No para decirte quién sos, sino para darte palabras
+            para pensar(te). 
+            </p>
+            
+            <p>
+            No para decirte quién sos, sino para darte palabras
             que ordenen lo que quizás sospechás.
-          </p>
+            </p>
+          
         </section>
 
         {/* 1 ● Quote */}
@@ -208,6 +213,7 @@ export default function Home() {
             <Link href="#mitos">🔗</Link>
           </h2>
           <ul className="content-list">
+          <li>«He tenido problemas en la escuela y me siento incomprendido por todos, soy ACI.» – Falso.</li>
             <li>«Si no fui un niño prodigio, no soy ACI.» – Falso.</li>
             <li>«Ser ACI significa tener éxito.» – Falso.</li>
             <li>«Solo los genios son ACI.» – Falso.</li>

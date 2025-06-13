@@ -44,6 +44,8 @@
   --color-surface-alt:   #2E3544;
   --color-surface-light: #374151;
   --color-text:          #E5EAF3;
+  --color-text-links:    #87CEEB;
+  //  #00BFFF (Deep Sky Blue) or #87CEEB or #d6deff;
   --color-heading:       #F8FAFF;
   --color-subtext:       #B8BFD1;   /* ↑ contrast */
   --color-border:        #3B4254;
@@ -73,7 +75,7 @@
   --variant-c-shadow:  var(--shadow-lg);
 
   /* quote styles */
-  --quote-background: #12171d;
+  --quote-background: #23293a; // deep blue-gray
   --quote-border: var(--color-subtext);
 }
 
@@ -186,7 +188,7 @@ p {
 
 // Links
 a {
-  color: var(--color-primary);
+  color: var(--color-text-links);
   text-decoration: none;
   transition: var(--transition-base);
   
@@ -881,6 +883,51 @@ h2 {
   tr:hover td {
     background: var(--color-surface-light);
   }
+}
+
+/* ========== ARQUETIPOS TABLE ========== */
+/* Contenedor responsivo */
+.arquetipos-table-container {
+  width: 100%;
+  overflow-x: auto;
+  margin: var(--spacing-lg) 0;
+}
+
+/* Tabla en sí misma */
+.arquetipos-table {
+  @extend .data-table;
+  width: 100%;
+  min-width: 600px; // Ancho mínimo para evitar compresión excesiva
+
+  &__hint {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--color-text-muted);
+    display: block;
+  }
+
+  &__rec {
+    font-size: 0.85rem;
+    color: var(--color-subtext);
+  }
+
+  thead th {
+    vertical-align: bottom;
+  }
+
+  tbody th {
+    white-space: nowrap;
+  }
+}
+
+/* util class para accesibilidad */
+.u-visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  border: 0;
 }
 
 // Video container for responsive embeds
