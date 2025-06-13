@@ -4,6 +4,7 @@ import LayoutWrapper from "@/components/LayoutWrapper";
 import { defaultMetadata } from "@/lib/metadata";
 import JsonLd from "@/components/JsonLd";
 import { websiteStructuredData, organizationStructuredData, articleStructuredData } from "@/lib/structured-data";
+import ThemeScript from "@/components/ThemeScript";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,6 @@ export default function RootLayout({
   return (
     <html
       lang="es"
-      data-theme="dark"
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <head>
@@ -39,6 +39,7 @@ export default function RootLayout({
         <JsonLd data={websiteStructuredData} />
         <JsonLd data={organizationStructuredData} />
         <JsonLd data={articleStructuredData} />
+        <ThemeScript />
       </head>
       <body>
         <LayoutWrapper>

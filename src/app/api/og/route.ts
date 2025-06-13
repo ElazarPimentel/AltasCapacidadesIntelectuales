@@ -47,7 +47,6 @@ export async function GET(req: Request) {
     {
       ...size,
       fonts: [{ name: 'IBMPlexSans', data: fontData, style: 'normal' }],
-      alt: 'Altas Capacidades Intelectuales',
     }
   );
 } 

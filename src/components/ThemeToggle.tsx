@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
+// Constants shared with ThemeScript
 const STORAGE = 'theme';
 const DARK = 'dark';
 const LIGHT = 'light';
@@ -12,14 +13,15 @@ function applyTheme(theme: string) {
   setTimeout(() => root.removeAttribute('data-theme-transition'), 300);
 }
 
+// This component is used in the Header which is client-side only
 export function ThemeToggle() {
   const [ready, setReady] = useState(false);
   const [theme, setTheme] = useState<string>(DARK);
 
   useEffect(() => {
     setReady(true);
-    const saved = typeof window !== 'undefined' ? localStorage.getItem(STORAGE) : null;
-    const initial = typeof saved === 'string' ? saved : (window.matchMedia('(prefers-color-scheme: dark)').matches ? DARK : LIGHT);
+    const saved = localStorage.getItem(STORAGE);
+    const initial = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? DARK : LIGHT);
     setTheme(initial);
     applyTheme(initial);
   }, []);
