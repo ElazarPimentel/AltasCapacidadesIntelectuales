@@ -39,9 +39,9 @@ export default function RootLayout({
         <JsonLd data={websiteStructuredData} />
         <JsonLd data={organizationStructuredData} />
         <JsonLd data={articleStructuredData} />
-        <ThemeScript />
       </head>
       <body>
+        <ThemeScript />
         <LayoutWrapper>
           {children}
         </LayoutWrapper>
