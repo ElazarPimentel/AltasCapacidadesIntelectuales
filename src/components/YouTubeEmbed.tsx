@@ -1,3 +1,5 @@
+// src/components/YouTubeEmbed.tsx
+
 'use client';
 
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';

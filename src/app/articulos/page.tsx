@@ -1,3 +1,5 @@
+// src/app/articulos/page.tsx
+
 import { articulos } from '@/data/articulos';
 import { articulosMetadata } from '@/lib/page-metadata/articulos';
 import { getSectionVariant } from '@/lib/utils';

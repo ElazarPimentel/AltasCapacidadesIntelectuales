@@ -1,3 +1,5 @@
+// src/app/robots.txt/route.ts
+
 import { NextResponse } from 'next/server';
 
 export function GET() {
@@ -22,7 +24,7 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://AltasCapacidadesIntelectuales.org/sitemap.xml
+Sitemap: https://altascapacidadesintelectuales.org/sitemap.xml
 `;
 
   return new NextResponse(robotsTxt, {

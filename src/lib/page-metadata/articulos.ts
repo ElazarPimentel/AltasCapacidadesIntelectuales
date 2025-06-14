@@ -1,3 +1,5 @@
+// src/lib/page-metadata/articulos.ts
+
 import { Metadata } from 'next';
 
 export const articulosMetadata: Metadata = {

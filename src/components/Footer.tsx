@@ -1,5 +1,5 @@
 // src/components/Footer.tsx
-// Footer
+
 import Link from 'next/link';
 
 export default function Footer() {

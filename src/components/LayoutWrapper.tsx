@@ -1,3 +1,5 @@
+// src/components/LayoutWrapper.tsx
+
 'use client';
 
 import Header from './Header';

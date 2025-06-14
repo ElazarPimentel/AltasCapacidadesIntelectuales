@@ -1,5 +1,4 @@
 // src/components/Header.tsx
-// header 
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';

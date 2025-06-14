@@ -1,5 +1,4 @@
 // src/app/tests/page.tsx
-// Tests
 
 import Link from 'next/link';
 import CopyPromptButton from '@/components/CopyPromptButton';

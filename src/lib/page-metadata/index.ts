@@ -1,3 +1,5 @@
+// src/lib/page-metadata/index.ts
+
 import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
 
 export const homeMetadata = generatePageMetadata({

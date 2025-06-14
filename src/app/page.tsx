@@ -1,5 +1,5 @@
 // src/app/page.tsx
-// Home
+
 
 import Link from 'next/link';
 import { generateMetadata as generatePageMetadata } from '@/lib/metadata';

@@ -1,3 +1,5 @@
+// src/components/ThemeScript.tsx
+
 'use client';
 
 import { useEffect } from 'react'

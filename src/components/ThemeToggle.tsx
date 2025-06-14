@@ -1,3 +1,5 @@
+// src/components/ThemeToggle.tsx
+
 import { useEffect, useState } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 

@@ -1,3 +1,5 @@
+// src/data/articulos.ts
+
 export interface Articulo {
   title: string;       // Título legible
   filename: string;    // Nombre del archivo PDF

@@ -1,3 +1,5 @@
+// src/components/CopyPromptButton.tsx
+
 'use client';
 
 import { handleCopyClick } from '@/lib/utils';

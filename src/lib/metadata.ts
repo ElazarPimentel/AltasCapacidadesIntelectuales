@@ -1,3 +1,5 @@
+// src/lib/metadata.ts
+
 import { Metadata } from 'next';
 
 const siteUrl = 'https://AltasCapacidadesIntelectuales.org';

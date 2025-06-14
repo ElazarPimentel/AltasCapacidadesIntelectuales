@@ -1,0 +1,38 @@
+name: SEO Validation
+
+on:
+  pull_request:
+    paths:
+      - 'public/**/*.pdf'
+      - 'next-sitemap.config.js'
+      - 'src/**/*.ts'
+      - 'src/**/*.tsx'
+
+jobs:
+  seo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install dependencies
+        run: pnpm install
+        
+      - name: Run SEO tests
+        run: pnpm test:seo
+        
+      - name: Build and compare times
+        run: |
+          pnpm build
+          jq '.total' .next/trace > current-build.json
+          if [ -f baseline-build.json ]; then
+            diff baseline-build.json current-build.json
+            if [ $? -ne 0 ]; then
+              echo "Build time changed significantly"
+              exit 1
+            fi
+          fi 

@@ -1,3 +1,5 @@
+// src/lib/utils.ts
+
 export async function handleCopyClick(text: string): Promise<boolean> {
   try {
     await navigator.clipboard.writeText(text);

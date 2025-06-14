@@ -1,0 +1,4 @@
+MIT License Dependencies:
+- date-fns (https://github.com/date-fns/date-fns)
+- fast-glob (https://github.com/mrmlnc/fast-glob)
+- xml2js (https://github.com/Leonidas-from-XIV/node-xml2js) 

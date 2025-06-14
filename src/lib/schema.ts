@@ -1,3 +1,5 @@
+// src/lib/schema.ts
+
 export type PersonSchema = {
   "@type": "Person";
   name: string;

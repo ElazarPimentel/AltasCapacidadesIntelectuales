@@ -1,3 +1,5 @@
+// src/app/tests/metadata.ts
+
 import type { Metadata } from "next";
 import { testsMetadata } from '@/lib/page-metadata';
 

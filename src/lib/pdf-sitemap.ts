@@ -1,31 +1,59 @@
-import fs from 'fs';
+// src/lib/pdf-sitemap.ts
+
+import { promises as fs } from 'fs';
 import path from 'path';
+import glob from 'fast-glob';
+import { format } from 'date-fns';
 
-export type PDFEntry = {
-  url: string;
-  lastmod?: string;
-  changefreq: 'monthly' | 'weekly' | 'daily' | 'yearly';
+interface PDFEntry {
+  loc: string;
+  lastmod: string;
+  changefreq: string;
   priority: number;
-};
+}
 
-export async function scanPDFs(publicDir: string = 'public'): Promise<PDFEntry[]> {
-  const pdfDir = path.join(process.cwd(), publicDir);
-  const files = await fs.promises.readdir(pdfDir);
-  
-  const pdfFiles = files.filter(file => file.toLowerCase().endsWith('.pdf'));
-  
-  return Promise.all(
+export async function generatePDFSitemap(): Promise<string> {
+  const publicDir = path.join(process.cwd(), 'public');
+  const pdfFiles = await glob('**/*.pdf', {
+    cwd: publicDir,
+    absolute: false,
+    ignore: ['**/node_modules/**']
+  });
+
+  const entries: PDFEntry[] = await Promise.all(
     pdfFiles.map(async (file) => {
-      const filePath = path.join(pdfDir, file);
-      const stats = await fs.promises.stat(filePath);
+      const filePath = path.join(publicDir, file);
+      const stats = await fs.stat(filePath);
       
       return {
-        url: `https://altascapacidadesintelectuales.org/${file}`,
-        lastmod: stats.mtime.toISOString(),
-        changefreq: 'monthly' as const,
-        priority: 0.4,
+        loc: `https://altascapacidadesintelectuales.org/${file}`,
+        lastmod: format(stats.mtime, "yyyy-MM-dd'T'HH:mm:ssXXX"),
+        changefreq: 'monthly',
+        priority: 0.5
       };
     })
+  );
+
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  ${entries.map(entry => `
+  <url>
+    <loc>${entry.loc}</loc>
+    <lastmod>${entry.lastmod}</lastmod>
+    <changefreq>${entry.changefreq}</changefreq>
+    <priority>${entry.priority}</priority>
+  </url>`).join('')}
+</urlset>`;
+
+  return sitemap;
+}
+
+export async function writePDFSitemap(): Promise<void> {
+  const sitemap = await generatePDFSitemap();
+  await fs.writeFile(
+    path.join(process.cwd(), 'public', 'sitemap-pdf.xml'),
+    sitemap,
+    'utf-8'
   );
 }
 

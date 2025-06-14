@@ -1,3 +1,5 @@
+// src/lib/structured-data.ts
+
 import type { WebsiteSchema } from './schema';
 
 export const websiteStructuredData: WebsiteSchema = {
