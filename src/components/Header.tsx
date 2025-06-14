@@ -73,6 +73,12 @@ export default function Header() {
             Profesionales
           </Link>
           <Link 
+            href="/articulos" 
+            className={`nav-link ${pathname === '/articulos' ? 'active' : ''}`}
+          >
+            Artículos
+          </Link>
+          <Link 
             href="/curiosidades" 
             className={`nav-link ${pathname === '/curiosidades' ? 'active' : ''}`}
           >

@@ -83,16 +83,16 @@ export default function Arquetipos() {
               </thead>
 
               <tbody>
-                {/* fila ACI */}
+                {/* fila ACI ≥ 130 */}
                 <tr>
-                  <th scope="row">ACI&nbsp;≥&nbsp;130</th>
-                  <td data-id="D">
-                    <strong>D)</strong> ACI + alto desempeño
+                  <th scope="row">ACI ≥ 130</th>
+                  <td data-id="A">
+                    <strong>A)</strong> ACI + alto desempeño
                     <br />
                     <span className="arquetipos-table__rec">Mentoría especializada</span>
                   </td>
-                  <td data-id="A">
-                    <strong>A)</strong> ACI + vida difícil
+                  <td data-id="B">
+                    <strong>B)</strong> ACI + vida difícil
                     <br />
                     <span className="arquetipos-table__rec">Apoyo psicológico</span>
                   </td>
@@ -106,8 +106,8 @@ export default function Arquetipos() {
                     <br />
                     <span className="arquetipos-table__rec">Liderazgo / gestión de estrés</span>
                   </td>
-                  <td data-id="B">
-                    <strong>B)</strong> Inteligente + vida difícil
+                  <td data-id="D">
+                    <strong>D)</strong> Inteligente + vida difícil
                     <br />
                     <span className="arquetipos-table__rec">Terapia / recursos</span>
                   </td>
@@ -135,7 +135,7 @@ export default function Arquetipos() {
         <h2 className="section-title">Descripciones de arquetipos</h2>
 
         <section className={`content-section ${getSectionVariant(6)}`}>
-          <h2 id="arquetipo-a">a) Persona ACI con vida difícil&nbsp;<a href="#arquetipo-a">🔗</a></h2>
+          <h2 id="arquetipo-b">B) ACI + vida difícil&nbsp;<a href="#arquetipo-b">🔗</a></h2>
           <p>
             <i>Sobrecapacidad sin andamiaje.</i>
           </p>
@@ -153,7 +153,7 @@ export default function Arquetipos() {
         </section>
 
         <section className={`content-section ${getSectionVariant(7)}`}>
-          <h2 id="b-persona-no-aci-con-vida-dificil">b) Persona no-ACI con vida difícil&nbsp;<a href="#b-persona-no-aci-con-vida-dificil">🔗</a></h2>
+          <h2 id="arquetipo-d">D) Inteligente + vida difícil&nbsp;<a href="#arquetipo-d">🔗</a></h2>
           <p>
             <i>La diferencia que sentís no siempre tiene origen cognitivo.</i>
           </p>
@@ -171,7 +171,7 @@ export default function Arquetipos() {
         </section>
 
         <section className={`content-section ${getSectionVariant(0)}`}>
-          <h2 id="c-persona-no-aci-con-alto-desempeno">c) Persona no-ACI con alto desempeño&nbsp;<a href="#c-persona-no-aci-con-alto-desempeno">🔗</a></h2>
+          <h2 id="arquetipo-c">C) Inteligente + alto desempeño&nbsp;<a href="#arquetipo-c">🔗</a></h2>
           <p>
             <i>Capacidad funcional, estructurada, sostenida.</i>
           </p>
@@ -190,7 +190,7 @@ export default function Arquetipos() {
         </section>
 
         <section className={`content-section ${getSectionVariant(1)}`}>
-          <h2 id="d-persona-aci-adaptada-y-funcional">d) Persona ACI con alto desempeño&nbsp;<a href="#d-persona-aci-adaptada-y-funcional">🔗</a></h2>
+          <h2 id="arquetipo-a">A) ACI + alto desempeño&nbsp;<a href="#arquetipo-a">🔗</a></h2>
           <p>
             <i>Alta capacidad como ventaja competitiva en el mercado.</i>
           </p>
@@ -208,7 +208,7 @@ export default function Arquetipos() {
         </section>
 
         <section className={`content-section ${getSectionVariant(2)}`}>
-          <h2 id="e-persona-tipica-con-alto-desempeno">e) Persona típica con alto desempeño&nbsp;<a href="#e-persona-tipica-con-alto-desempeno">🔗</a></h2>
+          <h2 id="arquetipo-e">E) Típico + alto desempeño&nbsp;<a href="#arquetipo-e">🔗</a></h2>
           <p>
             <i>Rendimiento notable con capacidad promedio.</i>
           </p>
@@ -226,7 +226,7 @@ export default function Arquetipos() {
         </section>
 
         <section className={`content-section ${getSectionVariant(3)}`}>
-          <h2 id="f-persona-tipica-con-vida-dificil">f) Persona típica con vida difícil&nbsp;<a href="#f-persona-tipica-con-vida-dificil">🔗</a></h2>
+          <h2 id="arquetipo-f">F) Típico + vida difícil&nbsp;<a href="#arquetipo-f">🔗</a></h2>
           <p>
             <i>Potencial valioso en contexto adverso.</i>
           </p>

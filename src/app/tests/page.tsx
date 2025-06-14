@@ -62,7 +62,7 @@ export default function Tests() {
             El mercado de servicios especializados en ACI ofrece diferentes niveles de expertise. Los profesionales más valiosos son aquellos que han invertido en formación específica sobre neurodivergencia y doble excepcionalidad (ACI junto a TDAH, TEA u otros perfiles). Organizaciones privadas como Mensa Argentina y nuestra sección de <Link href="/profesionales#lista-de-profesionales">Profesionales</Link> te ayudan a encontrar los mejores servicios disponibles.
           </p>
           <p>
-            <Link href="/arquetipos#c-persona-no-aci-con-alto-desempeno">Entendé las diferentes opciones de servicio</Link>
+            <Link href="/arquetipos#arquetipo-c">Entendé las diferentes opciones de servicio</Link>
           </p>
         </section>
 
@@ -102,7 +102,7 @@ export default function Tests() {
             No todas las mentes brillantes tienen ACI. Podés pensar con profundidad, liderar proyectos o tener intereses complejos sin un perfil neurodivergente. Estas personas suelen destacar por disciplina, inteligencia práctica o creatividad, pero su procesamiento no es inusualmente abstracto o veloz. Y está perfecto: no necesitás ser ACI para vivir una vida rica.
           </p>
           <p>
-            <Link href="/arquetipos#c-persona-no-aci-con-alto-desempeno">Ver más en Arquetipos</Link>
+            <Link href="/arquetipos#arquetipo-c">Ver más en Arquetipos</Link>
           </p>
         </section>
 

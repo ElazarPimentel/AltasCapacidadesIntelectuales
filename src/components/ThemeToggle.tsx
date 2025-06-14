@@ -9,7 +9,7 @@ const LIGHT = 'light';
 function applyTheme(theme: string) {
   const root = document.documentElement;
   root.setAttribute('data-theme-transition', 'true');
-  root.dataset.theme = theme;
+  root.setAttribute('data-theme', theme);
   setTimeout(() => root.removeAttribute('data-theme-transition'), 300);
 }
 

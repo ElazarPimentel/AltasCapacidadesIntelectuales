@@ -35,5 +35,8 @@ module.exports = {
     await config.transform(config, '/acerca'),
     await config.transform(config, '/profesionales'),
     await config.transform(config, '/curiosidades'),
+    await config.transform(config, '/articulos'),
+    // Para incluir PDFs en el futuro, se podría usar fs para listar archivos
+    // y generar entradas para cada PDF en /public/articulos/
   ],
 }; 

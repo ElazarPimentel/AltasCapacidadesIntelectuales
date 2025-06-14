@@ -11,7 +11,7 @@ export default function Footer() {
         <Link href="/profesionales">Profesionales</Link>
       </nav>
       <p>Contenido protegido por el Convenio de Berna sobre Derechos de Autor</p>
-      <p>v55.00.06</p>
+      <p>v56.00.57</p>
       <div className="last-updated">
         Actualización más reciente: 13 de Junio de 2025
       </div>
