@@ -66,21 +66,6 @@ export default function Profesionales() {
           </p>
         </section>
 
-        <section className={`content-section ${getSectionVariant(3)}`}>
-          <h2 id="lista-de-profesionales">Lista de profesionales (placeholder)&nbsp;<a href="#lista-de-profesionales">🔗</a></h2>
-          <p>
-            <em>(Esta sección debe completarse con especialistas reales)</em>
-          </p>
-          <ul className="content-list">
-            <li><strong>Lic. Ana Pérez</strong> – Neuropsicóloga, Buenos Aires. Especialista en ACI y doble excepcionalidad.</li>
-            <li><strong>Dr. Juan Gómez</strong> – Psicólogo, Córdoba. Evaluaciones integrales para adultos.</li>
-            <li><strong>Lic. María López</strong> – Psicopedagoga, Mendoza. Orientación en trayectorias educativas y ACI.</li>
-          </ul>
-          <p>
-            Para más opciones, revisá <Link href="/tests#el-profesional-adecuado-importa">Tests</Link> o contactá asociaciones locales.
-          </p>
-        </section>
-
         <section className={`content-section ${getSectionVariant(4)}`}>
           <h2 id="sin-acceso">Alternativas en el mercado&nbsp;<a href="#sin-acceso">🔗</a></h2>
           <p>

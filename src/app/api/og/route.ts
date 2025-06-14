@@ -1,52 +1,76 @@
-import { ImageResponse } from '@vercel/og';
+import { ImageResponse } from 'next/og';
+import { NextRequest } from 'next/server';
 import React from 'react';
 
 export const runtime = 'edge';
 
-const size = { width: 1200, height: 630 };
-const FONT_URL =
-  'https://fonts.gstatic.com/s/ibmplexsans/v12/zYXsKVNC-1CaW5EXiNFOx_XkcZKYkjbF3nDviS4.woff2';
+export async function GET(req: NextRequest) {
+  try {
+    const { searchParams } = new URL(req.url);
+    const title = searchParams.get('title') || 'Altas Capacidades Intelectuales';
+    const description = searchParams.get('description') || 'Recursos y orientación sobre altas capacidades intelectuales';
 
-export async function GET(req: Request) {
-  const { searchParams } = new URL(req.url);
-  const title =
-    searchParams.get('title')?.slice(0, 120) || 'Altas Capacidades Intelectuales';
-
-  // Pre-load font
-  const fontData = await fetch(FONT_URL).then((res) => res.arrayBuffer());
-
-  return new ImageResponse(
-    React.createElement(
-      'div',
-      {
-        style: {
-          width: '100%',
-          height: '100%',
-          backgroundColor: '#1B202C',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
-          padding: '60px',
-        },
-      },
+    return new ImageResponse(
       React.createElement(
-        'h1',
+        'div',
         {
           style: {
-            fontSize: 80,
-            fontFamily: 'IBMPlexSans',
-            fontWeight: 600,
-            lineHeight: 1.1,
-            color: 'white',
-            textAlign: 'center',
+            height: '100%',
+            width: '100%',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            backgroundColor: 'white',
+            padding: '40px 80px',
           },
         },
-        title
-      )
-    ),
-    {
-      ...size,
-      fonts: [{ name: 'IBMPlexSans', data: fontData, style: 'normal' }],
-    }
-  );
+        React.createElement(
+          'div',
+          {
+            style: {
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              justifyContent: 'center',
+              textAlign: 'center',
+            },
+          },
+          [
+            React.createElement(
+              'h1',
+              {
+                style: {
+                  fontSize: '60px',
+                  fontWeight: 'bold',
+                  color: '#1a1a1a',
+                  marginBottom: '20px',
+                  lineHeight: 1.2,
+                },
+              },
+              title
+            ),
+            React.createElement(
+              'p',
+              {
+                style: {
+                  fontSize: '32px',
+                  color: '#4a4a4a',
+                  lineHeight: 1.5,
+                },
+              },
+              description
+            ),
+          ]
+        )
+      ),
+      {
+        width: 1200,
+        height: 630,
+      }
+    );
+  } catch (e) {
+    console.error(e);
+    return new Response('Failed to generate OG image', { status: 500 });
+  }
 } 

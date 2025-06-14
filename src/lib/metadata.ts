@@ -1,8 +1,12 @@
-import type { Metadata } from "next";
+import { Metadata } from 'next';
 
 const siteUrl = 'https://AltasCapacidadesIntelectuales.org';
 const siteName = 'Altas Capacidades Intelectuales en Buenos Aires';
 const defaultDescription = 'Información especializada sobre Altas Capacidades Intelectuales (ACI) en Buenos Aires, CABA y Argentina. Recursos, tests y profesionales en Ciudad Autónoma de Buenos Aires.';
+
+const TITLE_MAX_LENGTH = 60;
+const DESCRIPTION_MIN_LENGTH = 120;
+const DESCRIPTION_MAX_LENGTH = 155;
 
 interface MetadataConfig {
   title: string;
@@ -12,6 +16,15 @@ interface MetadataConfig {
   type?: 'website' | 'article';
 }
 
+export function validateTitle(title: string): boolean {
+  return title.length <= TITLE_MAX_LENGTH;
+}
+
+export function validateDescription(description: string): boolean {
+  return description.length >= DESCRIPTION_MIN_LENGTH && 
+         description.length <= DESCRIPTION_MAX_LENGTH;
+}
+
 export function generateMetadata({
   title,
   description = defaultDescription,
@@ -19,6 +32,14 @@ export function generateMetadata({
   keywords = ['altas capacidades intelectuales', 'ACI', 'superdotación', 'CABA', 'Buenos Aires', 'Capital Federal', 'Argentina'],
   type = 'website'
 }: MetadataConfig): Metadata {
+  if (!validateTitle(title)) {
+    console.warn(`Title "${title}" exceeds ${TITLE_MAX_LENGTH} characters`);
+  }
+  
+  if (!validateDescription(description)) {
+    console.warn(`Description length should be between ${DESCRIPTION_MIN_LENGTH} and ${DESCRIPTION_MAX_LENGTH} characters`);
+  }
+
   const url = `${siteUrl}${path}`;
   const fullTitle = path === '/' || path === '' ? title : `${title} | ${siteName}`;
 

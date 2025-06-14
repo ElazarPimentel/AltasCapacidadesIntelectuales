@@ -53,14 +53,14 @@ export default function Arquetipos() {
         </section>
 
         <section className={`content-section ${getSectionVariant(4)}`}>
-          <h2 id="diagnostico">Diagnóstico — quién decide&nbsp;<a href="#diagnostico">🔗</a></h2>
+          <h2 id="diagnostico">¿Quién decide?&nbsp;<a href="#diagnostico">🔗</a></h2>
           <p>
             Identificar ACI requiere baterías como <strong>WAIS-IV / WISC-V</strong>, administradas por profesionales formados, historia clínica y observación cualitativa. "Sentirse distinto" no alcanza, igual que un dolor lumbar necesita placas, no intuición.
           </p>
         </section>
 
         <section className={`content-section ${getSectionVariant(5)}`}>
-          <h2 id="tabla-arquetipos">Mapa 3 × 2 de arquetipos&nbsp;<a href="#tabla-arquetipos">🔗</a></h2>
+          <h2 id="tabla-arquetipos">Mapa de Arquetipos&nbsp;<a href="#tabla-arquetipos">🔗</a></h2>
           <div className="arquetipos-table-container">
             <table
               className="arquetipos-table"
@@ -132,7 +132,7 @@ export default function Arquetipos() {
           </div>
         </section>
 
-        <h2 className="section-title">Descripciones de arquetipos</h2>
+        <h2 className="section-title">Descripciones de Arquetipos</h2>
 
         <section className={`content-section ${getSectionVariant(6)}`}>
           <h2 id="arquetipo-b">B) ACI + vida difícil&nbsp;<a href="#arquetipo-b">🔗</a></h2>
@@ -267,7 +267,7 @@ export default function Arquetipos() {
         </section>
 
         <section className={`content-section ${getSectionVariant(6)}`}>
-          <h2 id="epilogo">Epílogo&nbsp;<a href="#epilogo">🔗</a></h2>
+          <h2 id="Observaciones">Observaciones&nbsp;<a href="#Observaciones">🔗</a></h2>
           <p>
             Ser ACI no te hace mejor; no serlo no te quita valor. La etiqueta solo importa para elegir estrategias adecuadas de desarrollo. Si dudás, consultá profesionales: un buen diagnóstico ahorra años de ensayo-error.
           </p>

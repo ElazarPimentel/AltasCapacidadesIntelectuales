@@ -1,6 +1,8 @@
+const { scanPDFs } = require('./src/lib/pdf-sitemap');
+
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: 'https://AltasCapacidadesIntelectuales.org',
+  siteUrl: 'https://altascapacidadesintelectuales.org',
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   robotsTxtOptions: {
@@ -19,24 +21,27 @@ module.exports = {
       },
     ],
     additionalSitemaps: [
-      'https://altas-capacidades-intelectuales.vercel.app/sitemap.xml',
+      'https://altascapacidadesintelectuales.org/sitemap.xml',
     ],
   },
   exclude: [],
   changefreq: 'weekly',
   priority: 0.7,
   sitemapSize: 5000,
-  additionalPaths: async (config) => [
-    await config.transform(config, '/'),
-    await config.transform(config, '/arquetipos'),
-    await config.transform(config, '/historia'),
-    await config.transform(config, '/tests'),
-    await config.transform(config, '/legislacion'),
-    await config.transform(config, '/acerca'),
-    await config.transform(config, '/profesionales'),
-    await config.transform(config, '/curiosidades'),
-    await config.transform(config, '/articulos'),
-    // Para incluir PDFs en el futuro, se podría usar fs para listar archivos
-    // y generar entradas para cada PDF en /public/articulos/
-  ],
+  additionalPaths: async (config) => {
+    const basePaths = [
+      await config.transform(config, '/'),
+      await config.transform(config, '/arquetipos'),
+      await config.transform(config, '/historia'),
+      await config.transform(config, '/tests'),
+      await config.transform(config, '/legislacion'),
+      await config.transform(config, '/acerca'),
+      await config.transform(config, '/profesionales'),
+      await config.transform(config, '/curiosidades'),
+      await config.transform(config, '/articulos'),
+    ];
+
+    const pdfPaths = await scanPDFs();
+    return [...basePaths, ...pdfPaths];
+  },
 }; 

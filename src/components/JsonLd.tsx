@@ -1,8 +1,10 @@
 // src/components/JsonLd.tsx
 
-interface JsonLdProps {
-  data: Record<string, unknown>;
-}
+import { ArticleSchema, FAQSchema, WebPageSchema, WebsiteSchema } from '@/lib/schema';
+
+type JsonLdProps = {
+  data: ArticleSchema | FAQSchema | WebPageSchema | WebsiteSchema;
+};
 
 export default function JsonLd({ data }: JsonLdProps) {
   return (

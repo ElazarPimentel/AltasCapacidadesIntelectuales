@@ -3,19 +3,21 @@ import "../styles/globals.scss";
 import LayoutWrapper from "@/components/LayoutWrapper";
 import { defaultMetadata } from "@/lib/metadata";
 import JsonLd from "@/components/JsonLd";
-import { websiteStructuredData, organizationStructuredData, articleStructuredData } from "@/lib/structured-data";
+import { websiteStructuredData } from "@/lib/structured-data";
 import ThemeScript from "@/components/ThemeScript";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
   display: "swap",
+  preload: true,
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
   display: "swap",
+  preload: true,
 });
 
 export const metadata = defaultMetadata;
@@ -27,18 +29,26 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="es"
+      lang="es-AR"
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
       <head>
         <link 
           rel="alternate" 
           hrefLang="es-AR" 
-          href="https://AltasCapacidadesIntelectuales.org"
+          href="https://altascapacidadesintelectuales.org"
+        />
+        <link 
+          rel="alternate" 
+          hrefLang="es" 
+          href="https://altascapacidadesintelectuales.org"
+        />
+        <link 
+          rel="alternate" 
+          hrefLang="x-default" 
+          href="https://altascapacidadesintelectuales.org"
         />
         <JsonLd data={websiteStructuredData} />
-        <JsonLd data={organizationStructuredData} />
-        <JsonLd data={articleStructuredData} />
       </head>
       <body>
         <ThemeScript />
