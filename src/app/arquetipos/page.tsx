@@ -3,8 +3,14 @@
 
 import Link from 'next/link';
 import { getSectionVariant } from '@/lib/utils';
+import { generateMetadata } from '@/lib/metadata';
 
-export { default as metadata } from './metadata';
+export const metadata = generateMetadata({
+  title: 'Arquetipos de ACI - Altas Capacidades en Adultos',
+  description: 'Exploración de los diferentes perfiles y manifestaciones de las Altas Capacidades Intelectuales en adultos.',
+  path: '/arquetipos',
+  type: 'article',
+});
 
 export default function Arquetipos() {
   return (

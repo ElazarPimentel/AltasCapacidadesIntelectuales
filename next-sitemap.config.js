@@ -1,5 +1,3 @@
-const { scanPDFs } = require('./src/lib/pdf-sitemap');
-
 /** @type {import('next-sitemap').IConfig} */
 const config = {
   siteUrl: process.env.SITE_URL?.toLowerCase() || 'https://altascapacidadesintelectuales.org',
@@ -14,7 +12,8 @@ const config = {
     '/404',
     '/500',
     '/sitemap.xml',
-    '/robots.txt'
+    '/robots.txt',
+    '/sitemap-pdf.xml'
   ],
   robotsTxtOptions: {
     additionalSitemaps: [
@@ -38,16 +37,6 @@ const config = {
   transform: async (config, path) => {
     // Ensure URLs are lowercase
     const url = path.toLowerCase();
-    
-    // Add PDFs to sitemap
-    if (url.endsWith('.pdf')) {
-      return {
-        loc: url,
-        changefreq: 'monthly',
-        priority: 0.5,
-        lastmod: new Date().toISOString()
-      };
-    }
     
     return {
       loc: url,

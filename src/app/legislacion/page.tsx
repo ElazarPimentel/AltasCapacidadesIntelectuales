@@ -3,8 +3,14 @@
 
 import Link from 'next/link';
 import { getSectionVariant } from '@/lib/utils';
+import { generateMetadata } from '@/lib/metadata';
 
-export { default as metadata } from './metadata';
+export const metadata = generateMetadata({
+  title: 'Legislación sobre ACI - Altas Capacidades en Adultos',
+  description: 'Marco legal y normativo relacionado con las Altas Capacidades Intelectuales en Argentina y el mundo.',
+  path: '/legislacion',
+  type: 'article',
+});
 
 export default function Legislacion() {
   return (

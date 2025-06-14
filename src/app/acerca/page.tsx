@@ -1,7 +1,14 @@
 import Link from 'next/link';
 import { getSectionVariant } from '@/lib/utils';
+import { generateMetadata } from '@/lib/metadata';
 
-export { default as metadata } from './metadata';
+export const metadata = generateMetadata({
+  title: 'Acerca de este Sitio - Altas Capacidades en Adultos',
+  description: 'Un recurso empático y riguroso para adultos que sospechan tener ACI. Conocé nuestro enfoque, inspiraciones académicas y metodología editorial.',
+  path: '/acerca',
+  keywords: ['altas capacidades intelectuales', 'ACI', 'adultos', 'Argentina', 'Dabrowski', 'Renzulli', 'Silverman', 'guía editorial', 'autoconocimiento'],
+  type: 'article',
+});
 
 export default function Acerca() {
   return (

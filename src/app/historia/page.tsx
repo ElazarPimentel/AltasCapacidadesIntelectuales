@@ -2,11 +2,15 @@
 // Historia
 
 import Link from 'next/link';
-import type { Metadata } from 'next';
-import { metadata as pageMetadata } from './metadata';
 import { getSectionVariant } from '@/lib/utils';
+import { generateMetadata } from '@/lib/metadata';
 
-export const metadata: Metadata = pageMetadata;
+export const metadata = generateMetadata({
+  title: 'Historia de las ACI - Altas Capacidades en Adultos',
+  description: 'Recorrido histórico por el estudio y comprensión de las Altas Capacidades Intelectuales.',
+  path: '/historia',
+  type: 'article',
+});
 
 export default function Page() {
   return (

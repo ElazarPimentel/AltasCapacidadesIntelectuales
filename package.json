@@ -4,11 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && pnpm generate-pdf-sitemap",
+    "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "lint": "next lint",
-    "generate-pdf-sitemap": "ts-node --loader ts-node/esm scripts/generate-pdf-sitemap.ts"
+    "lint": "next lint"
   },
   "dependencies": {
     "@vercel/og": "^0.6.8",

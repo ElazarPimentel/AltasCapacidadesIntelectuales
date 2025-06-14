@@ -3,8 +3,14 @@
 
 import Link from 'next/link';
 import { getSectionVariant } from '@/lib/utils';
+import { generateMetadata } from '@/lib/metadata';
 
-export { default as metadata } from './metadata';
+export const metadata = generateMetadata({
+  title: 'Profesionales en ACI - Altas Capacidades en Adultos',
+  description: 'Directorio de profesionales especializados en evaluación y acompañamiento de adultos con Altas Capacidades.',
+  path: '/profesionales',
+  type: 'article',
+});
 
 export default function Profesionales() {
   return (

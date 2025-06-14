@@ -1,8 +1,14 @@
 import YouTubeEmbed from '@/components/YouTubeEmbed';
-import { metadata as pageMetadata } from './metadata';
 import { getSectionVariant } from '@/lib/utils';
+import { generateMetadata } from '@/lib/metadata';
 
-export const metadata = pageMetadata;
+export const metadata = generateMetadata({
+  title: "Curiosidades para Mentes ACI | Argentina",
+  description: "Juegos, paradojas y datos para estimular el pensamiento abstracto en adultos con Altas Capacidades.",
+  path: '/curiosidades',
+  keywords: ["curiosidades ACI", "juegos lógicos", "pensamiento abstracto", "neurodivergencia"],
+  type: "article",
+});
 
 export default function CuriosidadesPage() {
   return (

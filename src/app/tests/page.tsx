@@ -3,8 +3,14 @@
 import Link from 'next/link';
 import CopyPromptButton from '@/components/CopyPromptButton';
 import { getSectionVariant } from '@/lib/utils';
+import { generateMetadata } from '@/lib/metadata';
 
-export { default as metadata } from './metadata';
+export const metadata = generateMetadata({
+  title: 'Tests y Evaluación - Altas Capacidades en Adultos',
+  description: 'Guía sobre evaluación profesional y tests orientativos para adultos que sospechan tener Altas Capacidades.',
+  path: '/tests',
+  type: 'article',
+});
 
 export default function Tests() {
   return (
