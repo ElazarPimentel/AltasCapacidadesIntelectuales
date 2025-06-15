@@ -2,12 +2,12 @@
 // Historia
 
 import Link from 'next/link';
-import { getSectionVariant } from '@/lib/utils';
+import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
 
 export const metadata = generateMetadata({
   title: 'Historia de las ACI - Altas Capacidades en Adultos',
-  description: 'Recorrido histórico por el estudio y comprensión de las Altas Capacidades Intelectuales.',
+  description: 'Recorre la evolución histórica de las Altas Capacidades Intelectuales, desde Platón hasta su estudio moderno en Argentina.',
   path: '/historia',
   type: 'article',
 });

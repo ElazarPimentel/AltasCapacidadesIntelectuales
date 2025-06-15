@@ -1,10 +1,11 @@
-import YouTubeEmbed from '@/components/YouTubeEmbed';
-import { getSectionVariant } from '@/lib/utils';
+// src/app/curiosidades/page.tsx
+
+import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
 
 export const metadata = generateMetadata({
   title: "Curiosidades para Mentes ACI | Argentina",
-  description: "Juegos, paradojas y datos para estimular el pensamiento abstracto en adultos con Altas Capacidades.",
+  description: "Juegos, paradojas y datos curiosos para estimular el pensamiento abstracto en adultos con Altas Capacidades en Argentina.",
   path: '/curiosidades',
   keywords: ["curiosidades ACI", "juegos lógicos", "pensamiento abstracto", "neurodivergencia"],
   type: "article",
@@ -37,10 +38,14 @@ export default function CuriosidadesPage() {
           <h2>¿Sabías esto?</h2>
           <p>En el siglo XVI, Galileo propuso que dos objetos caen a la misma velocidad, sin importar su peso. Lo podés ver con dos pelotas en una escalera.</p>
           <p>En la misión Apolo 15, el astronauta David Scott replicó ese experimento... en la Luna. ¿Resultado? Igual que en la Tierra: la gravedad no discrimina masa.</p>
-          <YouTubeEmbed 
-            id="Oo8TaPVsn9Y"
-            title="Experimento de Galileo en la Luna"
-          />
+          <div className="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/Oo8TaPVsn9Y"
+              loading="lazy"
+              title="Experimento de Galileo en la Luna"
+              allowFullScreen
+            />
+          </div>
         </section>
 
         <section className={`content-section ${getSectionVariant(3)}`}>

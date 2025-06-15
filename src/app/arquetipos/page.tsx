@@ -2,12 +2,12 @@
 // Arquetipos
 
 import Link from 'next/link';
-import { getSectionVariant } from '@/lib/utils';
+import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
 
 export const metadata = generateMetadata({
   title: 'Arquetipos de ACI - Altas Capacidades en Adultos',
-  description: 'Exploración de los diferentes perfiles y manifestaciones de las Altas Capacidades Intelectuales en adultos.',
+  description: 'Explora perfiles y rasgos de Altas Capacidades Intelectuales en adultos, con ejemplos prácticos y orientación en Argentina.',
   path: '/arquetipos',
   type: 'article',
 });

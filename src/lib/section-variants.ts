@@ -1,15 +1,3 @@
-// src/lib/utils.ts
-
-export async function handleCopyClick(text: string): Promise<boolean> {
-  try {
-    await navigator.clipboard.writeText(text);
-    return true;
-  } catch (err) {
-    console.error('Failed to copy text: ', err);
-    return false;
-  }
-}
-
 /**
  * Returns the appropriate variant class for a section based on its index
  * @param index The 0-based index of the section within its parent

@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
-// Constants shared with ThemeScript
+// Constants for theme management
 const STORAGE = 'theme';
 const DARK = 'dark';
 const LIGHT = 'light';
@@ -22,10 +22,15 @@ export function ThemeToggle() {
 
   useEffect(() => {
     setReady(true);
-    const saved = localStorage.getItem(STORAGE);
-    const initial = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? DARK : LIGHT);
-    setTheme(initial);
-    applyTheme(initial);
+    try {
+      const saved = localStorage.getItem(STORAGE);
+      const initial = saved || (window.matchMedia('(prefers-color-scheme: dark)').matches ? DARK : LIGHT);
+      setTheme(initial);
+      applyTheme(initial);
+    } catch {
+      setTheme(LIGHT);
+      applyTheme(LIGHT);
+    }
   }, []);
 
   if (!ready) return null;

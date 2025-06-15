@@ -12,4 +12,3 @@ Host: https://altascapacidadesintelectuales.org
 
 # Sitemaps
 Sitemap: https://altascapacidadesintelectuales.org/sitemap.xml
-Sitemap: https://altascapacidadesintelectuales.org/sitemap-pdf.xml

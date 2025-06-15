@@ -1,6 +1,77 @@
 // src/components/JsonLd.tsx
 
-import { ArticleSchema, FAQSchema, WebPageSchema, WebsiteSchema } from '@/lib/schema';
+type PersonSchema = {
+  "@type": "Person";
+  name: string;
+  url?: string;
+  jobTitle?: string;
+  worksFor?: OrganizationSchema;
+};
+
+type OrganizationSchema = {
+  "@type": "Organization";
+  name: string;
+  url: string;
+  logo?: {
+    "@type": "ImageObject";
+    url: string;
+  };
+};
+
+type ArticleSchema = {
+  "@type": "Article";
+  headline: string;
+  description: string;
+  image: string;
+  datePublished: string;
+  dateModified?: string;
+  author: PersonSchema;
+  publisher: OrganizationSchema;
+  mainEntityOfPage: {
+    "@type": "WebPage";
+    "@id": string;
+  };
+};
+
+type FAQSchema = {
+  "@type": "FAQPage";
+  mainEntity: Array<{
+    "@type": "Question";
+    name: string;
+    acceptedAnswer: {
+      "@type": "Answer";
+      text: string;
+    };
+  }>;
+};
+
+type WebPageSchema = {
+  "@type": "WebPage";
+  name: string;
+  description: string;
+  url: string;
+  datePublished?: string;
+  dateModified?: string;
+  breadcrumb?: BreadcrumbListSchema;
+};
+
+type BreadcrumbListSchema = {
+  "@type": "BreadcrumbList";
+  itemListElement: Array<{
+    "@type": "ListItem";
+    position: number;
+    name: string;
+    item: string;
+  }>;
+};
+
+interface WebsiteSchema {
+  '@context'?: string;
+  '@type': string;
+  name?: string;
+  url?: string;
+  [key: string]: unknown;
+}
 
 type JsonLdProps = {
   data: ArticleSchema | FAQSchema | WebPageSchema | WebsiteSchema;

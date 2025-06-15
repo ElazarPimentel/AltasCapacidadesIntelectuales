@@ -3,7 +3,7 @@
 
 import Link from 'next/link';
 import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
-import { getSectionVariant } from '@/lib/utils';
+import { getSectionVariant } from '@/lib/section-variants';
 
 export const metadata = generatePageMetadata({
   title: 'ACI en Adultos',

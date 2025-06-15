@@ -44,6 +44,7 @@ export default tseslint.config(
         { allowConstantExport: true },
       ],
       'react/no-unescaped-entities': 'off',
+      'no-unused-vars': 'error',
     },
   },
 )

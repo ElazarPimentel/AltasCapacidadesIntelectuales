@@ -12,13 +12,11 @@ const config = {
     '/404',
     '/500',
     '/sitemap.xml',
-    '/robots.txt',
-    '/sitemap-pdf.xml'
+    '/robots.txt'
   ],
   robotsTxtOptions: {
     additionalSitemaps: [
-      'https://altascapacidadesintelectuales.org/sitemap.xml',
-      'https://altascapacidadesintelectuales.org/sitemap-pdf.xml'
+      'https://altascapacidadesintelectuales.org/sitemap.xml'
     ],
     policies: [
       {

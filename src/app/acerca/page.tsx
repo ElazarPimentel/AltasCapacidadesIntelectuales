@@ -1,5 +1,7 @@
+//
+
 import Link from 'next/link';
-import { getSectionVariant } from '@/lib/utils';
+import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
 
 export const metadata = generateMetadata({

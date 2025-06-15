@@ -142,20 +142,11 @@ export function generateMetadata({
         title: fullTitle,
         description,
         siteName,
-        images: [
-          {
-            url: `${siteUrl}/api/og?title=${encodeURIComponent(fullTitle)}`,
-            width: 1200,
-            height: 630,
-            alt: fullTitle,
-          },
-        ],
       },
       twitter: {
         card: 'summary_large_image',
         title: fullTitle,
         description,
-        images: [`${siteUrl}/api/og?title=${encodeURIComponent(fullTitle)}`],
       },
       alternates: {
         canonical: url,

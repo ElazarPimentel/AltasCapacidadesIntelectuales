@@ -1,15 +1,14 @@
 // src/app/tests/page.tsx
 
 import Link from 'next/link';
-import CopyPromptButton from '@/components/CopyPromptButton';
-import { getSectionVariant } from '@/lib/utils';
+import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
 
 export const metadata = generateMetadata({
-  title: 'Tests y Evaluación - Altas Capacidades en Adultos',
-  description: 'Guía sobre evaluación profesional y tests orientativos para adultos que sospechan tener Altas Capacidades.',
-  path: '/tests',
-  type: 'article',
+  title: "Tests para ACI - Altas Capacidades en Adultos",
+  description: "Guía de tests y evaluaciones profesionales para adultos que sospechan Altas Capacidades en Buenos Aires, Argentina.",
+  path: "/tests",
+  type: "article",
 });
 
 export default function Tests() {
@@ -130,7 +129,9 @@ export default function Tests() {
             Mientras pensás si buscar un profesional, podés usar una IA (LLM) para explorar patrones cognitivos o poner en palabras lo que sentís. Sitios como <a href="https://www.grok.com" target="_blank" rel="noopener noreferrer">grok.com</a> o <a href="https://www.chatgpt.com" target="_blank" rel="noopener noreferrer">chatgpt.com</a> son útiles. Probá este prompt:
           </p>
           <div className="prompt-block">
-            <CopyPromptButton targetSelector=".prompt-block blockquote" />
+            <button data-copy-target=".prompt-block blockquote" className="copy-button">
+              Copiar
+            </button>
             <blockquote>
               <p>Quiero que me hagas preguntas para ayudarte a estimar si podría tener Altas Capacidades Intelectuales (ACI), o no.</p>
 

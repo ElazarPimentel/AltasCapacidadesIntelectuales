@@ -2,12 +2,12 @@
 // profesionales
 
 import Link from 'next/link';
-import { getSectionVariant } from '@/lib/utils';
+import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
 
 export const metadata = generateMetadata({
   title: 'Profesionales en ACI - Altas Capacidades en Adultos',
-  description: 'Directorio de profesionales especializados en evaluación y acompañamiento de adultos con Altas Capacidades.',
+  description: 'Encuentra profesionales especializados en evaluación y apoyo de adultos con Altas Capacidades en Buenos Aires.',
   path: '/profesionales',
   type: 'article',
 });

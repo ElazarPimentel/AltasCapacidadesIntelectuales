@@ -2,11 +2,10 @@
 
 import { Geist, Geist_Mono } from "next/font/google";
 import "../styles/globals.scss";
-import LayoutWrapper from "@/components/LayoutWrapper";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import { defaultMetadata } from "@/lib/metadata";
-import JsonLd from "@/components/JsonLd";
-import { websiteStructuredData } from "@/lib/structured-data";
-import ThemeScript from "@/components/ThemeScript";
+import JsonLd, { websiteStructuredData } from "@/components/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -51,12 +50,34 @@ export default function RootLayout({
           href="https://altascapacidadesintelectuales.org"
         />
         <JsonLd data={websiteStructuredData} />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.addEventListener('click', function(e) {
+                if (e.target && e.target.getAttribute('data-copy-target')) {
+                  const selector = e.target.getAttribute('data-copy-target');
+                  const targetEl = document.querySelector(selector);
+                  if (targetEl) {
+                    navigator.clipboard.writeText(targetEl.innerText)
+                      .then(() => {
+                        const originalText = e.target.innerText;
+                        e.target.innerText = 'Copiado';
+                        setTimeout(() => {
+                          e.target.innerText = originalText;
+                        }, 2000);
+                      })
+                      .catch(err => console.error('Error al copiar:', err));
+                  }
+                }
+              });
+            `
+          }}
+        />
       </head>
       <body>
-        <ThemeScript />
-        <LayoutWrapper>
-          {children}
-        </LayoutWrapper>
+        <Header />
+        {children}
+        <Footer />
       </body>
     </html>
   );

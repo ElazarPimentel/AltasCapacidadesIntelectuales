@@ -2,12 +2,12 @@
 // Legislación
 
 import Link from 'next/link';
-import { getSectionVariant } from '@/lib/utils';
+import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
 
 export const metadata = generateMetadata({
   title: 'Legislación sobre ACI - Altas Capacidades en Adultos',
-  description: 'Marco legal y normativo relacionado con las Altas Capacidades Intelectuales en Argentina y el mundo.',
+  description: 'Conoce el marco legal para Altas Capacidades Intelectuales en Argentina y su impacto en educación y apoyo profesional.',
   path: '/legislacion',
   type: 'article',
 });
