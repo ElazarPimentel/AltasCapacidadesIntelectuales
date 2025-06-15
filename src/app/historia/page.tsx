@@ -88,7 +88,7 @@ export default function Page() {
 
         <section className={`content-section variant-b`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
-          <ul className="content-list">
+          <ul>
             <li id="ref-1">[1] <a href="https://www.jstor.org/stable/1076153" target="_blank" rel="noopener noreferrer">Terman, L. M. (1925) - Medición de la Inteligencia: Historia y Metodología</a></li>
             <li id="ref-2">[2] <a href="https://www.worldcat.org/title/12340987" target="_blank" rel="noopener noreferrer">Hollingworth, L. S. (1942) - Children Above 180 IQ: Origin and Development</a></li>
             <li id="ref-3">[3] <a href="https://goppac.org.ar/informes/2021-aci-argentina" target="_blank" rel="noopener noreferrer">GOPPAC (2021) - Estimación de personas con ACI en Argentina</a></li>

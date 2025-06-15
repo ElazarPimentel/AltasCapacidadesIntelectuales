@@ -42,7 +42,7 @@ export default function Profesionales() {
           <p>
             Al elegir un profesional en el mercado, considerá estos indicadores de calidad<sup><a href="#ref-3">[3]</a></sup>:
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Inversión en formación específica</strong> en neurodivergencia, ACI o evaluación psicodiagnóstica.</li>
             <li><strong>Especialización en adultos</strong>: un nicho más específico y valioso.</li>
             <li><strong>Metodología integral</strong>: combinación de herramientas diagnósticas y análisis personalizado.</li>
@@ -58,7 +58,7 @@ export default function Profesionales() {
           <p>
             No es un test de CI y listo. Es un proceso que incluye<sup><a href="#ref-4">[4]</a></sup>:
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Entrevistas clínicas</strong> para conocer tu historia y estilo de pensamiento.</li>
             <li><strong>Pruebas psicométricas</strong> como WAIS-IV.</li>
             <li><strong>Análisis cualitativo</strong> de tu forma de aprender, conectar ideas o sentir.</li>
@@ -77,7 +77,7 @@ export default function Profesionales() {
           <p>
             El mercado ofrece múltiples opciones según tu presupuesto y necesidades<sup><a href="#ref-5">[5]</a></sup>:
           </p>
-          <ul className="content-list">
+          <ul>
             <li>Comunidades online autoorganizadas con experiencias compartidas.</li>
             <li>Recursos educativos digitales y libros especializados.</li>
             <li>Herramientas de IA para exploración inicial (<Link href="/tests#charlar-con-una-ia">ver prompt en Tests</Link>).</li>
@@ -100,9 +100,9 @@ export default function Profesionales() {
           </p>
         </section>
 
-        <section className={`content-section ${getSectionVariant(6)}`}>
+        <section className={`content-section ${getSectionVariant(7)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
-          <ul className="content-list">
+          <ul>
             <li id="ref-1">[1] <a href="https://www.aest.es/altas-capacidades-intelectuales-o-superdotacion/" target="_blank" rel="noopener noreferrer">AEST: Altas Capacidades Intelectuales o Superdotación - Asociación Española de Superdotación y Talento</a></li>
             <li id="ref-2">[2] <a href="https://www.sciencedirect.com/science/article/abs/pii/S0160289621000635" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2021) - Adult Giftedness: Challenges in Diagnosis and Support</a></li>
             <li id="ref-3">[3] <a href="https://www.nagc.org/resources-publications/resources/selecting-professional" target="_blank" rel="noopener noreferrer">NAGC: Selecting a Mental Health Professional - National Association for Gifted Children</a></li>

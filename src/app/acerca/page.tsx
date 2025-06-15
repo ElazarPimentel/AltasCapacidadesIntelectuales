@@ -1,4 +1,5 @@
-//
+// src/app/acerca/page.tsx
+// Acerca de este Sitio
 
 import Link from 'next/link';
 import { getSectionVariant } from '@/lib/section-variants';
@@ -32,7 +33,7 @@ export default function Acerca() {
           <p>
             Nuestra plataforma se basa en tres principios fundamentales<sup><a href="#ref-3">[3]</a></sup>:
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Libertad de elección</strong>: Te presentamos opciones para que decidas tu camino de desarrollo.</li>
             <li><strong>Información de calidad</strong>: Combinamos investigación científica con experiencias prácticas del mercado.</li>
             <li><strong>Empoderamiento personal</strong>: Te damos herramientas para tomar decisiones informadas sobre tu desarrollo.</li>
@@ -43,9 +44,9 @@ export default function Acerca() {
         </section>
 
         <section className={`content-section ${getSectionVariant(2)}`}>
-          <h2 id="transparencia">Nuestro compromiso&nbsp;<a href="#transparencia">🔗</a></h2>
+          <h2 id="transparencia">Guía Editorial y Nuestro compromiso&nbsp;<a href="#transparencia">🔗</a></h2>
           <p>
-            Nos basamos en una <a href="/data/editorial-guide.md" target="_blank" rel="noopener noreferrer">guía editorial independiente</a> que reconoce la diversidad de talentos y capacidades. Colaboramos con profesionales y organizaciones privadas que comparten nuestra visión de empoderar a individuos para alcanzar su máximo potencial<sup><a href="#ref-5">[5]</a></sup>.
+            Nos basamos en una <a href="/guia-editorial" target="_blank" rel="noopener noreferrer">guía editorial independiente</a> que reconoce la diversidad de talentos y capacidades. Colaboramos con profesionales y organizaciones privadas que comparten nuestra visión de empoderar a individuos para alcanzar su máximo potencial<sup><a href="#ref-5">[5]</a></sup>.
           </p>
           <p>
             Nuestro objetivo es proporcionarte información clara y opciones prácticas para tu desarrollo personal. La decisión de cómo usar estos recursos siempre está en tus manos. Te ofrecemos herramientas para entender tu potencial y elegir cómo desarrollarlo.
@@ -54,7 +55,7 @@ export default function Acerca() {
 
         <section className={`content-section ${getSectionVariant(3)}`}>
           <h2 id="donde-continuar">Explora tus opciones&nbsp;<a href="#donde-continuar">🔗</a></h2>
-          <ul className="content-list">
+          <ul>
             <li>
               <strong><Link href="/tests">Evaluación y desarrollo</Link></strong> - Opciones profesionales para explorar tu potencial
             </li>
@@ -76,7 +77,7 @@ export default function Acerca() {
 
         <section className={`content-section ${getSectionVariant(4)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
-          <ul className="content-list">
+          <ul>
             <li id="ref-1">[1] <a href="https://www.sengifted.org/post/gifted-adult-manifesto" target="_blank" rel="noopener noreferrer">SENG: The Gifted Adult Manifesto - Supporting Emotional Needs of the Gifted</a></li>
             <li id="ref-2">[2] <a href="https://www.sciencedirect.com/science/article/abs/pii/S0160289621000635" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2021) - Adult Giftedness: Challenges in Diagnosis and Support</a></li>
             <li id="ref-3">[3] <a href="https://www.routledge.com/Gifted-Adults-in-Work/Nauta-Ronner/p/book/9781138291446" target="_blank" rel="noopener noreferrer">Nauta, N., & Ronner, S. (2021). Gifted Adults in Work</a></li>

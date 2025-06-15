@@ -120,7 +120,7 @@ export default function Home() {
             ¿Cómo sé si podría tener ACI? 
             <Link href="#como-saber">🔗</Link>
           </h2>
-          <ul className="content-list">
+          <ul>
             <li>Aprendés conceptos nuevos sin esfuerzo, especialmente si te atrapan.</li>
             <li>Tu mente salta entre ideas, uniendo disciplinas que parecen lejanas.</li>
             <li>Vivís emociones con una intensidad que te desborda, para bien o para mal.</li>
@@ -146,7 +146,7 @@ export default function Home() {
             frustración, aislamiento o malentendidos. Muchos adultos con ACI
             enfrentan:
           </p>
-          <ul className="content-list">
+          <ul>
             <li>Baja autoestima por sentirse «rotos» o fuera de lugar.</li>
             <li>Insatisfacción laboral en roles que no desafían su mente.</li>
             <li>Dificultades sociales por una intensidad que otros no comprenden.</li>
@@ -196,7 +196,7 @@ export default function Home() {
             pensante. Pero tu estructura cognitiva no es inusualmente distinta.
             Y eso está bien. No necesitás ser ACI para tener una vida rica.
           </p>
-          <ul className="content-list">
+          <ul>
             <li>CI menor a 115–120.</li>
             <li>Ausencia de pensamiento abstracto espontáneo.</li>
             <li>Procesamiento lineal, secuencial y rígido.</li>
@@ -212,7 +212,7 @@ export default function Home() {
             Mitos que hay que romper 
             <Link href="#mitos">🔗</Link>
           </h2>
-          <ul className="content-list">
+          <ul>
           <li>«He tenido problemas en la escuela y me siento incomprendido por todos, soy ACI.» – Falso.</li>
             <li>«Si no fui un niño prodigio, no soy ACI.» – Falso.</li>
             <li>«Ser ACI significa tener éxito.» – Falso.</li>
@@ -232,7 +232,7 @@ export default function Home() {
             ¿Qué hacer si sospechás que sos ACI? 
             <Link href="#que-hacer">🔗</Link>
           </h2>
-          <ol className="content-list">
+          <ol>
             <li>Reflexionar sobre tu historia y entorno.</li>
             <li>
               Buscar un{' '}

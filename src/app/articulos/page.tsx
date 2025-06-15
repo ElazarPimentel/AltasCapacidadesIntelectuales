@@ -13,7 +13,7 @@ export const metadata = generateMetadata({
 const items = [
   {
     title: "Criterios Contemporáneos para la Identificación de Altas Capacidades Intelectuales (ACI)",
-    filename: "/Criterios Contemporáneos para la Identificación de Altas Capacidades Intelectuales (ACI) P04V06.pdf",
+    filename: "/Criterios_Contemporáneos_para_la_Identificación_de_Altas_Capacidades_Intelectuales_ACI-P04V06.pdf",
     tags: ["ACI ", "identificación "],
     abstract: `<p>La confusión sobre las Altas Capacidades Intelectuales (ACI) nace porque el término «superdotación» designa simultáneamente dos realidades:</p>
 
@@ -29,7 +29,7 @@ const items = [
   },
   {
     title: "La Audiencia Imaginaria, Redes Sociales y falso Auto-Diagnóstico ACI",
-    filename: "/La Audiencia Imaginaria, Redes Sociales y falso Auto-Diagnóstico ACI P05V06.pdf",
+    filename: "/La_Audiencia_Imaginaria_Redes_Sociales_y_falso_Auto-Diagnóstico_ACI-P05V06.pdf",
     tags: ["psicología ", "ACI ", "RedesSociales "],
     abstract: `<p>El concepto de la audiencia imaginaria, originalmente descrito por David Elkind en 1967 como una creencia adolescente de estar bajo constante observación y juicio, ha sido profundamente transformado por las redes sociales. Estas plataformas digitales han convertido esta percepción en una realidad tangible, donde la retroalimentación inmediata amplifica la autoconciencia y el comportamiento en línea. Este fenómeno se vincula con el creciente auto-diagnóstico de condiciones como las Altas Capacidades Intelectuales (ACI).</p>
 
@@ -37,7 +37,7 @@ const items = [
   },
   {
     title: "La Audiencia Imaginaria: Un Análisis Psicológico desde sus Orígenes hasta la Era Digital",
-    filename: "/La Audiencia Imaginaria_ Un Análisis Psicológico desde sus Orígenes hasta la Era Digital P01V06.pdf",
+    filename: "/La_Audiencia_Imaginaria_Un_Analisis_Psicológico_desde_sus_Orígenes_hasta_la_Era_Digital-P01V06.pdf",
     tags: ["psicología ", "AudienciaImaginaria "],
     abstract: `<p>Originalmente, la audiencia imaginaria, un concepto acuñado por David Elkind en 1967, describía la creencia egocéntrica de los adolescentes de estar bajo constante y minuciosa observación y juicio por parte de sus pares y extraños, magnificando su visibilidad e importancia. Era una construcción mental interna, una percepción distorsionada ligada al desarrollo que generaba ansiedad y autocrítica.</p>
 
@@ -47,7 +47,7 @@ const items = [
   },
   {
     title: "La Audiencia Imaginaria: Cuando la Audiencia no está presente",
-    filename: "/La Audiencia Imaginaria_ Cuando la Audiencia no está presente P02V06.pdf",
+    filename: "/La_Audiencia_Imaginaria_Cuando_la_Audiencia_no_esta_presente-P02V06.pdf",
     tags: ["psicología ", "AudienciaImaginaria "],
     abstract: `<p>El concepto de audiencia imaginaria, introducido por David Elkind en 1967, es fundamental para comprender el egocentrismo adolescente. Se define como la creencia, a menudo exagerada, de los adolescentes de que son el centro de atención y que sus acciones, apariencia y pensamientos están siendo constantemente observados y juzgados por una multitud de personas. Esta percepción surge con la capacidad de pensamiento abstracto, pero los adolescentes asumen erróneamente que los demás comparten sus propias preocupaciones.</p>
 
@@ -57,13 +57,12 @@ const items = [
   },
   {
     title: "La Audiencia Imaginaria: Aspectos Positivos y Adversos",
-    filename: "/La Audiencia Imaginaria_ Aspectos Positivos y Adversos P03V06.pdf",
+    filename: "/La_Audiencia_Imaginaria_Aspectos_Positivos_y_Adversos_P03V06.pdf",
     tags: ["psicología ", "AudienciaImaginaria "],
     abstract: `<p>La Introducción de este texto explora la "audiencia imaginaria" como un fenómeno psicológico arraigado, una actuación para un público invisible que influye en pensamientos y comportamientos incluso en soledad. Se enfatiza una dimensión particular de este concepto: la fantasía de ser visto y admirado por actos nobles o destacables, incluso sin observadores reales. El psicólogo David Elkind acuñó el término en 1967 para describir la creencia adolescente, a menudo exagerada, de ser el centro de atención y de que sus acciones, apariencia y pensamientos son constantemente observados y juzgados, sea la audiencia física o no. Aunque la formulación original reconocía que el público podía ser "admirador o crítico", el énfasis inicial se inclinaba hacia el escrutinio negativo y la ansiedad.</p>
 
 <p>El fenómeno de esta audiencia imaginaria ausente y admiradora posee Funciones Adaptativas. Contrario a ser un mero error cognitivo, se considera un proceso psicológico complejo que ayuda a los individuos a afrontar la ansiedad por separación y a mantener un sentido de conexión emocional con figuras significativas en su ausencia. Contribuye positivamente a la formación de una identidad coherente y única, y sirve como un potente motivador interno, impulsando comportamientos deseados, incluyendo acciones prosociales. Actúa como un "ensayo cognitivo" para la atención pública anticipada, fomentando la autoaceptación y la resiliencia a través de un autoconcepto saludable. Estas fantasías, aunque a veces asociadas con resultados desadaptativos, refuerzan la autoestima y la construcción de la identidad, proporcionando una poderosa motivación interna para aspiraciones prosociales y acciones loables.</p>`
   }
-  
 ];
 
 export default function ArticulosPage() {

@@ -39,7 +39,7 @@ export default function Legislacion() {
           <p>
             En la provincia de Buenos Aires, el caso de Benjamín Equiza dio origen a un proyecto legislativo clave. Se llama <i>Ley Benjamín</i> (en trámite al 2025) busca garantizar detección temprana y acompañamiento integral de estudiantes con ACI<sup><a href="#ref-3">[3]</a></sup>, desde nivel inicial hasta la secundaria. Sus pilares son:
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Detección sistemática</strong>: Capacitación docente para reconocer señales de ACI.</li>
             <li><strong>Acompañamiento educativo</strong>: Adaptaciones curriculares y trayectorias flexibles.</li>
             <li><strong>Enfoque inclusivo</strong>: Reconocer la diversidad cognitiva como derecho, no como excepción.</li>
@@ -54,7 +54,7 @@ export default function Legislacion() {
           <p>
             El sector privado ha desarrollado diversas soluciones adaptadas a cada región<sup><a href="#ref-4">[4]</a></sup>:
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Buenos Aires</strong>: Red de profesionales independientes especializados en evaluación y acompañamiento.</li>
             <li><strong>Córdoba</strong>: Centros privados con programas de enriquecimiento extracurricular.</li>
             <li><strong>Mendoza</strong>: Consultoras educativas que ofrecen capacitación a docentes e instituciones.</li>
@@ -82,7 +82,7 @@ export default function Legislacion() {
           <p>
             El sector privado ofrece múltiples alternativas para tu desarrollo:
           </p>
-          <ol className="content-list">
+          <ol>
             <li>Contratar una <Link href="/profesionales#que-esperar">evaluación especializada</Link> con profesionales independientes.</li>
             <li>Acceder a programas de coaching y mentoría personalizada.</li>
             <li>Participar en comunidades y redes de aprendizaje autoorganizadas.</li>
@@ -118,7 +118,7 @@ export default function Legislacion() {
 
         <section className={`content-section ${getSectionVariant(7)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
-          <ul className="content-list">
+          <ul>
             <li id="ref-1">[1] <a href="https://www.boe.es/eli/es/l/2006/05/03/2" target="_blank" rel="noopener noreferrer">Ley Orgánica 2/2006 de Educación (España) - Artículos sobre Altas Capacidades</a></li>
             <li id="ref-2">[2] <a href="https://www.argentina.gob.ar/normativa/nacional/ley-26206" target="_blank" rel="noopener noreferrer">Ley 26.206 - Ley de Educación Nacional</a></li>
             <li id="ref-3">[3] <a href="https://www.boletinoficial.gob.ar/ley27306" target="_blank" rel="noopener noreferrer">Ley 27.306 - Ley Benjamín: Detección y Acompañamiento de Estudiantes con ACI</a></li>

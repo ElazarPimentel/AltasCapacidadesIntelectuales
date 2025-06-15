@@ -39,7 +39,7 @@ export default function Arquetipos() {
             Gente brillante a veces se frustra si el resultado psicométrico "no coincide" con lo que siente.
             Tres causas frecuentes:
           </p>
-          <ol className="content-list">
+          <ol>
             <li><strong>Sobreestimación subjetiva.</strong> Confundimos facilidad académica con rendimiento cognitivo global.</li>
             <li><strong>Contexto.</strong> Un entorno estimulante eleva a un CI 90; uno adverso sabotea a un CI 115.</li>
             <li><strong>Expectativa mágica.</strong> Creemos que un único test revelará nuestra genialidad en 90 minutos.</li>
@@ -48,7 +48,7 @@ export default function Arquetipos() {
 
         <section className={`content-section ${getSectionVariant(3)}`}>
           <h2 id="que-mide-ci">¿Qué mide el CI?&nbsp;<a href="#que-mide-ci">🔗</a></h2>
-          <ul className="content-list">
+          <ul>
             <li>Media = 100, σ = 15 → ~68 % de la población entre <strong>85 y 115</strong>.</li>
             <li><strong>115 – 129 → muy inteligentes.</strong> Recursos cognitivos por encima del promedio.</li>
             <li><strong>≥ 130 → posible perfil ACI</strong> si el patrón global lo confirma.</li>
@@ -149,7 +149,7 @@ export default function Arquetipos() {
             CI ≥ 130 nunca detectado. Aburrimiento escolar, diagnósticos errados, rechazo social por sensibilidad ética e ideas atípicas.
             <strong>Clave:</strong> una evaluación certera + apoyos específicos puede cambiar el rumbo.
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Punto clave:</strong> Tu capacidad es un activo que podés desarrollar proactivamente.</li>
             <li><strong>Oportunidad:</strong> Crear tu propio espacio, conectar con otros que comparten tu visión, desarrollar tu potencial único.</li>
           </ul>
@@ -167,7 +167,7 @@ export default function Arquetipos() {
             CI promedio; la dificultad surge de trauma, pobreza o violencia. A veces desea "ser ACI" para explicar su malestar.
             <strong>Clave:</strong> abordar la causa real (psicológica, social, económica) antes de buscar un rótulo cognitivo.
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Punto clave:</strong> El malestar es real, pero su causa puede estar en otro lado.</li>
             <li><strong>Riesgo:</strong> Autoengañarse con una explicación que distrae en lugar de aclarar.</li>
           </ul>
@@ -186,7 +186,7 @@ export default function Arquetipos() {
             <strong>Riesgo:</strong> atribuir cualquier frustración a "genialidad incomprendida".
             <strong>Oportunidad:</strong> optimizar habilidades sin necesidad de una etiqueta.
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Punto clave:</strong> Son brillantes dentro del marco esperable.</li>
             <li><strong>Riesgo:</strong> Atribuir su malestar a "genialidad incomprendida" y no a otros factores.</li>
           </ul>
@@ -204,7 +204,7 @@ export default function Arquetipos() {
             CI ≥ 130. Desmenuza estructuras complejas y crea proyectos originales.
             <strong>Potencia:</strong> florece con desafíos del tamaño adecuado y mentoría de pares.
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Punto clave:</strong> Usa su capacidad como herramienta para crear valor.</li>
             <li><strong>Oportunidad:</strong> Desarrollar proyectos innovadores, crear espacios de valor, liderar iniciativas únicas.</li>
           </ul>
@@ -222,7 +222,7 @@ export default function Arquetipos() {
             CI 95-109 + entorno estimulante. Se destaca gracias a disciplina y feedback.
             <strong>Necesidad:</strong> orientación vocacional y estrategia para seguir creciendo sin comparaciones tóxicas.
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Punto clave:</strong> El éxito no depende solo de la capacidad intelectual.</li>
             <li><strong>Oportunidad:</strong> Aprovechar sus fortalezas en entornos que valoren su estilo de trabajo.</li>
           </ul>
@@ -240,7 +240,7 @@ export default function Arquetipos() {
             CI 95-109 en contexto adverso. Puede sentirse "menos" aunque su potencial sea valioso.
             <strong>Prioridad:</strong> cobertura de necesidades básicas y redes de apoyo antes de metas cognitivas ambiciosas.
           </p>
-          <ul className="content-list">
+          <ul>
             <li><strong>Punto clave:</strong> El contexto puede limitar el desarrollo del potencial.</li>
             <li><strong>Oportunidad:</strong> Construir una base sólida para el crecimiento personal y profesional.</li>
           </ul>
@@ -251,7 +251,7 @@ export default function Arquetipos() {
 
         <section className={`content-section ${getSectionVariant(4)}`}>
           <h2 id="mitos">Mitos que hay que romper&nbsp;<a href="#mitos">🔗</a></h2>
-          <ul className="content-list">
+          <ul>
             <li>«He tenido problemas en la escuela y me siento incomprendido por todos, soy ACI.» – <strong>Falso</strong></li>
             <li>«Si no fui un niño prodigio, no soy ACI.» – <strong>Falso</strong></li>
             <li>«Ser ACI garantiza éxito.» – <strong>Falso</strong></li>
@@ -265,7 +265,7 @@ export default function Arquetipos() {
 
         <section className={`content-section ${getSectionVariant(5)}`}>
           <h2 id="que-hacer">¿Qué hacer si sospechás que sos ACI?&nbsp;<a href="#que-hacer">🔗</a></h2>
-          <ol className="content-list">
+          <ol>
             <li>Reflexioná sobre tu historia y tu entorno.</li>
             <li>Buscá un <Link href="/profesionales#que-buscar">profesional especializado</Link> para una evaluación clara.</li>
             <li>Explorá actividades intelectuales o creativas que te desafíen.</li>
@@ -301,7 +301,7 @@ export default function Arquetipos() {
 
         <section className={`content-section ${getSectionVariant(0)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
-          <ul className="content-list">
+          <ul>
             <li id="ref-1">[1] <a href="https://www.sengifted.org/post/the-gifted-adult-manifesto" target="_blank" rel="noopener noreferrer">SENG – The Gifted Adult Manifesto</a></li>
             <li id="ref-2">[2] <a href="https://www.springerpub.com/giftedness-101-9780826107982.html" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2021) – Adult Giftedness: Challenges in Diagnosis and Support</a></li>
             <li id="ref-3">[3] <a href="https://www.penguinrandomhouse.com/books/the-gifted-adult" target="_blank" rel="noopener noreferrer">Nauta, N. & Ronner, S. (2021) – Gifted Adults in Work</a></li>

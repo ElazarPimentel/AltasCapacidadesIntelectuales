@@ -6,9 +6,9 @@ export default function Footer() {
   return (
     <footer>
       <nav className="footer-nav">
-        <Link href="/tests">Tests</Link> ·{' '}
-        <Link href="/legislacion">Legislación</Link> ·{' '}
-        <Link href="/profesionales">Profesionales</Link>
+        <Link href="/articulos">Artículos</Link> ·{' '}
+        <Link href="/curiosidades">Curiosidades</Link> ·{' '}
+        <Link href="/guia-editorial">Guía Editorial</Link>
       </nav>
       <p>Contenido protegido por el Convenio de Berna sobre Derechos de Autor</p>
       <p>v56.00.57</p>
