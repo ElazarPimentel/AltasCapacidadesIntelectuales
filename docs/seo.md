@@ -264,8 +264,8 @@
 - ✅ `robots.txt` with directives for all crawlers including AI bots
 - ✅ Explicit permissions for PerplexityBot, GPTBot, ClaudeBot, etc.
 - ✅ Accessible at: 
-  - `https://AltasCapacidadesIntelectuales.org/sitemap.xml`
-  - `https://AltasCapacidadesIntelectuales.org/robots.txt`
+  - `https://altascapacidadesintelectuales.org/sitemap.xml`
+  - `https://altascapacidadesintelectuales.org/robots.txt`
 
 ### 2. **Enhanced Metadata**
 - ✅ Comprehensive metadata utility in `src/lib/metadata.ts`
@@ -300,7 +300,7 @@
 
 ### Google Search Console
 1. Verify ownership at https://search.google.com/search-console/
-2. Submit sitemap: `https://AltasCapacidadesIntelectuales.org/sitemap.xml`
+2. Submit sitemap: `https://altascapacidadesintelectuales.org/sitemap.xml`
 3. Request indexing for main pages manually
 4. Monitor indexation status and fix any issues
 
@@ -309,9 +309,9 @@
 2. Submit sitemap and enable IndexNow
 3. Use IndexNow API for real-time updates:
    ```bash
-   curl -X POST https://AltasCapacidadesIntelectuales.org/api/indexnow \
+   curl -X POST https://altascapacidadesintelectuales.org/api/indexnow \
    -H "Content-Type: application/json" \
-   -d '{"urls": ["https://AltasCapacidadesIntelectuales.org/"]}'
+   -d '{"urls": ["https://altascapacidadesintelectuales.org/"]}'
    ```
 
 ### Perplexity AI Indexation
@@ -331,7 +331,7 @@
 1. **Google Search Console**: Primary indexation monitoring
 2. **Bing Webmaster Tools**: Microsoft ecosystem indexation
 3. **Site crawlers**: Use tools like Screaming Frog to verify
-4. **Search operators**: Test with `site:AltasCapacidadesIntelectuales.org`
+4. **Search operators**: Test with `site:altascapacidadesintelectuales.org`
 
 ### Key Metrics to Track
 - Pages indexed vs. submitted

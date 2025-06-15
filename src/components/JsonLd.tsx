@@ -91,17 +91,17 @@ export const websiteStructuredData = {
   "@type": "WebSite",
   "name": "Altas Capacidades Intelectuales en Buenos Aires",
   "description": "Información especializada sobre Altas Capacidades Intelectuales en CABA. Recursos, tests, legislación y profesionales en Ciudad Autónoma de Buenos Aires.",
-  "url": "https://AltasCapacidadesIntelectuales.org",
+  "url": "https://altascapacidadesintelectuales.org",
   "inLanguage": "es-AR",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://AltasCapacidadesIntelectuales.org/{search_term_string}",
+    "target": "https://altascapacidadesintelectuales.org/{search_term_string}",
     "query-input": "required name=search_term_string"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Sitio ACI Buenos Aires",
-    "url": "https://AltasCapacidadesIntelectuales.org"
+    "url": "https://altascapacidadesintelectuales.org"
   }
 };
 
@@ -110,7 +110,7 @@ export const organizationStructuredData = {
   "@type": "Organization",
   "name": "Sitio ACI Buenos Aires",
   "description": "Organización dedicada a la información y recursos sobre Altas Capacidades Intelectuales en Buenos Aires",
-  "url": "https://AltasCapacidadesIntelectuales.org",
+  "url": "https://altascapacidadesintelectuales.org",
   "sameAs": [],
   "address": {
     "@type": "PostalAddress",
@@ -148,7 +148,7 @@ export const articleStructuredData = {
   "publisher": {
     "@type": "Organization",
     "name": "Sitio ACI Buenos Aires",
-    "url": "https://AltasCapacidadesIntelectuales.org"
+    "url": "https://altascapacidadesintelectuales.org"
   },
   "datePublished": "2024-03-19",
   "dateModified": "2024-03-19",

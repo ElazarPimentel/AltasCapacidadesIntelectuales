@@ -2,7 +2,7 @@
 
 import { Metadata } from 'next';
 
-const siteUrl = 'https://AltasCapacidadesIntelectuales.org';
+const siteUrl = 'https://altascapacidadesintelectuales.org';
 const siteName = 'Altas Capacidades Intelectuales en Buenos Aires';
 const defaultDescription = 'Información especializada sobre Altas Capacidades Intelectuales (ACI) en Buenos Aires, CABA y Argentina. Recursos, tests y profesionales en Ciudad Autónoma de Buenos Aires.';
 

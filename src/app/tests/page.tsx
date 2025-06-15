@@ -176,7 +176,7 @@ export default function Tests() {
         <section className={`content-section variant-b`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
           <ul className="content-list">
-            <li id="ref-1">[1] <a href="https://AltasCapacidadesIntelectuales.org/data/2025-06-08-1656-DeepSearch-Gemini-v002.docx" target="_blank" rel="noopener noreferrer">DeepSearch Gemini v002: Informe demográfico sobre Altas Capacidades Intelectuales en Argentina (2025)</a></li>
+            <li id="ref-1">[1] <a href="https://altascapacidadesintelectuales.org/data/2025-06-08-1656-DeepSearch-Gemini-v002.docx" target="_blank" rel="noopener noreferrer">DeepSearch Gemini v002: Informe demográfico sobre Altas Capacidades Intelectuales en Argentina (2025)</a></li>
             <li id="ref-2">[2] <a href="https://www.pearsonclinical.com" target="_blank" rel="noopener noreferrer">Manual Técnico: Escala de Inteligencia de Wechsler para Adultos (WAIS-IV)</a></li>
             <li id="ref-3">[3] <a href="https://www.springerpub.com/giftedness-101-9780826107982.html" target="_blank" rel="noopener noreferrer">Silverman, L. K. (2013) - Giftedness 101: Entendiendo las Altas Capacidades</a></li>
           </ul>

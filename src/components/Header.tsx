@@ -4,15 +4,35 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ThemeToggle } from './ThemeToggle';
 
 export default function Header() {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, []);
+
+  useEffect(() => {
+    const checkMobile = () => setIsMobile(window.innerWidth <= 768);
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
+  useEffect(() => {
+    setIsMenuOpen(false);
+  }, [pathname]);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
   };
 
   return (
@@ -36,10 +56,14 @@ export default function Header() {
             </button>
           </div>
         </div>
-        <nav className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`} aria-label="Main navigation">
+        <nav 
+          className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`} 
+          aria-label="Main navigation"
+        >
           <Link 
             href="/" 
             className={`nav-link ${pathname === '/' ? 'active' : ''}`}
+            onClick={closeMenu}
             aria-current={pathname === '/' ? 'page' : undefined}
           >
             Home
@@ -47,6 +71,7 @@ export default function Header() {
           <Link 
             href="/arquetipos" 
             className={`nav-link ${pathname === '/arquetipos' ? 'active' : ''}`}
+            onClick={closeMenu}
             aria-current={pathname === '/arquetipos' ? 'page' : undefined}
           >
             Arquetipos
@@ -54,6 +79,7 @@ export default function Header() {
           <Link 
             href="/historia" 
             className={`nav-link ${pathname === '/historia' ? 'active' : ''}`}
+            onClick={closeMenu}
             aria-current={pathname === '/historia' ? 'page' : undefined}
           >
             Historia
@@ -61,6 +87,7 @@ export default function Header() {
           <Link 
             href="/tests" 
             className={`nav-link ${pathname === '/tests' ? 'active' : ''}`}
+            onClick={closeMenu}
             aria-current={pathname === '/tests' ? 'page' : undefined}
           >
             Tests
@@ -68,6 +95,7 @@ export default function Header() {
           <Link 
             href="/legislacion" 
             className={`nav-link ${pathname === '/legislacion' ? 'active' : ''}`}
+            onClick={closeMenu}
             aria-current={pathname === '/legislacion' ? 'page' : undefined}
           >
             Legislación
@@ -75,6 +103,7 @@ export default function Header() {
           <Link 
             href="/profesionales" 
             className={`nav-link ${pathname === '/profesionales' ? 'active' : ''}`}
+            onClick={closeMenu}
             aria-current={pathname === '/profesionales' ? 'page' : undefined}
           >
             Profesionales
@@ -82,6 +111,7 @@ export default function Header() {
           <Link 
             href="/articulos" 
             className={`nav-link ${pathname === '/articulos' ? 'active' : ''}`}
+            onClick={closeMenu}
             aria-current={pathname === '/articulos' ? 'page' : undefined}
           >
             Artículos
@@ -89,6 +119,7 @@ export default function Header() {
           <Link 
             href="/curiosidades" 
             className={`nav-link ${pathname === '/curiosidades' ? 'active' : ''}`}
+            onClick={closeMenu}
             aria-current={pathname === '/curiosidades' ? 'page' : undefined}
           >
             Curiosidades
@@ -96,6 +127,7 @@ export default function Header() {
           <Link 
             href="/acerca" 
             className={`nav-link ${pathname === '/acerca' ? 'active' : ''}`}
+            onClick={closeMenu}
             aria-current={pathname === '/acerca' ? 'page' : undefined}
           >
             Acerca

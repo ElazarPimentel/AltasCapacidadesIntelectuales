@@ -88,7 +88,7 @@ export default function GuiaEditorial() {
             <li>Sin visión elitista de la inteligencia</li>
           </ol>
 
-          <p>© 2025 AltasCapacidadesIntelectuales.org - CC BY-SA 4.0 salvo indicación contraria</p>
+          <p>© 2025 altascapacidadesintelectuales.org - CC BY-SA 4.0 salvo indicación contraria</p>
         </section>
       </div>
     </main>
