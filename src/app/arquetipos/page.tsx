@@ -7,9 +7,10 @@ import { generateMetadata } from '@/lib/metadata';
 
 export const metadata = generateMetadata({
   title: 'Arquetipos de ACI - Altas Capacidades en Adultos',
-  description: 'Explora perfiles y rasgos de Altas Capacidades Intelectuales en adultos, con ejemplos prácticos y orientación en Argentina.',
+  description: 'Descubrí los 6 arquetipos de experiencias con Altas Capacidades (CI ≥130) y perfiles cognitivos diversos. Guía práctica para entender tu recorrido vital y potencial en Argentina.',
   path: '/arquetipos',
-  type: 'article',
+  keywords: ['arquetipos ACI', 'altas capacidades', 'CI 130', 'perfiles cognitivos', 'desarrollo personal', 'evaluación cognitiva', 'experiencias ACI', 'diagnóstico ACI', 'WAIS-IV', 'Buenos Aires'],
+  type: 'article'
 });
 
 export default function Arquetipos() {

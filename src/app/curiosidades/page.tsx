@@ -1,5 +1,7 @@
 // src/app/curiosidades/page.tsx
+// Curiosidades
 
+import React from 'react';
 import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
 
@@ -13,7 +15,7 @@ export const metadata = generateMetadata({
 
 export default function CuriosidadesPage() {
   return (
-    <main className="main-content">
+    <div className="main-content">
       <div className="container">
         <h1>Curiosidades que estimulan tu mente</h1>
         
@@ -51,8 +53,8 @@ export default function CuriosidadesPage() {
         <section className={`content-section ${getSectionVariant(3)}`}>
           <h2>Pensamiento lógico</h2>
           <blockquote className="content-quote">
-            "Todos los gatos son negros. Vi un gato. ¿De qué color era?"<br/>
-            Si respondiste algo que no sea negro, volvé al principio.<br/>
+            "Todos los gatos son negros. Vi un gato. ¿De qué color era?"<br />
+            Si respondiste algo que no sea negro, volvé al principio.<br />
             (Sí, esto es un silogismo —y no, no hace falta estudiarlo para entenderlo.)
           </blockquote>
         </section>
@@ -279,24 +281,36 @@ export default function CuriosidadesPage() {
           </p>
         </section>
 
-        <section className={`content-section ${getSectionVariant(16)}`}>
+        <section className={`content-section ${getSectionVariant(18)}`}>
+          <h2>Diez Dominios del Conocimiento</h2>
+          <p>Quizá escuchaste hablar de los tres clásicos dominios del conocimiento:</p>
+          <p><strong>1. Lo que sabés que sabés</strong><br />Conocimiento explícito. Todo lo que sabés que sabés: tu profesión, habilidades, lo que estudiaste, lo que dominás.</p>
+          <p><strong>2. Lo que sabés que no sabés</strong><br />Ignorancia consciente. Sabés que no sabés pilotear un F-22, dirigir una sinfónica o cómo funciona un panel solar.</p>
+          <p><strong>3. Lo que no sabés que no sabés</strong><br />Ceguera epistémica. Creés entender qué es una IA porque chateás con una, pero no sabés qué son cabezales, tokens, espacios de alta dimensión, vectores, pesos, biases, etc.</p>
+          <p><strong>Siete más que quizá no conocías:</strong></p>
+          <p><strong>4. Lo que no sabés que sabés</strong><br />Conocimiento tácito. Tapás la olla para que hierva más rápido, sin saber nada de termodinámica. Pero lo hacés igual.</p>
+          <p><strong>5. Lo que negás que sabés</strong><br />Autoengaño. Defendés a un político corrupto porque te cae bien, o sostenés una relación tóxica por miedo a la soledad. En el fondo, lo sabés… pero no querés saberlo.</p>
+          <p><strong>6. Lo inefable</strong><br />Lo que no se puede pensar. Qué es la nada (no el vacío), qué había antes del tiempo, cómo sería percibir más de tres dimensiones. No solo no lo sabés: tu mente no puede concebirlo.</p>
+          <p><strong>7. Lo que sabías y olvidaste</strong><br />Memoria erosionada. Alguna vez supiste resolver ecuaciones o hablaste en francés, pero hoy no podrías sin repasar.</p>
+          <p><strong>8. Conocimientos imaginarios</strong><br />Falsas certezas. Que usamos solo el 10% del cerebro, que lo natural es siempre mejor, que los murciélagos son ciegos.</p>
+          <p><strong>9. Lo ignorado por todos</strong><br />Horizonte compartido de ignorancia. ¿Hay vida en otros planetas? ¿Una cura definitiva para el Alzheimer? Nadie lo sabe, <em>todavía</em>.</p>
+          <p><strong>10. Lo incognoscible</strong><br />Lo que está —y estará siempre— más allá del alcance humano. Aunque evolucione la ciencia o la mente, hay cosas que nunca podremos saber.</p>
+        </section>
+
+        <section className={`content-section ${getSectionVariant(18)}`}>
           <h2>Pronto a ser agregado</h2>
           <p>Lista de temas que se agregarán en breve:</p>
           <ol>
             <li>Near Transfer y Far Transfer</li>
-            <li>Hemisferio Derecho e Izquierdo: Mitors y Realidades</li>
+            <li>Hemisferio Derecho e Izquierdo: Mitos y Realidades</li>
             <li>El uso de solo el 10% del cerebro</li>
             {/* <li>-</li> */}
             {/* <li>-</li> */}
             {/* <li>-</li> */}
-
           </ol>
         </section>
 
-
-
-
-        <section className={`content-section ${getSectionVariant(17)}`}>
+        <section className={`content-section ${getSectionVariant(19)}`}>
           <h2 id="referencias">Referencias&nbsp;<a href="#referencias">🔗</a></h2>
           <ul>
             <li id="ref-1">[1] <a href="https://www.jstor.org/stable/galileo1638" target="_blank" rel="noopener noreferrer">Galileo Galilei. (1638). Diálogos sobre dos nuevas ciencias. Leiden: Elsevier.</a></li>
@@ -305,6 +319,6 @@ export default function CuriosidadesPage() {
           </ul>
         </section>
       </div>
-    </main>
-  )
+    </div>
+  );
 } 

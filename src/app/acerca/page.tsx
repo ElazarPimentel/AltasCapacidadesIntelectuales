@@ -7,10 +7,10 @@ import { generateMetadata } from '@/lib/metadata';
 
 export const metadata = generateMetadata({
   title: 'Acerca de este Sitio - Altas Capacidades en Adultos',
-  description: 'Un recurso empático y riguroso para adultos que sospechan tener ACI. Conocé nuestro enfoque, inspiraciones académicas y metodología editorial.',
+  description: 'Plataforma informativa independiente que conecta adultos con Altas Capacidades Intelectuales (ACI) con recursos, servicios profesionales y opciones de desarrollo personal en Argentina.',
   path: '/acerca',
-  keywords: ['altas capacidades intelectuales', 'ACI', 'adultos', 'Argentina', 'Dabrowski', 'Renzulli', 'Silverman', 'guía editorial', 'autoconocimiento'],
-  type: 'article',
+  keywords: ['altas capacidades intelectuales', 'ACI', 'adultos', 'Argentina', 'desarrollo personal', 'servicios profesionales', 'evaluación cognitiva', 'recursos independientes', 'Buenos Aires', 'CABA'],
+  type: 'article'
 });
 
 export default function Acerca() {

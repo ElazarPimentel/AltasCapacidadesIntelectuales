@@ -24,6 +24,8 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+Host: https://altascapacidadesintelectuales.org
+
 Sitemap: https://altascapacidadesintelectuales.org/sitemap.xml
 `;
 
