@@ -51,6 +51,7 @@ export default function Header() {
         <nav 
           className={`header__nav ${isMenuOpen ? 'header__nav--open' : ''}`} 
           aria-label="Main navigation"
+          aria-hidden={!isMenuOpen}
         >
           <Link 
             href="/" 
