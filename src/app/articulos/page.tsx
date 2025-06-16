@@ -3,18 +3,54 @@
 
 import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
+import JsonLd, { createArticleStructuredData } from '@/components/JsonLd';
 
 export const metadata = generateMetadata({
-  title: "Artículos - Altas Capacidades Intelectuales",
-  description: "Colección de artículos especializados sobre identificación de ACI, audiencia imaginaria y auto-diagnóstico. Recursos académicos para entender las Altas Capacidades Intelectuales en Argentina.",
+  title: "Artículos sobre ACI | Argentina",
+  description: "Artículos académicos sobre Altas Capacidades Intelectuales, audiencia imaginaria y auto-diagnóstico para adultos en Argentina.",
   path: "/articulos",
-  keywords: ['artículos ACI', 'altas capacidades', 'CI 130', 'audiencia imaginaria', 'auto-diagnóstico', 'identificación ACI', 'recursos académicos', 'psicología ACI', 'David Elkind', 'Buenos Aires'],
+  keywords: ["artículos ACI", "audiencia imaginaria", "auto-diagnóstico", "psicología ACI", "David Elkind"],
   type: "article",
 });
 
 export default function ArticulosPage() {
   return (
     <main className="main-content">
+      <JsonLd data={createArticleStructuredData(
+        "Criterios Contemporáneos para la Identificación de Altas Capacidades Intelectuales (ACI)",
+        "La confusión sobre las Altas Capacidades Intelectuales (ACI) nace porque el término «superdotación» designa simultáneamente dos realidades. La principal tensión en la identificación de la Alta Capacidad Intelectual es lingüística, causando un subdiagnóstico considerable.",
+        "/articulos",
+        ["superdotación", "ACI", "diagnóstico", "educación"]
+      )} />
+
+      <JsonLd data={createArticleStructuredData(
+        "La Audiencia Imaginaria, Redes Sociales y falso Auto-Diagnóstico ACI",
+        "El concepto de audiencia imaginaria, descrito originalmente por David Elkind, ha sido transformado por las redes sociales. Un riesgo crucial de este auto-diagnóstico radica en la confusión con características negativas no exclusivas de la superdotación.",
+        "/articulos",
+        ["audiencia imaginaria", "ACI", "auto-diagnóstico", "psicología"]
+      )} />
+
+      <JsonLd data={createArticleStructuredData(
+        "La Audiencia Imaginaria: Un Análisis Psicológico desde sus Orígenes hasta la Era Digital",
+        "La audiencia imaginaria, acuñada por David Elkind en 1967, describía la creencia egocéntrica adolescente de estar bajo constante observación. Con redes sociales, esta audiencia ha evolucionado hacia una entidad pseudo-real.",
+        "/articulos",
+        ["psicología adolescente", "audiencia imaginaria", "redes sociales"]
+      )} />
+
+      <JsonLd data={createArticleStructuredData(
+        "La Audiencia Imaginaria: Cuando la Audiencia no está presente",
+        "El texto distingue dos manifestaciones clave del fenómeno: la Audiencia Imaginaria Presente y la Ausente, fundamentales para comprender el egocentrismo adolescente.",
+        "/articulos",
+        ["egocentrismo", "adolescencia", "audiencia imaginaria"]
+      )} />
+
+      <JsonLd data={createArticleStructuredData(
+        "La Audiencia Imaginaria: Aspectos Positivos y Adversos",
+        "Explora la audiencia imaginaria como fenómeno psicológico con funciones adaptativas, influyendo en pensamientos y comportamientos incluso en soledad.",
+        "/articulos",
+        ["psicología", "ACI", "funciones adaptativas", "audiencia imaginaria"]
+      )} />
+
       <div className="container">
         <h1>Artículos Interesantes</h1>
 

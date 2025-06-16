@@ -4,6 +4,7 @@
 import Link from 'next/link';
 import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
+import JsonLd, { websiteStructuredData, organizationStructuredData } from '@/components/JsonLd';
 
 export const metadata = generateMetadata({
   title: 'Arquetipos de ACI - Altas Capacidades en Adultos',
@@ -16,6 +17,44 @@ export const metadata = generateMetadata({
 export default function Arquetipos() {
   return (
     <main className="main-content">
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "inLanguage": "es-AR",
+        "name": "Arquetipos de ACI - Altas Capacidades en Adultos",
+        "description": "Descubrí los 6 arquetipos de experiencias con Altas Capacidades (CI ≥130) y perfiles cognitivos diversos. Guía práctica para entender tu recorrido vital y potencial en Argentina.",
+        "url": "https://altascapacidadesintelectuales.org/arquetipos",
+        "isPartOf": websiteStructuredData,
+        "mainEntity": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Arquetipos de Experiencias con Altas Capacidades Intelectuales",
+          "description": "Descubrí los 6 arquetipos de experiencias con Altas Capacidades (CI ≥130) y perfiles cognitivos diversos. Guía práctica para entender tu recorrido vital y potencial en Argentina.",
+          "inLanguage": "es-AR",
+          "author": organizationStructuredData,
+          "publisher": organizationStructuredData,
+          "datePublished": "2024-03-19",
+          "dateModified": "2024-03-19",
+          "keywords": ["arquetipos ACI", "altas capacidades", "CI 130", "perfiles cognitivos", "desarrollo personal", "evaluación cognitiva", "experiencias ACI", "diagnóstico ACI", "WAIS-IV", "Buenos Aires"],
+          "mainEntityOfPage": {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Arquetipos de ACI",
+            "description": "Descubrí los 6 arquetipos de experiencias con Altas Capacidades (CI ≥130) y perfiles cognitivos diversos. Guía práctica para entender tu recorrido vital y potencial en Argentina.",
+            "url": "https://altascapacidadesintelectuales.org/arquetipos",
+            "inLanguage": "es-AR",
+            "isPartOf": websiteStructuredData
+          },
+          "locationCreated": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Ciudad Autónoma de Buenos Aires",
+              "addressCountry": "Argentina"
+            }
+          }
+        }
+      }} />
       <div className="container">
         <h1>Arquetipos de Experiencias con Altas Capacidades Intelectuales</h1>
         

@@ -4,6 +4,7 @@
 import Link from 'next/link';
 import { generateMetadata as generatePageMetadata } from '@/lib/metadata';
 import { getSectionVariant } from '@/lib/section-variants';
+import JsonLd, { websiteStructuredData, organizationStructuredData } from '@/components/JsonLd';
 
 export const metadata = generatePageMetadata({
   title: 'ACI en Adultos',
@@ -20,9 +21,49 @@ export const metadata = generatePageMetadata({
   type: 'website',
 });
 
+
+
 export default function Home() {
   return (
     <main className="main-content">
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "inLanguage": "es-AR",
+        "name": "ACI en Adultos - Altas Capacidades Intelectuales",
+        "description": "Información y recursos sobre Altas Capacidades Intelectuales (ACI) en adultos. Descubre si tu forma de pensar y procesar el mundo podría estar relacionada con las ACI.",
+        "url": "https://altascapacidadesintelectuales.org",
+        "isPartOf": websiteStructuredData,
+        "mainEntity": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "ACI en Adultos",
+          "description": "Si sentís que tu mente va a otra velocidad, conectás ideas en formas que otros no ven, o el mundo parece ir más lento, esta página es para pensarte.",
+          "inLanguage": "es-AR",
+          "author": organizationStructuredData,
+          "publisher": organizationStructuredData,
+          "datePublished": "2024-03-19",
+          "dateModified": "2024-03-19",
+          "keywords": ["altas capacidades intelectuales", "ACI", "adultos", "Argentina", "neurodivergencia", "inteligencia", "procesamiento cognitivo"],
+          "mainEntityOfPage": {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "ACI en Adultos",
+            "description": "Si sentís que tu mente va a otra velocidad, conectás ideas en formas que otros no ven, o el mundo parece ir más lento, esta página es para pensarte.",
+            "url": "https://altascapacidadesintelectuales.org",
+            "inLanguage": "es-AR",
+            "isPartOf": websiteStructuredData
+          },
+          "locationCreated": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Ciudad Autónoma de Buenos Aires",
+              "addressCountry": "Argentina"
+            }
+          }
+        }
+      }} />
       <div className="container">
         <h1>ACI en Adultos</h1>
         

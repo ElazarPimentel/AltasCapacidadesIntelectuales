@@ -1,9 +1,10 @@
 // src/app/acerca/page.tsx
-// Acerca de este Sitio
+// Acerca de
 
 import Link from 'next/link';
 import { getSectionVariant } from '@/lib/section-variants';
 import { generateMetadata } from '@/lib/metadata';
+import JsonLd, { websiteStructuredData, organizationStructuredData } from '@/components/JsonLd';
 
 export const metadata = generateMetadata({
   title: 'Acerca de este Sitio - Altas Capacidades en Adultos',
@@ -16,6 +17,44 @@ export const metadata = generateMetadata({
 export default function Acerca() {
   return (
     <main className="main-content">
+      <JsonLd data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "inLanguage": "es-AR",
+        "name": "Acerca de este Sitio - Altas Capacidades en Adultos",
+        "description": "Plataforma informativa independiente que conecta adultos con Altas Capacidades Intelectuales (ACI) con recursos, servicios profesionales y opciones de desarrollo personal en Argentina.",
+        "url": "https://altascapacidadesintelectuales.org/acerca",
+        "isPartOf": websiteStructuredData,
+        "mainEntity": {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          "headline": "Acerca de este Sitio",
+          "description": "Plataforma informativa independiente que conecta adultos con Altas Capacidades Intelectuales (ACI) con recursos, servicios profesionales y opciones de desarrollo personal en Argentina.",
+          "inLanguage": "es-AR",
+          "author": organizationStructuredData,
+          "publisher": organizationStructuredData,
+          "datePublished": "2024-03-19",
+          "dateModified": "2024-03-19",
+          "keywords": ["altas capacidades intelectuales", "ACI", "adultos", "Argentina", "desarrollo personal", "servicios profesionales", "evaluación cognitiva", "recursos independientes", "Buenos Aires", "CABA"],
+          "mainEntityOfPage": {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Acerca de este Sitio",
+            "description": "Plataforma informativa independiente que conecta adultos con Altas Capacidades Intelectuales (ACI) con recursos, servicios profesionales y opciones de desarrollo personal en Argentina.",
+            "url": "https://altascapacidadesintelectuales.org/acerca",
+            "inLanguage": "es-AR",
+            "isPartOf": websiteStructuredData
+          },
+          "locationCreated": {
+            "@type": "Place",
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Ciudad Autónoma de Buenos Aires",
+              "addressCountry": "Argentina"
+            }
+          }
+        }
+      }} />
       <div className="container">
         <h1>Acerca de este Sitio</h1>
         
